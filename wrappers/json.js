@@ -1,4 +1,5 @@
 import DocParse, {parseLink} from '../components/DocParse.js';
+import ModulesList from '../components/ModulesList.js';
 import jsonata from 'jsonata';	// http://docs.jsonata.org/
 import {Link} from 'react-router';
 import {prefixLink} from 'gatsby-helpers';
@@ -34,6 +35,28 @@ const processDefaultTag = (tags) => {
 	const expression = "$[title='default'].description";
 	const result = jsonata(expression).evaluate(tags);
 	return result || 'undefined';
+};
+
+const renderDefaultTag = (defaultStr) => {
+	if (!defaultStr || defaultStr === 'undefined') {
+		return null;
+	} else if (defaultStr.indexOf("'data:image") === 0) {
+		defaultStr = 'An image';
+	} else if (defaultStr.search(/\n/) >= 0) {
+		let indent = 0;
+		defaultStr = defaultStr.split('\n').map((line, index) => {
+			if (line === '}') {
+				indent--;
+			}
+			const indentStr = '\u00a0'.repeat(indent * 4);
+			if (line.substr(-1) === '{') {
+				indent++;
+			}
+			return <div key={index}>{indentStr}{line}</div>;
+		});
+		defaultStr = <div className="multilineSeeMore" tabIndex="0" title="Show default value"><span>Show default value</span><div className="multiline">{defaultStr}</div></div>;
+	}
+	return <var className="default"><span className="title">Default: </span>{defaultStr}</var>;
 };
 
 const hasRequiredTag = (tags) => {
@@ -189,8 +212,7 @@ const renderProperty = (prop, index) => {
 		isRequired = isRequired ? <var className="required" data-tooltip="Required Property">&bull;</var> : null;
 
 
-		let defaultStr = processDefaultTag(prop.tags);
-		defaultStr = defaultStr && defaultStr !== 'undefined' ? <var className="default"><span>Default: </span>{defaultStr}</var> : null;
+		let defaultStr = renderDefaultTag(processDefaultTag(prop.tags));
 
 		return (
 			<section className="property" key={index} id={prop.name}>
@@ -228,8 +250,7 @@ const renderTypedef = (type, index) => {
 		let isRequired = hasRequiredTag(type.tags);
 		isRequired = isRequired ? <var className="required" data-tooltip="Required Property">&bull;</var> : null;
 
-		let defaultStr = processDefaultTag(type.tags);
-		defaultStr = defaultStr && defaultStr !== 'undefined' ? <var className="default"><span>Default: </span>{defaultStr}</var> : null;
+		let defaultStr = renderDefaultTag(processDefaultTag(type.tags));
 
 		return (
 			<section className="property" key={index} id={type.name}>
@@ -351,7 +372,7 @@ const renderModuleMember = (member, index) => {
 						isUI ? 'Component' :
 						'Class')}
 				</h4>
-				<div>
+				<div className="componentDescription">
 					<DocParse>{member.description}</DocParse>
 					{renderSeeTags(member)}
 				</div>
@@ -389,14 +410,23 @@ const renderModuleDescription = (doc) => {
 export default class JSONWrapper extends React.Component {
 
 	render () {
+		const componentDocs = this.props.route.pages.filter((page) =>
+			page.path.includes('/docs/modules/'));
+		let lastLibrary;
+
 		const doc = this.props.route.page.data;
 		const path = this.props.route.page.path.replace('/docs/modules/', '').replace(/\/$/, '');
 		// TODO: Just get this info from the doc itself?
 		return (
-			<div>
-				<h1>{path}</h1>
-				{renderModuleDescription(doc)}
-				{renderModuleMembers(doc[0].members)}
+			<div className="multiColumn">
+				<nav className="sidebar">
+					<ModulesList route={this.props.route} />
+				</nav>
+				<div className="moduleBody">
+					<h1>{path}</h1>
+					{renderModuleDescription(doc)}
+					{renderModuleMembers(doc[0].members)}
+				</div>
 			</div>
 		);
 	}
