@@ -38,6 +38,7 @@ const getDocumentation = (paths) => {
 		let componentDirectory = path.split('packages/')[1];
 		const basePath = process.cwd() + docOutputPath;
 		const cmd = 'node_modules/.bin/documentation build ' + path.replace('$', '\\$') + ' --shallow';
+		console.log(cmd, basePath);
 		const output = shelljs.exec(cmd, {silent: true});
 
 		// Check for 'spotlight/src' and anything similar
