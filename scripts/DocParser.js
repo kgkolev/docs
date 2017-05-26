@@ -18,7 +18,7 @@ const shelljs = require('shelljs'),
 const getValidFiles = (pattern) => {
 	const searchPattern = pattern || '\*.js';
 	const grepCmd = 'grep -r -l "@module" node_modules/enact/packages --exclude-dir build --exclude-dir node_modules --exclude-dir sampler --include=' + searchPattern;
-	const moduleFiles = shelljs.exec(grepCmd, {silent: true, maxBuffer: 1024 * 1024 * 1024});
+	const moduleFiles = shelljs.exec(grepCmd, {silent: true});
 
 	return moduleFiles.stdout.trim().split('\n');
 };
@@ -39,7 +39,7 @@ const getDocumentation = (paths) => {
 		const basePath = process.cwd() + docOutputPath;
 		const cmd = 'node_modules/.bin/documentation build ' + path.replace('$', '\\$') + ' --shallow';
 		console.log(cmd, basePath);
-		const output = shelljs.exec(cmd, {silent: true});
+		const output = shelljs.exec(cmd, {silent: true, maxBuffer: 1024 * 1024 * 1024});
 
 		// Check for 'spotlight/src' and anything similar
 		let componentDirParts = componentDirectory.split('/');
