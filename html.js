@@ -34,10 +34,11 @@ module.exports = React.createClass({
 					<TypographyStyle typography={typography} />
 					<GoogleFont typography={typography} />
 					{css}
+					{this.props.headComponents}
 				</head>
 				<body>
-					<div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
-					<script src={prefixLink(`/bundle.js?t=${BUILD_TIME}`)} />
+					<div id="___gatsby" dangerouslySetInnerHTML={{__html: this.props.postBodyComponents}} />
+					{this.props.postBodyComponents}
 				</body>
 			</html>
 		)

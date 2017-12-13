@@ -1,0 +1,5019 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Scroller.Scroller",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Scroller.Scroller"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 48,
+                  "offset": 47
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 48,
+                  "offset": 47
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 52
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Scroller.ScrollerBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Scroller.ScrollerBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 52
+                },
+                "end": {
+                  "line": 2,
+                  "column": 40,
+                  "offset": 91
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " components.\nThe default export is ",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 40,
+                  "offset": 91
+                },
+                "end": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 126
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Scroller.Scroller",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Scroller.Scroller"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 126
+                },
+                "end": {
+                  "line": 3,
+                  "column": 58,
+                  "offset": 161
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 58,
+                  "offset": 161
+                },
+                "end": {
+                  "line": 3,
+                  "column": 59,
+                  "offset": 162
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 59,
+              "offset": 162
+            },
+            "indent": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 59,
+          "offset": 162
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 5,
+        "type": null,
+        "name": "moonstone/Scroller"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 36
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/Scroller",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Scroller.ScrollerBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Scroller.ScrollerBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a base component for Scroller.\nIn most circumstances, you will want to use the SpotlightContainerDecorator and Scrollable version:\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 174
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Scroller.Scroller",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Scroller.Scroller"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 174
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 36,
+                        "offset": 209
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 36,
+                    "offset": 209
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 36,
+                "offset": 209
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "ScrollerBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Scroller",
+              "lineNumber": 6
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 0
+            },
+            "end": {
+              "line": 39,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 0
+              },
+              "end": {
+                "line": 492,
+                "column": 1
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+            "sortKey": "undefined 00000040"
+          },
+          "augments": [
+            {
+              "title": "augments",
+              "name": "Component"
+            }
+          ],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "props",
+              "lineNumber": 93
+            }
+          ],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ScrollerBase",
+          "memberof": "moonstone/Scroller",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Direction of the scroller; valid values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'both'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'horizontal'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'vertical'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 88,
+                              "offset": 87
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 88,
+                          "offset": 87
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 88,
+                      "offset": 87
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'both'",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 55,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 61,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 62,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 62,
+                      "column": 64
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000062"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "direction",
+                "memberof": "moonstone/Scroller.ScrollerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ScrollerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "direction",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScrollerBase#direction"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to horizontally scroll. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'default'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ,\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 84
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 84
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 94
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 94
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 100
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'scroll'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 100
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 110
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 110
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 111
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 28,
+                          "offset": 111
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 28,
+                      "offset": 111
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "deprecated",
+                    "description": "replaced by `direction`",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 64,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 72,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 73,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 73,
+                      "column": 59
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000073"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "deprecated": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "replaced by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "direction",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 24,
+                          "offset": 23
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 24,
+                      "offset": 23
+                    }
+                  }
+                },
+                "access": "public",
+                "name": "horizontal",
+                "memberof": "moonstone/Scroller.ScrollerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ScrollerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "horizontal",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScrollerBase#horizontal"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to vertically scroll. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 59,
+                              "offset": 58
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 59,
+                              "offset": 58
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ,\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 79
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 79
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'scroll'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 105
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 105
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 106
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 28,
+                          "offset": 106
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 28,
+                      "offset": 106
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "deprecated",
+                    "description": "replaced by `direction`",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 75,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 84,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 84,
+                      "column": 57
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000084"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "deprecated": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "replaced by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "direction",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 24,
+                          "offset": 23
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 24,
+                      "offset": 23
+                    }
+                  }
+                },
+                "access": "public",
+                "name": "vertical",
+                "memberof": "moonstone/Scroller.ScrollerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ScrollerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "vertical",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScrollerBase#vertical"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Scroller",
+              "kind": "module"
+            },
+            {
+              "name": "ScrollerBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ScrollerScrollerBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Scroller.Scroller",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Scroller.Scroller"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 36,
+                        "offset": 35
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Scroller with Moonstone styling,\nSpotlightContainerDecorator and Scrollable applied.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 36,
+                        "offset": 35
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52,
+                        "offset": 125
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 52,
+                    "offset": 125
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Usage:",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 127
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 7,
+                        "offset": 133
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 127
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 7,
+                    "offset": 133
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "<Scroller>Scroll me.</Scroller>",
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 134
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 4,
+                    "offset": 173
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 4,
+                "offset": 173
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 9,
+              "type": null,
+              "name": "Scroller"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Scroller",
+              "lineNumber": 10
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 11,
+              "name": "moonstone/Scroller.Scrollable"
+            },
+            {
+              "title": "see",
+              "description": "moonstone/Scroller.ScrollerBase",
+              "lineNumber": 12
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 13
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 14
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 494,
+              "column": 0
+            },
+            "end": {
+              "line": 509,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 510,
+                "column": 0
+              },
+              "end": {
+                "line": 515,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+            "sortKey": "undefined 00000510"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 13
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [
+            {
+              "type": "root",
+              "children": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "moonstone/Scroller.ScrollerBase",
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 32,
+                          "offset": 31
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32,
+                      "offset": 31
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 32,
+                  "offset": 31
+                }
+              }
+            }
+          ],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Scroller",
+          "memberof": "moonstone/Scroller",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when scroll stops",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25,
+                          "offset": 24
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 25,
+                      "offset": 24
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "onScrollStop"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 619,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 627,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onScrollStop",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onScrollStop",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#onScrollStop"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when scroll starts",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 26,
+                          "offset": 25
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 26,
+                      "offset": 25
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "onScrollStart"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 609,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 617,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onScrollStart",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onScrollStart",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#onScrollStart"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when scrolling",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 22,
+                              "offset": 21
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 22,
+                          "offset": 21
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 22,
+                      "offset": 21
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "onScroll"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 599,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 607,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onScroll",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onScroll",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#onScroll"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to show horizontal scrollbar. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 76
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'visible'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 87
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 87
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 18,
+                              "offset": 93
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 18,
+                              "offset": 93
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 103
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 103
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 29,
+                              "offset": 104
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 29,
+                          "offset": 104
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 29,
+                      "offset": 104
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": "horizontalScrollbar"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 587,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 597,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "horizontalScrollbar",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "horizontalScrollbar",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#horizontalScrollbar"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to vertically scroll. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 59,
+                              "offset": 58
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 59,
+                              "offset": 58
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ,\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 79
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 79
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'scroll'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 105
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 105
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 106
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 28,
+                          "offset": 106
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 28,
+                      "offset": 106
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": "vertical"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "deprecated",
+                    "description": "replaced by `direction`",
+                    "lineNumber": 9
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 10
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 629,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 640,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "vertical",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "deprecated": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "replaced by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "direction",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 24,
+                          "offset": 23
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 24,
+                      "offset": 23
+                    }
+                  }
+                },
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "vertical",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#vertical"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Direction of the scroller; valid values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'both'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'horizontal'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'vertical'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 88,
+                              "offset": 87
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 88,
+                          "offset": 87
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 88,
+                      "offset": 87
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "direction"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'both'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 563,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 572,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "direction",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "direction",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#direction"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", allows 5-way navigation to the scrollbar controls. By default, 5-way will\nnot move focus to the scrollbar controls.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 42,
+                              "offset": 128
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 42,
+                          "offset": 128
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 42,
+                      "offset": 128
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": "focusableScrollbar"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 552,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 561,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "focusableScrollbar",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "focusableScrollbar",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#focusableScrollbar"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The callback function which is called for linking scrollTo function.\nYou should specify a callback function as the value of this prop\nto use scrollTo feature.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 25,
+                              "offset": 158
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 25,
+                          "offset": 158
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The scrollTo function passed to the parent component requires below as an argument.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 160
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 84,
+                              "offset": 243
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 5,
+                          "column": 1,
+                          "offset": 160
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 84,
+                          "offset": 243
+                        },
+                        "indent": []
+                      }
+                    },
+                    {
+                      "type": "list",
+                      "ordered": false,
+                      "start": null,
+                      "loose": false,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{position: {x, y}} - You can set a pixel value for x and/or y position",
+                                  "position": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 3,
+                                      "offset": 246
+                                    },
+                                    "end": {
+                                      "line": 6,
+                                      "column": 73,
+                                      "offset": 316
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 6,
+                                  "column": 3,
+                                  "offset": 246
+                                },
+                                "end": {
+                                  "line": 6,
+                                  "column": 73,
+                                  "offset": 316
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 244
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 73,
+                              "offset": 316
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{align} - You can set one of values below for align\n",
+                                  "position": {
+                                    "start": {
+                                      "line": 7,
+                                      "column": 3,
+                                      "offset": 319
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 3,
+                                      "offset": 373
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'left'",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 3,
+                                      "offset": 373
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 11,
+                                      "offset": 381
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", ",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 11,
+                                      "offset": 381
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 13,
+                                      "offset": 383
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'right'",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 13,
+                                      "offset": 383
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 22,
+                                      "offset": 392
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", ",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 22,
+                                      "offset": 392
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 24,
+                                      "offset": 394
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'top'",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 24,
+                                      "offset": 394
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 31,
+                                      "offset": 401
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", ",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 31,
+                                      "offset": 401
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 33,
+                                      "offset": 403
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'bottom'",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 33,
+                                      "offset": 403
+                                    },
+                                    "end": {
+                                      "line": 8,
+                                      "column": 43,
+                                      "offset": 413
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ",\n",
+                                  "position": {
+                                    "start": {
+                                      "line": 8,
+                                      "column": 43,
+                                      "offset": 413
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 3,
+                                      "offset": 417
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'topleft'",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 3,
+                                      "offset": 417
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 14,
+                                      "offset": 428
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", ",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 14,
+                                      "offset": 428
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 16,
+                                      "offset": 430
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'topright'",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 16,
+                                      "offset": 430
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 28,
+                                      "offset": 442
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", ",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 28,
+                                      "offset": 442
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 30,
+                                      "offset": 444
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'bottomleft'",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 30,
+                                      "offset": 444
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 44,
+                                      "offset": 458
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", and ",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 44,
+                                      "offset": 458
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 50,
+                                      "offset": 464
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'bottomright'",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 50,
+                                      "offset": 464
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 65,
+                                      "offset": 479
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ".",
+                                  "position": {
+                                    "start": {
+                                      "line": 9,
+                                      "column": 65,
+                                      "offset": 479
+                                    },
+                                    "end": {
+                                      "line": 9,
+                                      "column": 66,
+                                      "offset": 480
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 7,
+                                  "column": 3,
+                                  "offset": 319
+                                },
+                                "end": {
+                                  "line": 9,
+                                  "column": 66,
+                                  "offset": 480
+                                },
+                                "indent": [
+                                  3,
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 7,
+                              "column": 1,
+                              "offset": 317
+                            },
+                            "end": {
+                              "line": 9,
+                              "column": 66,
+                              "offset": 480
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{index} - You can set an index of specific item. (",
+                                  "position": {
+                                    "start": {
+                                      "line": 10,
+                                      "column": 3,
+                                      "offset": 483
+                                    },
+                                    "end": {
+                                      "line": 10,
+                                      "column": 53,
+                                      "offset": 533
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "0",
+                                  "position": {
+                                    "start": {
+                                      "line": 10,
+                                      "column": 53,
+                                      "offset": 533
+                                    },
+                                    "end": {
+                                      "line": 10,
+                                      "column": 56,
+                                      "offset": 536
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " or positive integer)\nThis option is available only for ",
+                                  "position": {
+                                    "start": {
+                                      "line": 10,
+                                      "column": 56,
+                                      "offset": 536
+                                    },
+                                    "end": {
+                                      "line": 11,
+                                      "column": 37,
+                                      "offset": 594
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "VirtualList",
+                                  "position": {
+                                    "start": {
+                                      "line": 11,
+                                      "column": 37,
+                                      "offset": 594
+                                    },
+                                    "end": {
+                                      "line": 11,
+                                      "column": 50,
+                                      "offset": 607
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " kind.",
+                                  "position": {
+                                    "start": {
+                                      "line": 11,
+                                      "column": 50,
+                                      "offset": 607
+                                    },
+                                    "end": {
+                                      "line": 11,
+                                      "column": 56,
+                                      "offset": 613
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 10,
+                                  "column": 3,
+                                  "offset": 483
+                                },
+                                "end": {
+                                  "line": 11,
+                                  "column": 56,
+                                  "offset": 613
+                                },
+                                "indent": [
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 10,
+                              "column": 1,
+                              "offset": 481
+                            },
+                            "end": {
+                              "line": 11,
+                              "column": 56,
+                              "offset": 613
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{node} - You can set a node to scroll",
+                                  "position": {
+                                    "start": {
+                                      "line": 12,
+                                      "column": 3,
+                                      "offset": 616
+                                    },
+                                    "end": {
+                                      "line": 12,
+                                      "column": 40,
+                                      "offset": 653
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 12,
+                                  "column": 3,
+                                  "offset": 616
+                                },
+                                "end": {
+                                  "line": 12,
+                                  "column": 40,
+                                  "offset": 653
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 12,
+                              "column": 1,
+                              "offset": 614
+                            },
+                            "end": {
+                              "line": 12,
+                              "column": 40,
+                              "offset": 653
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{animate} - When ",
+                                  "position": {
+                                    "start": {
+                                      "line": 13,
+                                      "column": 3,
+                                      "offset": 656
+                                    },
+                                    "end": {
+                                      "line": 13,
+                                      "column": 20,
+                                      "offset": 673
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "true",
+                                  "position": {
+                                    "start": {
+                                      "line": 13,
+                                      "column": 20,
+                                      "offset": 673
+                                    },
+                                    "end": {
+                                      "line": 13,
+                                      "column": 26,
+                                      "offset": 679
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ", scroll occurs with animation.\nSet it to ",
+                                  "position": {
+                                    "start": {
+                                      "line": 13,
+                                      "column": 26,
+                                      "offset": 679
+                                    },
+                                    "end": {
+                                      "line": 14,
+                                      "column": 13,
+                                      "offset": 723
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "false",
+                                  "position": {
+                                    "start": {
+                                      "line": 14,
+                                      "column": 13,
+                                      "offset": 723
+                                    },
+                                    "end": {
+                                      "line": 14,
+                                      "column": 20,
+                                      "offset": 730
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " if you want scrolling without animation.",
+                                  "position": {
+                                    "start": {
+                                      "line": 14,
+                                      "column": 20,
+                                      "offset": 730
+                                    },
+                                    "end": {
+                                      "line": 14,
+                                      "column": 61,
+                                      "offset": 771
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 13,
+                                  "column": 3,
+                                  "offset": 656
+                                },
+                                "end": {
+                                  "line": 14,
+                                  "column": 61,
+                                  "offset": 771
+                                },
+                                "indent": [
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 13,
+                              "column": 1,
+                              "offset": 654
+                            },
+                            "end": {
+                              "line": 14,
+                              "column": 61,
+                              "offset": 771
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{indexToFocus} - Deprecated: Use ",
+                                  "position": {
+                                    "start": {
+                                      "line": 15,
+                                      "column": 3,
+                                      "offset": 774
+                                    },
+                                    "end": {
+                                      "line": 15,
+                                      "column": 36,
+                                      "offset": 807
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "focus",
+                                  "position": {
+                                    "start": {
+                                      "line": 15,
+                                      "column": 36,
+                                      "offset": 807
+                                    },
+                                    "end": {
+                                      "line": 15,
+                                      "column": 43,
+                                      "offset": 814
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " instead.",
+                                  "position": {
+                                    "start": {
+                                      "line": 15,
+                                      "column": 43,
+                                      "offset": 814
+                                    },
+                                    "end": {
+                                      "line": 15,
+                                      "column": 52,
+                                      "offset": 823
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 15,
+                                  "column": 3,
+                                  "offset": 774
+                                },
+                                "end": {
+                                  "line": 15,
+                                  "column": 52,
+                                  "offset": 823
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 15,
+                              "column": 1,
+                              "offset": 772
+                            },
+                            "end": {
+                              "line": 15,
+                              "column": 52,
+                              "offset": 823
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "{focus} - Set ",
+                                  "position": {
+                                    "start": {
+                                      "line": 16,
+                                      "column": 3,
+                                      "offset": 826
+                                    },
+                                    "end": {
+                                      "line": 16,
+                                      "column": 17,
+                                      "offset": 840
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "true",
+                                  "position": {
+                                    "start": {
+                                      "line": 16,
+                                      "column": 17,
+                                      "offset": 840
+                                    },
+                                    "end": {
+                                      "line": 16,
+                                      "column": 23,
+                                      "offset": 846
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " if you want the item to be focused after scroll.\nThis option is only valid when you scroll by ",
+                                  "position": {
+                                    "start": {
+                                      "line": 16,
+                                      "column": 23,
+                                      "offset": 846
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 48,
+                                      "offset": 943
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "index",
+                                  "position": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 48,
+                                      "offset": 943
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 55,
+                                      "offset": 950
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " or ",
+                                  "position": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 55,
+                                      "offset": 950
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 59,
+                                      "offset": 954
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "node",
+                                  "position": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 59,
+                                      "offset": 954
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 65,
+                                      "offset": 960
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": ".",
+                                  "position": {
+                                    "start": {
+                                      "line": 17,
+                                      "column": 65,
+                                      "offset": 960
+                                    },
+                                    "end": {
+                                      "line": 17,
+                                      "column": 66,
+                                      "offset": 961
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 16,
+                                  "column": 3,
+                                  "offset": 826
+                                },
+                                "end": {
+                                  "line": 17,
+                                  "column": 66,
+                                  "offset": 961
+                                },
+                                "indent": [
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 16,
+                              "column": 1,
+                              "offset": 824
+                            },
+                            "end": {
+                              "line": 17,
+                              "column": 66,
+                              "offset": 961
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 6,
+                          "column": 1,
+                          "offset": 244
+                        },
+                        "end": {
+                          "line": 17,
+                          "column": 66,
+                          "offset": 961
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Example:",
+                          "position": {
+                            "start": {
+                              "line": 19,
+                              "column": 1,
+                              "offset": 963
+                            },
+                            "end": {
+                              "line": 19,
+                              "column": 9,
+                              "offset": 971
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 19,
+                          "column": 1,
+                          "offset": 963
+                        },
+                        "end": {
+                          "line": 19,
+                          "column": 9,
+                          "offset": 971
+                        },
+                        "indent": []
+                      }
+                    },
+                    {
+                      "type": "code",
+                      "lang": null,
+                      "value": "// If you set cbScrollTo prop like below;\ncbScrollTo: (fn) => {this.scrollTo = fn;}\n// You can simply call like below;\nthis.scrollTo({align: 'top'}); // scroll to the top",
+                      "position": {
+                        "start": {
+                          "line": 20,
+                          "column": 1,
+                          "offset": 972
+                        },
+                        "end": {
+                          "line": 25,
+                          "column": 4,
+                          "offset": 1150
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 25,
+                      "column": 4,
+                      "offset": 1150
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 27,
+                    "name": "cbScrollTo"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 28,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 29
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 30
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 31
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 518,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 550,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "cbScrollTo",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "cbScrollTo",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#cbScrollTo"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to show vertical scrollbar. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 65,
+                              "offset": 64
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 65,
+                              "offset": 64
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 74
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'visible'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 85
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 85
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 18,
+                              "offset": 91
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 18,
+                              "offset": 91
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 101
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 101
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 29,
+                              "offset": 102
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 29,
+                          "offset": 102
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 29,
+                      "offset": 102
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": "verticalScrollbar"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 642,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 652,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "verticalScrollbar",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "verticalScrollbar",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#verticalScrollbar"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies how to horizontally scroll. Acceptable values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'auto'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'default'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ,\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 84
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'hidden'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 84
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 94
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 94
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 100
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'scroll'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 100
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 110
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 110
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 111
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 28,
+                          "offset": 111
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 28,
+                      "offset": 111
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": "horizontal"
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'auto'",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Scroller.Scroller",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "deprecated",
+                    "description": "replaced by `direction`",
+                    "lineNumber": 9
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 10
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 574,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 585,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 654,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 654,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Scroller/Scroller.js",
+                  "sortKey": "undefined 00000654"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "horizontal",
+                "memberof": "moonstone/Scroller.Scroller",
+                "scope": "instance",
+                "deprecated": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "replaced by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "direction",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 24,
+                          "offset": 23
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 24,
+                      "offset": 23
+                    }
+                  }
+                },
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Scroller",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Scroller",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "horizontal",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ScrollerScroller#horizontal"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Scroller",
+              "kind": "module"
+            },
+            {
+              "name": "Scroller",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ScrollerScroller"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/Scroller",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/Scroller"
+  }
+]

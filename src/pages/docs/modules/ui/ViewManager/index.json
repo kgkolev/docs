@@ -1,0 +1,3795 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/ViewManager.ViewManager",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/ViewManager.ViewManager"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 47,
+                  "offset": 46
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component and the\narrangers for use with it.",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 47,
+                  "offset": 46
+                },
+                "end": {
+                  "line": 2,
+                  "column": 27,
+                  "offset": 91
+                },
+                "indent": [
+                  1
+                ]
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 27,
+              "offset": 91
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 27,
+          "offset": 91
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "ui/ViewManager"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 26
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/ViewManager",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A basic arranger that must be configured with ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "enter",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " and ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 59,
+                        "offset": 58
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "leave",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 59,
+                        "offset": 58
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 66,
+                        "offset": 65
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " direction",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 66,
+                        "offset": 65
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 76,
+                        "offset": 75
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 76,
+                    "offset": 75
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 76,
+                "offset": 75
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 2
+            },
+            {
+              "title": "param",
+              "description": "Configuration object including `amount`, `enter` and `leave` properties",
+              "lineNumber": 3,
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              "name": "config"
+            },
+            {
+              "title": "returns",
+              "description": "An arranger",
+              "lineNumber": 4,
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              }
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 5
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 16,
+                "column": 0
+              },
+              "end": {
+                "line": 19,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/Arranger.js",
+            "sortKey": "undefined 00000016"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "config",
+              "lineNumber": 3,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Configuration object including ",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "amount",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 32,
+                            "offset": 31
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": ", ",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "enter",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 42,
+                            "offset": 41
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " and ",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 49,
+                            "offset": 48
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "leave",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 61,
+                            "offset": 60
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " properties",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 61,
+                            "offset": 60
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 72,
+                            "offset": 71
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 72,
+                        "offset": 71
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 72,
+                    "offset": 71
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              "properties": [
+                {
+                  "title": "param",
+                  "name": "config.amount",
+                  "lineNumber": 16,
+                  "default": "100"
+                },
+                {
+                  "title": "param",
+                  "name": "config.enter",
+                  "lineNumber": 16
+                },
+                {
+                  "title": "param",
+                  "name": "config.leave",
+                  "lineNumber": 16
+                }
+              ]
+            }
+          ],
+          "properties": [],
+          "returns": [
+            {
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "An arranger",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 12,
+                            "offset": 11
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 12,
+                        "offset": 11
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 12,
+                    "offset": 11
+                  }
+                }
+              },
+              "title": "returns",
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              }
+            }
+          ],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "name": "SlideArranger",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "SlideArranger",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ViewManagerSlideArranger"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "ViewManager",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 16,
+                        "offset": 15
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " controls the visibility of a configurable number of views, allowing for them to be\ntransitioned on and off the viewport.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 16,
+                        "offset": 15
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 38,
+                        "offset": 136
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 38,
+                    "offset": 136
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 38,
+                "offset": 136
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "ViewManager"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 5
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 6
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 0
+              },
+              "end": {
+                "line": 233,
+                "column": 1
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+            "sortKey": "undefined 00000023"
+          },
+          "augments": [
+            {
+              "title": "augments",
+              "name": "React.Component"
+            }
+          ],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ViewManager",
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Arranger to control the animation",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 34,
+                          "offset": 33
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 34,
+                      "offset": 33
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Arranger"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 26,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 17
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000031"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "arranger",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "arranger",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#arranger"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "An object containing properties to be passed to each child.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 60,
+                          "offset": 59
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 60,
+                      "offset": 59
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 39,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000039"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "childProps",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "childProps",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#childProps"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Views to be managed. May be any renderable component including custom React components or\nprimitive DOM nodes.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 110
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 21,
+                          "offset": 110
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 21,
+                      "offset": 110
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000047"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "children",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Type of component wrapping the children. May be a DOM node or a custom React component.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 88,
+                              "offset": 87
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 88,
+                          "offset": 87
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 88,
+                      "offset": 87
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Component"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'div'",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 49,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 55,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 58,
+                      "column": 4
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000055"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "component",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "component",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#component"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Time in milliseconds to complete a transition",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 46,
+                          "offset": 45
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 46,
+                      "offset": 45
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "300",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 60,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 65,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 66,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 66,
+                      "column": 28
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000066"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "duration",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "duration",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#duration"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Index of last visible view. Defaults to the current value of ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "index",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 70,
+                          "offset": 69
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 70,
+                      "offset": 69
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "value of index",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 68,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 73,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 74,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 74,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000074"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "end",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "end",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#end"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Time, in milliseconds, to wait after a view has entered to inform it by pass the\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 81
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "enteringProp",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 81
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " as false.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 25,
+                              "offset": 105
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 25,
+                          "offset": 105
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 25,
+                      "offset": 105
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "0",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 76,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 83,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 83,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000083"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "enteringDelay",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "enteringDelay",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#enteringDelay"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Name of the property to pass to the wrapped view to indicate when it is entering the\nviewport. When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 100
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 100
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 22,
+                              "offset": 106
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the view has been created but has not transitioned into place.\nWhen ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 22,
+                              "offset": 106
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 6,
+                              "offset": 176
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 6,
+                              "offset": 176
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 13,
+                              "offset": 183
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the view has finished its transition.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 13,
+                              "offset": 183
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 52,
+                              "offset": 222
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 52,
+                          "offset": 222
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The notification can be delayed by setting ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 224
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 44,
+                              "offset": 267
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "enteringDelay",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 44,
+                              "offset": 267
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 59,
+                              "offset": 282
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". If not set, the view will not\nbe notified of the change in transition.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 59,
+                              "offset": 282
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 41,
+                              "offset": 354
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 5,
+                          "column": 1,
+                          "offset": 224
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 41,
+                          "offset": 354
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 41,
+                      "offset": 354
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 8,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 85,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 94,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 95,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 95,
+                      "column": 32
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000095"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "enteringProp",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "enteringProp",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#enteringProp"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Index of active view",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 21,
+                              "offset": 20
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 21,
+                          "offset": 20
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 21,
+                      "offset": 20
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "0",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 97,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 102,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 103,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 103,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000103"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "index",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "index",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#index"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Indicates if the transition should be animated",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 47,
+                              "offset": 46
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 47,
+                          "offset": 46
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 47,
+                      "offset": 46
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 105,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 110,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 111,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 111,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000111"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "noAnimation",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAnimation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#noAnimation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when each view is rendered during initial construction.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 63,
+                          "offset": 62
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 63,
+                      "offset": 62
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 113,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onAppear",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onAppear",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onAppear"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when each view completes its transition into the viewport.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 66,
+                          "offset": 65
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 66,
+                      "offset": 65
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 124,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 125,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 125,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000125"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onEnter",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onEnter",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onEnter"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when each view completes its transition out of the viewport.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 127,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 131,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 132,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 132,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000132"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onLeave",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onLeave",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onLeave"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when each view completes its transition within the viewport.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 134,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 138,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 139,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 139,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000139"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onStay",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onStay",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onStay"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called once when all views have completed their transition.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 60,
+                          "offset": 59
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 60,
+                      "offset": 59
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 141,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 145,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 146,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 146,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000146"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onTransition",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onTransition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onTransition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called once before views begin their transition.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 49,
+                              "offset": 48
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 49,
+                          "offset": 48
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 49,
+                      "offset": 48
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 148,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 152,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 153,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 153,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000153"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onWillTransition",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onWillTransition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#onWillTransition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Explicitly sets the transition direction. If omitted, the direction is determined\nautomaticallly based on the change of index or a string comparison of the first child's\nkey",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 4,
+                              "offset": 173
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 4,
+                          "offset": 173
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 4,
+                      "offset": 173
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 155,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 162,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 162,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000162"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "reverseTransition",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "reverseTransition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#reverseTransition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Index of first visible view. Defaults to the current value of ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "index",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 71,
+                          "offset": 70
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 71,
+                      "offset": 70
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "value of index",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 164,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 169,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 170,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 170,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/ViewManager.js",
+                  "sortKey": "undefined 00000170"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "start",
+                "memberof": "ui/ViewManager.ViewManager",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/ViewManager",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ViewManager",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "start",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ViewManagerViewManager#start"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "ViewManager",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/ViewManagerViewManager"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An arranger that enters from the left and leaves to the right.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 63,
+                        "offset": 62
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63,
+                    "offset": 62
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 63,
+                "offset": 62
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 2
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 3
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 0
+            },
+            "end": {
+              "line": 25,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 26,
+                "column": 0
+              },
+              "end": {
+                "line": 26,
+                "column": 81
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/Arranger.js",
+            "sortKey": "undefined 00000026"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "name": "SlideRightArranger",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "SlideRightArranger",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ViewManagerSlideRightArranger"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An arranger that enters from the right and leaves to the left.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 63,
+                        "offset": 62
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63,
+                    "offset": 62
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 63,
+                "offset": 62
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 2
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 3
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 32,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 33,
+                "column": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 80
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/Arranger.js",
+            "sortKey": "undefined 00000033"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "name": "SlideLeftArranger",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "SlideLeftArranger",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ViewManagerSlideLeftArranger"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An arranger that enters from the bottom and leaves to the top.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 63,
+                        "offset": 62
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63,
+                    "offset": 62
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 63,
+                "offset": 62
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 2
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 3
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 0
+            },
+            "end": {
+              "line": 39,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 40,
+                "column": 0
+              },
+              "end": {
+                "line": 40,
+                "column": 79
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/Arranger.js",
+            "sortKey": "undefined 00000040"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "name": "SlideTopArranger",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "SlideTopArranger",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ViewManagerSlideTopArranger"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "An arranger that enters from the top and leaves to the bottom.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 63,
+                        "offset": 62
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 63,
+                    "offset": 62
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 63,
+                "offset": 62
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "ui/ViewManager",
+              "lineNumber": 2
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 3
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 42,
+              "column": 0
+            },
+            "end": {
+              "line": 46,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 47,
+                "column": 0
+              },
+              "end": {
+                "line": 47,
+                "column": 82
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/ViewManager/Arranger.js",
+            "sortKey": "undefined 00000047"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/ViewManager",
+          "access": "public",
+          "name": "SlideBottomArranger",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/ViewManager",
+              "kind": "module"
+            },
+            {
+              "name": "SlideBottomArranger",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ViewManagerSlideBottomArranger"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/ViewManager",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/ViewManager"
+  }
+]

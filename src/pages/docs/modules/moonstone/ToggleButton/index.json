@@ -1,0 +1,2928 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ToggleButton.ToggleButton",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ToggleButton.ToggleButton"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 56,
+                  "offset": 55
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component.",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 56,
+                  "offset": 55
+                },
+                "end": {
+                  "line": 1,
+                  "column": 67,
+                  "offset": 66
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 67,
+              "offset": 66
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 67,
+          "offset": 66
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "moonstone/ToggleButton"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 36
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/ToggleButton",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ToggleButton.ToggleButtonBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ToggleButton.ToggleButtonBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 48,
+                        "offset": 47
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a stateless ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 48,
+                        "offset": 47
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 64,
+                        "offset": 63
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "button",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Button",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 65,
+                            "offset": 64
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 71,
+                            "offset": 70
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 64,
+                        "offset": 63
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 72,
+                        "offset": 71
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.Button",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.Button"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 72,
+                        "offset": 71
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 103,
+                        "offset": 102
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nthat can be toggled by changing its ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 103,
+                        "offset": 102
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 37,
+                        "offset": 139
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 37,
+                        "offset": 139
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 47,
+                        "offset": 149
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 47,
+                        "offset": 149
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 56,
+                        "offset": 158
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 56,
+                    "offset": 158
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 56,
+                "offset": 158
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "ToggleButtonBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ToggleButton",
+              "lineNumber": 5
+            },
+            {
+              "title": "extends",
+              "description": null,
+              "lineNumber": 6,
+              "type": null,
+              "name": "moonstone/Button.Button"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 0
+              },
+              "end": {
+                "line": 159,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+            "sortKey": "undefined 00000028"
+          },
+          "augments": [
+            {
+              "title": "extends",
+              "description": null,
+              "lineNumber": 6,
+              "type": null,
+              "name": "moonstone/Button.Button"
+            }
+          ],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ToggleButtonBase",
+          "memberof": "moonstone/ToggleButton",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The background-color opacity of this button; valid values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'opaque'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'translucent'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 90,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\nand ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 90,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 5,
+                              "offset": 95
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'transparent'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 5,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 110
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 110
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 111
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 21,
+                          "offset": 111
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 21,
+                      "offset": 111
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'opaque'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 39,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 40,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 40,
+                      "column": 78
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000040"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "backgroundOpacity",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "backgroundOpacity",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#backgroundOpacity"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The string to be displayed as the main content of the toggle button.\nIf ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 72
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "toggleOffLabel",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 88
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and/or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 88
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "toggleOnLabel",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 43,
+                              "offset": 111
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are provided, they will\nbe used for the respective states.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 43,
+                              "offset": 111
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 35,
+                              "offset": 170
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 35,
+                          "offset": 170
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 35,
+                      "offset": 170
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 42,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 49,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 50,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 50,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000050"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "button",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "button",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 19,
+                                  "offset": 18
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 25,
+                                  "offset": 24
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary button} is shown as disabled and does not\ngenerate ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 87
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onClick",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 87
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 19,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 19,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 97
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "events",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "events",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 21,
+                                  "offset": 98
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 27,
+                                  "offset": 104
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 97
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 105
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary event}.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 105
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 46,
+                              "offset": 123
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 46,
+                          "offset": 123
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 46,
+                      "offset": 123
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 52,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 59,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 60,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 60,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000060"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A boolean parameter affecting the minimum width of the button. When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\nthe minimum width will be set to 180px (or 130px if ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 53,
+                              "offset": 128
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "small",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 53,
+                              "offset": 128
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\nis ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 4,
+                              "offset": 139
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 4,
+                              "offset": 139
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 10,
+                              "offset": 145
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "). If ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 10,
+                              "offset": 145
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 16,
+                              "offset": 151
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 16,
+                              "offset": 151
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 23,
+                              "offset": 158
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the minimum width will be set to the current value of\n",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 23,
+                              "offset": 158
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 214
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "@moon-button-height",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 214
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 235
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " (thus forcing the button to be no smaller than a circle with\ndiameter ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 235
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 10,
+                              "offset": 306
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "@moon-button-height",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 10,
+                              "offset": 306
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 31,
+                              "offset": 327
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ").",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 31,
+                              "offset": 327
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 33,
+                              "offset": 329
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 33,
+                          "offset": 329
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 33,
+                      "offset": 329
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "true",
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 62,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 72,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 73,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 73,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000073"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "minWidth",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "minWidth",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#minWidth"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " a pressed visual effect is applied to the button",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 61,
+                          "offset": 60
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 61,
+                      "offset": 60
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 75,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 80,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 81,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 81,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000081"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "pressed",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "pressed",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#pressed"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Boolean indicating whether toggle button is currently in the 'on' state.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 73,
+                          "offset": 72
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 73,
+                      "offset": 72
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 83,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 89,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 90,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 90,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000090"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#selected"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A boolean parameter affecting the size of the button. If ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 58,
+                              "offset": 57
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 58,
+                              "offset": 57
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the\nbutton's diameter will be set to 60px. However, the button's tap target\nwill still have a diameter of 78px, with an invisible DOM element\nwrapping the small button to provide the larger tap zone.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 58,
+                              "offset": 264
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 58,
+                          "offset": 264
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 58,
+                      "offset": 264
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 92,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 101,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 102,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 102,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000102"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "small",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "small",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#small"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Button text displayed in the 'off' state. If not specified, ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "children",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will be used for 'off' button text.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 107,
+                              "offset": 106
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 107,
+                          "offset": 106
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 107,
+                      "offset": 106
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "''",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 104,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 110,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 111,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 111,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000111"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "toggleOffLabel",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "toggleOffLabel",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#toggleOffLabel"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Button text displayed in the 'on' state. If not specified, ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "children",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will be used for 'on' button text.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 105,
+                              "offset": 104
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 105,
+                          "offset": 104
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 105,
+                      "offset": 104
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "''",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 113,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 119,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 120,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 120,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+                  "sortKey": "undefined 00000120"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "toggleOnLabel",
+                "memberof": "moonstone/ToggleButton.ToggleButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ToggleButton",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ToggleButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "toggleOnLabel",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ToggleButtonToggleButtonBase#toggleOnLabel"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/ToggleButton",
+              "kind": "module"
+            },
+            {
+              "name": "ToggleButtonBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ToggleButtonToggleButtonBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ToggleButton.ToggleButton",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ToggleButton.ToggleButton"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 44,
+                        "offset": 43
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 44,
+                        "offset": 43
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 50,
+                        "offset": 49
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "button",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Button",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 51,
+                            "offset": 50
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 57,
+                            "offset": 56
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 50,
+                        "offset": 49
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 58,
+                        "offset": 57
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.Button",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.Button"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 58,
+                        "offset": 57
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 89,
+                        "offset": 88
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that is ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 89,
+                        "offset": 88
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 98,
+                        "offset": 97
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "toggleable",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Toggleable",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 99,
+                            "offset": 98
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 109,
+                            "offset": 108
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 98,
+                        "offset": 97
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 110,
+                        "offset": 109
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Toggleable.Toggleable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Toggleable.Toggleable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 110,
+                        "offset": 109
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 142,
+                        "offset": 141
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 142,
+                        "offset": 141
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 143,
+                        "offset": 142
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 143,
+                    "offset": 142
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 144
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 156
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "ToggleButton",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 156
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 27,
+                        "offset": 170
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 27,
+                        "offset": 170
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 55,
+                        "offset": 198
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 55,
+                        "offset": 198
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 65,
+                        "offset": 208
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the\n",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 65,
+                        "offset": 208
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 230
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultSelected",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 230
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 18,
+                        "offset": 247
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to control its initial value. If you wish to directly control updates\nto the component, supply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 18,
+                        "offset": 247
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 37,
+                        "offset": 363
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 37,
+                        "offset": 363
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 47,
+                        "offset": 373
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 47,
+                        "offset": 373
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 420
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onToggle",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 420
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 11,
+                        "offset": 430
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 11,
+                        "offset": 430
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 19,
+                        "offset": 438
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 144
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 19,
+                    "offset": 438
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 19,
+                "offset": 438
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "ToggleButton"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ToggleButton",
+              "lineNumber": 9
+            },
+            {
+              "title": "extends",
+              "description": null,
+              "lineNumber": 10,
+              "type": null,
+              "name": "moonstone/ToggleButton.ToggleButtonBase"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 11
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 12,
+              "name": "ui/Toggleable"
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 13
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 161,
+              "column": 0
+            },
+            "end": {
+              "line": 175,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 176,
+                "column": 0
+              },
+              "end": {
+                "line": 183,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ToggleButton/ToggleButton.js",
+            "sortKey": "undefined 00000176"
+          },
+          "augments": [
+            {
+              "title": "extends",
+              "description": null,
+              "lineNumber": 10,
+              "type": null,
+              "name": "moonstone/ToggleButton.ToggleButtonBase"
+            }
+          ],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 11
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ToggleButton",
+          "memberof": "moonstone/ToggleButton",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/ToggleButton",
+              "kind": "module"
+            },
+            {
+              "name": "ToggleButton",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ToggleButtonToggleButton"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/ToggleButton",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/ToggleButton"
+  }
+]

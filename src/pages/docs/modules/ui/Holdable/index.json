@@ -1,0 +1,2483 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Holdable.Holdable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Holdable.Holdable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 41,
+                  "offset": 40
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 41,
+                  "offset": 40
+                },
+                "end": {
+                  "line": 1,
+                  "column": 71,
+                  "offset": 70
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 71,
+              "offset": 70
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 71,
+          "offset": 70
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "ui/Holdable"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 53
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Holdable",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/Holdable.Holdable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Holdable.Holdable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 29,
+                        "offset": 28
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that applies a 'Holdable' behavior\nto its wrapped component, providing methods that fire when a hold behavior is detected.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 29,
+                        "offset": 28
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 88,
+                        "offset": 179
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 88,
+                    "offset": 179
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 88,
+                "offset": 179
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "Holdable"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Holdable",
+              "lineNumber": 5
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 121,
+              "column": 0
+            },
+            "end": {
+              "line": 129,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 130,
+                "column": 0
+              },
+              "end": {
+                "line": 375,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+            "sortKey": "undefined 00000130"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Holdable",
+          "memberof": "ui/Holdable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Whether or not the component is in a disabled state.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 53,
+                          "offset": 52
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 53,
+                      "offset": 52
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 139,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 145,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 146,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 146,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                  "sortKey": "undefined 00000146"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "ui/Holdable.Holdable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Holdable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Holdable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/HoldableHoldable#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The event that fires when a hold is detected.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 46,
+                          "offset": 45
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 46,
+                      "offset": 45
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 148,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 153,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 154,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 154,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                  "sortKey": "undefined 00000154"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onHold",
+                "memberof": "ui/Holdable.Holdable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Holdable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Holdable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onHold",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/HoldableHoldable#onHold"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The event that regularly fires when a hold persists.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 53,
+                          "offset": 52
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 53,
+                      "offset": 52
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 156,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 162,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 162,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                  "sortKey": "undefined 00000162"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onHoldPulse",
+                "memberof": "ui/Holdable.Holdable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Holdable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Holdable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onHoldPulse",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/HoldableHoldable#onHoldPulse"
+              }
+            ],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Holdable.Holdable",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Holdable.Holdable"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 48,
+                              "offset": 47
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 48,
+                          "offset": 47
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 48,
+                      "offset": 47
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/Holdable.Holdable",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 35,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 41,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 42,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 119,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                  "sortKey": "undefined 00000042"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/Holdable.Holdable",
+                "access": "public",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "You can use the ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 17,
+                                    "offset": 16
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 17,
+                                    "offset": 16
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " property to specify the circumstances under which a\nhold is considered to end. Set ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 26,
+                                    "offset": 25
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 32,
+                                    "offset": 109
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 32,
+                                    "offset": 109
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 41,
+                                    "offset": 118
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to ",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 41,
+                                    "offset": 118
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 45,
+                                    "offset": 122
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onMove",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 45,
+                                    "offset": 122
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 53,
+                                    "offset": 130
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " (the default) if you want\nthe hold to end as soon as the user's finger or pointer moves. Set ",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 53,
+                                    "offset": 130
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 68,
+                                    "offset": 224
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 68,
+                                    "offset": 224
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 77,
+                                    "offset": 233
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": "\nto ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 77,
+                                    "offset": 233
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 4,
+                                    "offset": 237
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onLeave",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 4,
+                                    "offset": 237
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 13,
+                                    "offset": 246
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " if you want the hold to end only when the finger or pointer\nleaves the element altogether. When specifying ",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 13,
+                                    "offset": 246
+                                  },
+                                  "end": {
+                                    "line": 5,
+                                    "column": 48,
+                                    "offset": 354
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onMove",
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 48,
+                                    "offset": 354
+                                  },
+                                  "end": {
+                                    "line": 5,
+                                    "column": 56,
+                                    "offset": 362
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ", you can also provide\na ",
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 56,
+                                    "offset": 362
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 3,
+                                    "offset": 387
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "moveTolerance",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 3,
+                                    "offset": 387
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 18,
+                                    "offset": 402
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " value (default: ",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 18,
+                                    "offset": 402
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 35,
+                                    "offset": 419
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "16",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 35,
+                                    "offset": 419
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 39,
+                                    "offset": 423
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ") that determines how tolerant you want\nto be of small movements when deciding whether a hold has ended. The higher\nthe value, the further a user's finger or pointer may move without causing\nthe hold to end.",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 39,
+                                    "offset": 423
+                                  },
+                                  "end": {
+                                    "line": 9,
+                                    "column": 17,
+                                    "offset": 630
+                                  },
+                                  "indent": [
+                                    1,
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 9,
+                                "column": 17,
+                                "offset": 630
+                              },
+                              "indent": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 9,
+                            "column": 17,
+                            "offset": 630
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 11,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'onMove'",
+                          "lineNumber": 12
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Holdable.Holdable.defaultConfig",
+                          "lineNumber": 13
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 43,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 57,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 58,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 58,
+                            "column": 18
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                        "sortKey": "undefined 00000058"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Holdable.Holdable.defaultConfig",
+                      "name": "endHold",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Holdable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Holdable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "endHold"
+                        }
+                      ],
+                      "namespace": "ui/HoldableHoldabledefaultConfigendHold"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "You can specify a set of custom hold events by setting the ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 60,
+                                    "offset": 59
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "events",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 60,
+                                    "offset": 59
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 68,
+                                    "offset": 67
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " property\nto an array containing one or more objects. Each object specifies a custom\nhold event, in the form of a ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 68,
+                                    "offset": 67
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 30,
+                                    "offset": 181
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "name",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 30,
+                                    "offset": 181
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 36,
+                                    "offset": 187
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " / ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 36,
+                                    "offset": 187
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 39,
+                                    "offset": 190
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "time",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 39,
+                                    "offset": 190
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 45,
+                                    "offset": 196
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " pair. Notes:",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 45,
+                                    "offset": 196
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 58,
+                                    "offset": 209
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 3,
+                                "column": 58,
+                                "offset": 209
+                              },
+                              "indent": [
+                                1,
+                                1
+                              ]
+                            }
+                          },
+                          {
+                            "type": "list",
+                            "ordered": false,
+                            "start": null,
+                            "loose": true,
+                            "children": [
+                              {
+                                "type": "listItem",
+                                "loose": true,
+                                "checked": null,
+                                "children": [
+                                  {
+                                    "type": "paragraph",
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "value": "Times should be specified in milliseconds.",
+                                        "position": {
+                                          "start": {
+                                            "line": 5,
+                                            "column": 4,
+                                            "offset": 214
+                                          },
+                                          "end": {
+                                            "line": 5,
+                                            "column": 46,
+                                            "offset": 256
+                                          },
+                                          "indent": []
+                                        }
+                                      }
+                                    ],
+                                    "position": {
+                                      "start": {
+                                        "line": 5,
+                                        "column": 4,
+                                        "offset": 214
+                                      },
+                                      "end": {
+                                        "line": 5,
+                                        "column": 46,
+                                        "offset": 256
+                                      },
+                                      "indent": []
+                                    }
+                                  }
+                                ],
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 1,
+                                    "offset": 211
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 1,
+                                    "offset": 257
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "listItem",
+                                "loose": false,
+                                "checked": null,
+                                "children": [
+                                  {
+                                    "type": "paragraph",
+                                    "children": [
+                                      {
+                                        "type": "text",
+                                        "value": "Your ",
+                                        "position": {
+                                          "start": {
+                                            "line": 7,
+                                            "column": 4,
+                                            "offset": 261
+                                          },
+                                          "end": {
+                                            "line": 7,
+                                            "column": 9,
+                                            "offset": 266
+                                          },
+                                          "indent": []
+                                        }
+                                      },
+                                      {
+                                        "type": "inlineCode",
+                                        "value": "events",
+                                        "position": {
+                                          "start": {
+                                            "line": 7,
+                                            "column": 9,
+                                            "offset": 266
+                                          },
+                                          "end": {
+                                            "line": 7,
+                                            "column": 17,
+                                            "offset": 274
+                                          },
+                                          "indent": []
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "value": " array overrides the framework defaults entirely, so if you\nwant the standard ",
+                                        "position": {
+                                          "start": {
+                                            "line": 7,
+                                            "column": 17,
+                                            "offset": 274
+                                          },
+                                          "end": {
+                                            "line": 8,
+                                            "column": 22,
+                                            "offset": 355
+                                          },
+                                          "indent": [
+                                            4
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "type": "inlineCode",
+                                        "value": "hold",
+                                        "position": {
+                                          "start": {
+                                            "line": 8,
+                                            "column": 22,
+                                            "offset": 355
+                                          },
+                                          "end": {
+                                            "line": 8,
+                                            "column": 28,
+                                            "offset": 361
+                                          },
+                                          "indent": []
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "value": " event to fire at 200 ms (in addition to whatever\ncustom events you define), you'll need to redefine it yourself as part of\nyour ",
+                                        "position": {
+                                          "start": {
+                                            "line": 8,
+                                            "column": 28,
+                                            "offset": 361
+                                          },
+                                          "end": {
+                                            "line": 10,
+                                            "column": 9,
+                                            "offset": 496
+                                          },
+                                          "indent": [
+                                            4,
+                                            4
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "type": "inlineCode",
+                                        "value": "events",
+                                        "position": {
+                                          "start": {
+                                            "line": 10,
+                                            "column": 9,
+                                            "offset": 496
+                                          },
+                                          "end": {
+                                            "line": 10,
+                                            "column": 17,
+                                            "offset": 504
+                                          },
+                                          "indent": []
+                                        }
+                                      },
+                                      {
+                                        "type": "text",
+                                        "value": " array.",
+                                        "position": {
+                                          "start": {
+                                            "line": 10,
+                                            "column": 17,
+                                            "offset": 504
+                                          },
+                                          "end": {
+                                            "line": 10,
+                                            "column": 24,
+                                            "offset": 511
+                                          },
+                                          "indent": []
+                                        }
+                                      }
+                                    ],
+                                    "position": {
+                                      "start": {
+                                        "line": 7,
+                                        "column": 4,
+                                        "offset": 261
+                                      },
+                                      "end": {
+                                        "line": 10,
+                                        "column": 24,
+                                        "offset": 511
+                                      },
+                                      "indent": [
+                                        4,
+                                        4,
+                                        4
+                                      ]
+                                    }
+                                  }
+                                ],
+                                "position": {
+                                  "start": {
+                                    "line": 7,
+                                    "column": 1,
+                                    "offset": 258
+                                  },
+                                  "end": {
+                                    "line": 10,
+                                    "column": 24,
+                                    "offset": 511
+                                  },
+                                  "indent": [
+                                    1,
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 5,
+                                "column": 1,
+                                "offset": 211
+                              },
+                              "end": {
+                                "line": 10,
+                                "column": 24,
+                                "offset": 511
+                              },
+                              "indent": [
+                                1,
+                                1,
+                                1,
+                                1,
+                                1
+                              ]
+                            }
+                          },
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Regardless of how many custom hold events you define, ",
+                                "position": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 1,
+                                    "offset": 513
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 55,
+                                    "offset": 567
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onholdpulse",
+                                "position": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 55,
+                                    "offset": 567
+                                  },
+                                  "end": {
+                                    "line": 12,
+                                    "column": 68,
+                                    "offset": 580
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " events\nwill start firing after the first custom hold event fires, and continue until\nthe user stops holding.",
+                                "position": {
+                                  "start": {
+                                    "line": 12,
+                                    "column": 68,
+                                    "offset": 580
+                                  },
+                                  "end": {
+                                    "line": 14,
+                                    "column": 24,
+                                    "offset": 689
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 12,
+                                "column": 1,
+                                "offset": 513
+                              },
+                              "end": {
+                                "line": 14,
+                                "column": 24,
+                                "offset": 689
+                              },
+                              "indent": [
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 14,
+                            "column": 24,
+                            "offset": 689
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 16,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "[{name: 'hold', time: 200}]",
+                          "lineNumber": 17
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Holdable.Holdable.defaultConfig",
+                          "lineNumber": 18
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 60,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 79,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 80,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 82,
+                            "column": 2
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                        "sortKey": "undefined 00000080"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Holdable.Holdable.defaultConfig",
+                      "name": "events",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Holdable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Holdable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "events"
+                        }
+                      ],
+                      "namespace": "ui/HoldableHoldabledefaultConfigevents"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Determines not only how often ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 31,
+                                    "offset": 30
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "holdpulse",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 31,
+                                    "offset": 30
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " events are\nsent, but the frequency with which the hold duration is measured. This means\nthat the value you set for ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 157
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "frequency",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 157
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 39,
+                                    "offset": 168
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " should always be a common factor of the\ntimes you set for your custom hold events, to ensure accurate event timing.",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 39,
+                                    "offset": 168
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 76,
+                                    "offset": 284
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 4,
+                                "column": 76,
+                                "offset": 284
+                              },
+                              "indent": [
+                                1,
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 76,
+                            "offset": 284
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Number"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "200",
+                          "lineNumber": 7
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Holdable.Holdable.defaultConfig",
+                          "lineNumber": 8
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 84,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 93,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 94,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 94,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                        "sortKey": "undefined 00000094"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Holdable.Holdable.defaultConfig",
+                      "name": "frequency",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Holdable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Holdable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "frequency"
+                        }
+                      ],
+                      "namespace": "ui/HoldableHoldabledefaultConfigfrequency"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Determines how tolerant you want to be of small movements when deciding\nwhether a hold has ended (in the case of ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 42,
+                                    "offset": 113
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold: onMove",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 42,
+                                    "offset": 113
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 59,
+                                    "offset": 130
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": "). The higher\nthe value, the further a user's finger or pointer may move without\ncausing the hold to end.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 59,
+                                    "offset": 130
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 25,
+                                    "offset": 235
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 4,
+                                "column": 25,
+                                "offset": 235
+                              },
+                              "indent": [
+                                1,
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 25,
+                            "offset": 235
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Number"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "16",
+                          "lineNumber": 7
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Holdable.Holdable.defaultConfig",
+                          "lineNumber": 8
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 96,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 105,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 106,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 106,
+                            "column": 18
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                        "sortKey": "undefined 00000106"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Holdable.Holdable.defaultConfig",
+                      "name": "moveTolerance",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Holdable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Holdable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "moveTolerance"
+                        }
+                      ],
+                      "namespace": "ui/HoldableHoldabledefaultConfigmoveTolerance"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Specifies whether a hold that has ended due to finger / pointer movement\nshould be resumed if the user's finger or pointer moves back inside the\ntolerance threshold (in the case of ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 37,
+                                    "offset": 181
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold: onMove",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 37,
+                                    "offset": 181
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 54,
+                                    "offset": 198
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ") or back over the\nelement (in the case of ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 54,
+                                    "offset": 198
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 25,
+                                    "offset": 241
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "endHold: onLeave",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 25,
+                                    "offset": 241
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 43,
+                                    "offset": 259
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ").",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 43,
+                                    "offset": 259
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 45,
+                                    "offset": 261
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 4,
+                                "column": 45,
+                                "offset": 261
+                              },
+                              "indent": [
+                                1,
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 45,
+                            "offset": 261
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Boolean"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "false",
+                          "lineNumber": 7
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Holdable.Holdable.defaultConfig",
+                          "lineNumber": 8
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 108,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 117,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 118,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 118,
+                            "column": 14
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Holdable/Holdable.js",
+                        "sortKey": "undefined 00000118"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Holdable.Holdable.defaultConfig",
+                      "name": "resume",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Holdable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Holdable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "resume"
+                        }
+                      ],
+                      "namespace": "ui/HoldableHoldabledefaultConfigresume"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/Holdable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Holdable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/HoldableHoldabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/Holdable",
+              "kind": "module"
+            },
+            {
+              "name": "Holdable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/HoldableHoldable"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Holdable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Holdable"
+  }
+]

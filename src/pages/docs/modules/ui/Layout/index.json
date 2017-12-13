@@ -1,0 +1,4603 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Layout.Layout",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Layout.Layout"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 37,
+                  "offset": 36
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ", ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 37,
+                  "offset": 36
+                },
+                "end": {
+                  "line": 1,
+                  "column": 39,
+                  "offset": 38
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Layout.LayoutBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Layout.LayoutBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 39,
+                  "offset": 38
+                },
+                "end": {
+                  "line": 1,
+                  "column": 67,
+                  "offset": 66
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ", and  ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 67,
+                  "offset": 66
+                },
+                "end": {
+                  "line": 1,
+                  "column": 74,
+                  "offset": 73
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Layout.Cell",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Layout.Cell"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 74,
+                  "offset": 73
+                },
+                "end": {
+                  "line": 1,
+                  "column": 96,
+                  "offset": 95
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": "\ncomponents. The default export is ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 96,
+                  "offset": 95
+                },
+                "end": {
+                  "line": 2,
+                  "column": 35,
+                  "offset": 130
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Layout.Layout",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Layout.Layout"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 35,
+                  "offset": 130
+                },
+                "end": {
+                  "line": 2,
+                  "column": 59,
+                  "offset": 154
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ". Layout also has two shorthand\ncomponents exported: ",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 59,
+                  "offset": 154
+                },
+                "end": {
+                  "line": 3,
+                  "column": 22,
+                  "offset": 207
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "Row",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 22,
+                  "offset": 207
+                },
+                "end": {
+                  "line": 3,
+                  "column": 27,
+                  "offset": 212
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and ",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 27,
+                  "offset": 212
+                },
+                "end": {
+                  "line": 3,
+                  "column": 32,
+                  "offset": 217
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "Column",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 32,
+                  "offset": 217
+                },
+                "end": {
+                  "line": 3,
+                  "column": 40,
+                  "offset": 225
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ". These two assign preset ",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 40,
+                  "offset": 225
+                },
+                "end": {
+                  "line": 3,
+                  "column": 66,
+                  "offset": 251
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "orientation",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 66,
+                  "offset": 251
+                },
+                "end": {
+                  "line": 3,
+                  "column": 79,
+                  "offset": 264
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " properties to\nsimplify usage and readability. They are identical to ",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 79,
+                  "offset": 264
+                },
+                "end": {
+                  "line": 4,
+                  "column": 55,
+                  "offset": 333
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "<Layout orientation=\"horizontal\">",
+              "position": {
+                "start": {
+                  "line": 4,
+                  "column": 55,
+                  "offset": 333
+                },
+                "end": {
+                  "line": 4,
+                  "column": 90,
+                  "offset": 368
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 4,
+                  "column": 90,
+                  "offset": 368
+                },
+                "end": {
+                  "line": 5,
+                  "column": 1,
+                  "offset": 373
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "<Layout orientation=\"vertical\">",
+              "position": {
+                "start": {
+                  "line": 5,
+                  "column": 1,
+                  "offset": 373
+                },
+                "end": {
+                  "line": 5,
+                  "column": 34,
+                  "offset": 406
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " respectively.",
+              "position": {
+                "start": {
+                  "line": 5,
+                  "column": 34,
+                  "offset": 406
+                },
+                "end": {
+                  "line": 5,
+                  "column": 48,
+                  "offset": 420
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 5,
+              "column": 48,
+              "offset": 420
+            },
+            "indent": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 5,
+          "column": 48,
+          "offset": 420
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "example",
+        "description": "<Layout>\n\t<Cell shrink>\n\t\t<Button small>First</Button>\n\t</Cell>\n\t<Cell>\n\t\t<Item>An Item with some long text in it</Item>\n\t</Cell>\n\t<Cell shrink>\n\t\t<Button small>Last</Button>\n\t</Cell>\n</Layout>",
+        "lineNumber": 7
+      },
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 20,
+        "type": null,
+        "name": "ui/Layout"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 22,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 36
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+      "sortKey": "undefined 00000024"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [
+      {
+        "description": "<Layout>\n\t<Cell shrink>\n\t\t<Button small>First</Button>\n\t</Cell>\n\t<Cell>\n\t\t<Item>An Item with some long text in it</Item>\n\t</Cell>\n\t<Cell shrink>\n\t\t<Button small>Last</Button>\n\t</Cell>\n</Layout>"
+      }
+    ],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Layout",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A stateless component that provides a space for your content in a\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 66
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "layout",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Layout",
+                        "position": {
+                          "start": {
+                            "line": 2,
+                            "column": 2,
+                            "offset": 67
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 8,
+                            "offset": 73
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 66
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 9,
+                        "offset": 74
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Layout",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Layout"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 9,
+                        "offset": 74
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 33,
+                        "offset": 98
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 33,
+                        "offset": 98
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 34,
+                        "offset": 99
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 34,
+                    "offset": 99
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 34,
+                "offset": 99
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "Cell"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Layout",
+              "lineNumber": 5
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 6
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 23,
+                "column": 0
+              },
+              "end": {
+                "line": 120,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+            "sortKey": "undefined 00000023"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Cell",
+          "memberof": "ui/Layout",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Aligns this ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "Cell",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 19,
+                              "offset": 18
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " vertically in the case of a horizontal layout or\nhorizontally in the case of a vertical layout. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 19,
+                              "offset": 18
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 48,
+                              "offset": 115
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 48,
+                              "offset": 115
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 57,
+                              "offset": 124
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 57,
+                              "offset": 124
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 59,
+                              "offset": 126
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"center\"",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 59,
+                              "offset": 126
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 136
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and\n",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 136
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 141
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 141
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 8,
+                              "offset": 148
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are the most commonly used, although all values of ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 8,
+                              "offset": 148
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 200
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "align-self",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 200
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 72,
+                              "offset": 212
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are supported.\n",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 72,
+                              "offset": 212
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 228
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 228
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 10,
+                              "offset": 237
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " refers to the top in a horizontal layout, and left in a vertical LTR layout\n",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 10,
+                              "offset": 237
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 314
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 314
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 321
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " refers to the bottom in a horizontal layout, and right in a vertical LTR layout\n",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 321
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 402
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 402
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 10,
+                              "offset": 411
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and ",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 10,
+                              "offset": 411
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 416
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 416
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 22,
+                              "offset": 423
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " reverse places when in a vertical layout in a RTL locale.",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 22,
+                              "offset": 423
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 80,
+                              "offset": 481
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 80,
+                          "offset": 481
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 80,
+                      "offset": 481
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 8,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 38,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 38,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+                  "sortKey": "undefined 00000038"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "align",
+                "memberof": "ui/Layout.Cell",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cell",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "align",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutCell#align"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Any valid Node that should be positioned in this Cell.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 40,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 46,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 46,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+                  "sortKey": "undefined 00000046"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "ui/Layout.Cell",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cell",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutCell#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The type of component to use to render as the Cell. May be a DOM node name (e.g 'div',\n'span', etc.) or a custom component.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 37,
+                              "offset": 123
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 37,
+                          "offset": 123
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 37,
+                      "offset": 123
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Node"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'div'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 55,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 56,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 56,
+                      "column": 69
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+                  "sortKey": "undefined 00000056"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "component",
+                "memberof": "ui/Layout.Cell",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cell",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "component",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutCell#component"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 3,
+                              "offset": 2
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "shrink",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 3,
+                              "offset": 2
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 11,
+                              "offset": 10
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "able cell will contract to its minimum size, according to the dimensions of its\ncontents. This is used when you want the size of this Cell's content to influence the\ndimensions of this cell. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 11,
+                              "offset": 10
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 26,
+                              "offset": 201
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "shrink",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 26,
+                              "offset": 201
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 34,
+                              "offset": 209
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will not allow the contents of the Layout to be pushed\nbeyond its boundaries (overflowing). See the ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 34,
+                              "offset": 209
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 46,
+                              "offset": 310
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "size",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "size",
+                              "position": {
+                                "start": {
+                                  "line": 4,
+                                  "column": 47,
+                                  "offset": 311
+                                },
+                                "end": {
+                                  "line": 4,
+                                  "column": 51,
+                                  "offset": 315
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 46,
+                              "offset": 310
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 52,
+                              "offset": 316
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell#size",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell#size"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 52,
+                              "offset": 316
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 79,
+                              "offset": 343
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " property\nfor more details.",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 79,
+                              "offset": 343
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 18,
+                              "offset": 370
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 18,
+                          "offset": 370
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 18,
+                      "offset": 370
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 58,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 68,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 69,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 69,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+                  "sortKey": "undefined 00000069"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "shrink",
+                "memberof": "ui/Layout.Cell",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cell",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "shrink",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutCell#shrink"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Sets the requested size, possibly overflowing if the contents are too large for the space.\nWhen used in conjunction with ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 31,
+                              "offset": 121
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "shrink",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "shrink",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 32,
+                                  "offset": 122
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 38,
+                                  "offset": 128
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 31,
+                              "offset": 121
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 39,
+                              "offset": 129
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell#shrink",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell#shrink"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 39,
+                              "offset": 129
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 68,
+                              "offset": 158
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the size will be set\nas close to the requested size as is possible, given the dimensions of the contents of\nthis cell. E.g. If your content is ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 68,
+                              "offset": 158
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 36,
+                              "offset": 303
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "40px",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 36,
+                              "offset": 303
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 42,
+                              "offset": 309
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " tall and you set ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 42,
+                              "offset": 309
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 60,
+                              "offset": 327
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "size",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 60,
+                              "offset": 327
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 66,
+                              "offset": 333
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to \"30px\", the Cell will\nrender ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 66,
+                              "offset": 333
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 366
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "30px",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 366
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 14,
+                              "offset": 372
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " tall. If ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 14,
+                              "offset": 372
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 24,
+                              "offset": 382
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "shrink",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "shrink",
+                              "position": {
+                                "start": {
+                                  "line": 5,
+                                  "column": 25,
+                                  "offset": 383
+                                },
+                                "end": {
+                                  "line": 5,
+                                  "column": 31,
+                                  "offset": 389
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 24,
+                              "offset": 382
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 32,
+                              "offset": 390
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell#shrink",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell#shrink"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 32,
+                              "offset": 390
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 61,
+                              "offset": 419
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " was used also, the rendered\nCell would be ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 61,
+                              "offset": 419
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 462
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "40px",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 462
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 21,
+                              "offset": 468
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " tall.\nThis accepts any valid CSS measurement and overrules the\n",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 21,
+                              "offset": 468
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 1,
+                              "offset": 532
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "shrink",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "shrink",
+                              "position": {
+                                "start": {
+                                  "line": 8,
+                                  "column": 2,
+                                  "offset": 533
+                                },
+                                "end": {
+                                  "line": 8,
+                                  "column": 8,
+                                  "offset": 539
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 8,
+                              "column": 1,
+                              "offset": 532
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 9,
+                              "offset": 540
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell#shrink",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell#shrink"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 8,
+                              "column": 9,
+                              "offset": 540
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 38,
+                              "offset": 569
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " property.",
+                          "position": {
+                            "start": {
+                              "line": 8,
+                              "column": 38,
+                              "offset": 569
+                            },
+                            "end": {
+                              "line": 8,
+                              "column": 48,
+                              "offset": 579
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 8,
+                          "column": 48,
+                          "offset": 579
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 8,
+                      "column": 48,
+                      "offset": 579
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 10,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 11
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 71,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 83,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 84,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 84,
+                      "column": 65
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Cell.js",
+                  "sortKey": "undefined 00000084"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "size",
+                "memberof": "ui/Layout.Cell",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cell",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "size",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutCell#size"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Layout",
+              "kind": "module"
+            },
+            {
+              "name": "Cell",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/LayoutCell"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A stateless component that acts as a containing area for ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 58,
+                        "offset": 57
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "cells",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Cells",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 64,
+                            "offset": 63
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 58,
+                        "offset": 57
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 65,
+                        "offset": 64
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Cell",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Cell"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 65,
+                        "offset": 64
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 87,
+                        "offset": 86
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " to be\npositioned in a row or a column (horizontally or vertically, respectively. It supports an\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 87,
+                        "offset": 86
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 183
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "orientation",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "orientation",
+                        "position": {
+                          "start": {
+                            "line": 3,
+                            "column": 2,
+                            "offset": 184
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 13,
+                            "offset": 195
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 183
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 14,
+                        "offset": 196
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Layout#orientation",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Layout#orientation"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 14,
+                        "offset": 196
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 50,
+                        "offset": 232
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property for laying-out its contents\n(Cells) in an organized, readable way.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 50,
+                        "offset": 232
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 39,
+                        "offset": 308
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 39,
+                    "offset": 308
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Additional Example:",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 310
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 20,
+                        "offset": 329
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 310
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 20,
+                    "offset": 329
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import Input from '@enact/moonstone/Input';\nimport css from './LayoutExample.less';\n...\n<fieldset>\n\t<Layout align=\"center\">\n\t\t<Cell component=\"label\" size=\"40%\" className={css.label} shrink>First Name</Cell>\n\t\t<Cell component={Input} placeholder=\"First\" className={css.input} />\n\t</Layout>\n\t<Layout align=\"center\">\n\t\t<Cell component=\"label\" size=\"40%\" className={css.label} shrink>Last Name</Cell>\n\t\t<Cell component={Input} placeholder=\"Last\" className={css.input} />\n\t</Layout>\n</fieldset>",
+                "position": {
+                  "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 330
+                  },
+                  "end": {
+                    "line": 21,
+                    "column": 4,
+                    "offset": 828
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 21,
+                "column": 4,
+                "offset": 828
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 23,
+              "type": null,
+              "name": "Layout"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Layout",
+              "lineNumber": 24
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 25
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 0
+            },
+            "end": {
+              "line": 58,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 59,
+                "column": 0
+              },
+              "end": {
+                "line": 167,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+            "sortKey": "undefined 00000059"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Layout",
+          "memberof": "ui/Layout",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Aligns the children ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 21,
+                              "offset": 20
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "cells",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Cells",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 22,
+                                  "offset": 21
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 27,
+                                  "offset": 26
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 21,
+                              "offset": 20
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " vertically in the case of a horizontal\nlayout or horizontally in the case of a vertical layout. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 58,
+                              "offset": 146
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 58,
+                              "offset": 146
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 155
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 155
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 157
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"center\"",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 157
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 79,
+                              "offset": 167
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and\n",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 79,
+                              "offset": 167
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 172
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 172
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 8,
+                              "offset": 179
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are the most commonly used, although all values of ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 8,
+                              "offset": 179
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 231
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "align-items",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 231
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 73,
+                              "offset": 244
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are supported.\n",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 73,
+                              "offset": 244
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 260
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 260
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 10,
+                              "offset": 269
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " refers to the top in a horizontal layout, and left in a vertical LTR layout\n",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 10,
+                              "offset": 269
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 346
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 346
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 353
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " refers to the bottom in a horizontal layout, and right in a vertical LTR layout\n",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 353
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 434
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"start\"",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 434
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 10,
+                              "offset": 443
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and ",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 10,
+                              "offset": 443
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 448
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "\"end\"",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 15,
+                              "offset": 448
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 22,
+                              "offset": 455
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " reverse places when in a vertical layout in a RTL locale.",
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 22,
+                              "offset": 455
+                            },
+                            "end": {
+                              "line": 6,
+                              "column": 80,
+                              "offset": 513
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 6,
+                          "column": 80,
+                          "offset": 513
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 6,
+                      "column": 80,
+                      "offset": 513
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 8,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 63,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 73,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 74,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 74,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000074"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "align",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "align",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#align"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Only ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "cell",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Cell",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 7,
+                                  "offset": 6
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 11,
+                                  "offset": 10
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " components are supported as children.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 72,
+                          "offset": 71
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 72,
+                      "offset": 71
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 76,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 81,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 82,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 82,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000082"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The type of component to use to render as the Layout. May be a DOM node name (e.g 'div',\n'span', etc.) or a custom component.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 37,
+                              "offset": 125
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 37,
+                          "offset": 125
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 37,
+                      "offset": 125
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Node"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'div'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 91,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 92,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 92,
+                      "column": 69
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000092"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "component",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "component",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#component"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Allows this Layout to have following siblings drawn on the same line as itself, instead\nof carving out the entire horizontal space for itself.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 55,
+                              "offset": 142
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 55,
+                          "offset": 142
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 55,
+                      "offset": 142
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 94,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 101,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 102,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 102,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000102"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "inline",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "inline",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#inline"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The orientation of the Layout, i.e. how the children ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "cells",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Cells",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 55,
+                                  "offset": 54
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 60,
+                                  "offset": 59
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Layout.Cell",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Layout.Cell"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " are\npositioned on the screen. Must be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 42,
+                              "offset": 128
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'horizontal'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 42,
+                              "offset": 128
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 56,
+                              "offset": 142
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 56,
+                              "offset": 142
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 146
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'vertical'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 146
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 72,
+                              "offset": 158
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 72,
+                              "offset": 158
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 73,
+                              "offset": 159
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 73,
+                          "offset": 159
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 73,
+                      "offset": 159
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'horizontal'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 104,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 111,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 112,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 112,
+                      "column": 58
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000112"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "orientation",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "orientation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#orientation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Determine how a Layout handles its cells if there are more than fit in the available\nspace. This works like a normal Boolean prop, but also accepts strings for customization\nbeyond the basic on/off support. In addition to ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 49,
+                              "offset": 222
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 49,
+                              "offset": 222
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 55,
+                              "offset": 228
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 55,
+                              "offset": 228
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 233
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 233
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 67,
+                              "offset": 240
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the following strings\nare supported: 'wrap', 'nowrap', 'reverse'. 'reverse' preforms standard line wrapping but\nadditional lines are placed above/before the preceding line instead of below/after.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 67,
+                              "offset": 240
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 84,
+                              "offset": 437
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 84,
+                          "offset": 437
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 84,
+                      "offset": 437
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "Boolean"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 114,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 123,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 124,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 124,
+                      "column": 93
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+                  "sortKey": "undefined 00000124"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "wrap",
+                "memberof": "ui/Layout.Layout",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Layout",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Layout",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "wrap",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/LayoutLayout#wrap"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Layout",
+              "kind": "module"
+            },
+            {
+              "name": "Layout",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/LayoutLayout"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Layout",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Layout"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 27,
+                        "offset": 26
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that positions its ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 27,
+                        "offset": 26
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "cells",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Cells",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Cell",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Cell"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 76,
+                        "offset": 75
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " vertically.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 76,
+                        "offset": 75
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 88,
+                        "offset": 87
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 88,
+                    "offset": 87
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 88,
+                "offset": 87
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 3,
+              "type": null,
+              "name": "Column"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Layout",
+              "lineNumber": 4
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 5
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 169,
+              "column": 0
+            },
+            "end": {
+              "line": 175,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 176,
+                "column": 0
+              },
+              "end": {
+                "line": 178,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+            "sortKey": "undefined 00000176"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "props",
+              "lineNumber": 176
+            }
+          ],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Column",
+          "memberof": "ui/Layout",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Layout",
+              "kind": "module"
+            },
+            {
+              "name": "Column",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/LayoutColumn"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Layout",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Layout"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 3,
+                        "offset": 2
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 27,
+                        "offset": 26
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that positions its ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 27,
+                        "offset": 26
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "cells",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Cells",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 48,
+                            "offset": 47
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 53,
+                            "offset": 52
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Layout.Cell",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Layout.Cell"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 54,
+                        "offset": 53
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 76,
+                        "offset": 75
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " horizontally.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 76,
+                        "offset": 75
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 90,
+                        "offset": 89
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 90,
+                    "offset": 89
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 90,
+                "offset": 89
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 3,
+              "type": null,
+              "name": "Row"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Layout",
+              "lineNumber": 4
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 5
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 180,
+              "column": 0
+            },
+            "end": {
+              "line": 186,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 187,
+                "column": 0
+              },
+              "end": {
+                "line": 189,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Layout/Layout.js",
+            "sortKey": "undefined 00000187"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "props",
+              "lineNumber": 187
+            }
+          ],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Row",
+          "memberof": "ui/Layout",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Layout",
+              "kind": "module"
+            },
+            {
+              "name": "Row",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/LayoutRow"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Layout",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Layout"
+  }
+]

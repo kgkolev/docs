@@ -1,0 +1,2566 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/FloatingLayer.FloatingLayer",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/FloatingLayer.FloatingLayer"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 51,
+                  "offset": 50
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 51,
+                  "offset": 50
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 65
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/FloatingLayer.FloatingLayerDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/FloatingLayer.FloatingLayerDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 65
+                },
+                "end": {
+                  "line": 2,
+                  "column": 48,
+                  "offset": 112
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).\nThe default export is ",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 48,
+                  "offset": 112
+                },
+                "end": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 165
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/FloatingLayer.FloatingLayer",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/FloatingLayer.FloatingLayer"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 165
+                },
+                "end": {
+                  "line": 3,
+                  "column": 61,
+                  "offset": 203
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 61,
+                  "offset": 203
+                },
+                "end": {
+                  "line": 3,
+                  "column": 62,
+                  "offset": 204
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 62,
+              "offset": 204
+            },
+            "indent": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 62,
+          "offset": 204
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 5,
+        "type": null,
+        "name": "ui/FloatingLayer"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 44
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/index.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/FloatingLayer",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Higher-order Component that adds a FloatingLayer adjacent to wrapped component.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 80,
+                        "offset": 79
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 80,
+                    "offset": 79
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 80,
+                "offset": 79
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 3,
+              "type": null,
+              "name": "FloatingLayerDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/FloatingLayer",
+              "lineNumber": 4
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 5
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 6
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 43,
+              "column": 0
+            },
+            "end": {
+              "line": 50,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 51,
+                "column": 0
+              },
+              "end": {
+                "line": 98,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayerDecorator.js",
+            "sortKey": "undefined 00000051"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 5
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "FloatingLayerDecorator",
+          "memberof": "ui/FloatingLayer",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/FloatingLayer.FloatingLayerDecorator",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/FloatingLayer.FloatingLayerDecorator"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/FloatingLayer.FloatingLayerDecorator",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 41,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayerDecorator.js",
+                  "sortKey": "undefined 00000020"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/FloatingLayer.FloatingLayerDecorator",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Element Id of the floatLayer",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 29,
+                                    "offset": 28
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 29,
+                                "offset": 28
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'floatLayer'",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "public",
+                          "description": null,
+                          "lineNumber": 5,
+                          "type": null
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/FloatingLayer.FloatingLayerDecorator.defaultConfig",
+                          "lineNumber": 6
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 21,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 28,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 29,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 29,
+                            "column": 27
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayerDecorator.js",
+                        "sortKey": "undefined 00000029"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "access": "public",
+                      "memberof": "ui/FloatingLayer.FloatingLayerDecorator.defaultConfig",
+                      "name": "floatLayerId",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/FloatingLayer",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "FloatingLayerDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "floatLayerId"
+                        }
+                      ],
+                      "namespace": "ui/FloatingLayerFloatingLayerDecoratordefaultConfigfloatLayerId"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Classname applied to wrapped component. It can be used when you want to only apply\ncertain styles to the wrapped component and not to the float layer.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 68,
+                                    "offset": 150
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 68,
+                                "offset": 150
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 150
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "''",
+                          "lineNumber": 5
+                        },
+                        {
+                          "title": "public",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": null
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/FloatingLayer.FloatingLayerDecorator.defaultConfig",
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 39,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 40,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 40,
+                            "column": 21
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayerDecorator.js",
+                        "sortKey": "undefined 00000040"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "access": "public",
+                      "memberof": "ui/FloatingLayer.FloatingLayerDecorator.defaultConfig",
+                      "name": "wrappedClassName",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/FloatingLayer",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "FloatingLayerDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "wrappedClassName"
+                        }
+                      ],
+                      "namespace": "ui/FloatingLayerFloatingLayerDecoratordefaultConfigwrappedClassName"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerDecoratordefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/FloatingLayer",
+              "kind": "module"
+            },
+            {
+              "name": "FloatingLayerDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/FloatingLayerFloatingLayerDecorator"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/FloatingLayer.FloatingLayerBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/FloatingLayer.FloatingLayerBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 43,
+                        "offset": 42
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a component that creates an entry point to the new\nrender tree. This is used for modal components such as popups.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 43,
+                        "offset": 42
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 63,
+                        "offset": 159
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 63,
+                    "offset": 159
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 63,
+                "offset": 159
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "FloatingLayerBase"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/FloatingLayer",
+              "lineNumber": 5
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 0
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 22,
+                "column": 0
+              },
+              "end": {
+                "line": 225,
+                "column": 1
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+            "sortKey": "undefined 00000022"
+          },
+          "augments": [
+            {
+              "title": "augments",
+              "name": "React.Component"
+            }
+          ],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "props",
+              "lineNumber": 107
+            }
+          ],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "FloatingLayerBase",
+          "memberof": "ui/FloatingLayer",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "CSS classes for FloatingLayer.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 31,
+                          "offset": 30
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 31,
+                      "offset": 30
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'enact-fit enact-clip enact-untouchable'",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 28,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 34,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 35,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 39
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000035"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "floatLayerClassName",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "floatLayerClassName",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#floatLayerClassName"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Element id for floating layer.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 31,
+                          "offset": 30
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 31,
+                      "offset": 30
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'floatLayer'",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 44,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 44,
+                      "column": 32
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000044"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "floatLayerId",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "floatLayerId",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#floatLayerId"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", FloatingLayer will not hide when the user presses ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "ESC",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " key.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 74,
+                          "offset": 73
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 74,
+                      "offset": 73
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 53,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 53,
+                      "column": 31
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000053"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAutoDismiss",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAutoDismiss",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#noAutoDismiss"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when floating layer is closed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 52,
+                          "offset": 51
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 52,
+                      "offset": 51
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 55,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 60,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 61,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 61,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000061"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onClose",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onClose",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#onClose"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 27,
+                              "offset": 26
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "ESC",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 27,
+                              "offset": 26
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " key is pressed. The function will only invoke if\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 81
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "noAutoDismiss",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 81
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is set to ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 107
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 107
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 114
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 114
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 35,
+                              "offset": 115
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 35,
+                          "offset": 115
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 35,
+                      "offset": 115
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 63,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 69,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 70,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 70,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000070"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onDismiss",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onDismiss",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#onDismiss"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when floating layer is opened. It will only be invoked for the first render.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 98,
+                              "offset": 97
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 98,
+                          "offset": 97
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 98,
+                      "offset": 97
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 72,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 77,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 78,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 78,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000078"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onOpen",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onOpen",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#onOpen"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the floating layer and its components will be rendered.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 69,
+                          "offset": 68
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 69,
+                      "offset": 68
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 80,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 86,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 87,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 87,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000087"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "open",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "open",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#open"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The scrim type. It can be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'transparent'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 49,
+                              "offset": 48
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 49,
+                              "offset": 48
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 51,
+                              "offset": 50
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'translucent'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 51,
+                              "offset": 50
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'none'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 71,
+                              "offset": 70
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 79,
+                              "offset": 78
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 79,
+                              "offset": 78
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 80,
+                              "offset": 79
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 80,
+                          "offset": 79
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 80,
+                      "offset": 79
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'translucent'",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 89,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 95,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 96,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 96,
+                      "column": 68
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+                  "sortKey": "undefined 00000096"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "scrimType",
+                "memberof": "ui/FloatingLayer.FloatingLayerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/FloatingLayer",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FloatingLayerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "scrimType",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/FloatingLayerFloatingLayerBase#scrimType"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/FloatingLayer",
+              "kind": "module"
+            },
+            {
+              "name": "FloatingLayerBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/FloatingLayerFloatingLayerBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/FloatingLayer.FloatingLayer",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/FloatingLayer.FloatingLayer"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 39,
+                        "offset": 38
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a component that creates an entry point to the new\nrender tree. This is used for modal components such as popups.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 39,
+                        "offset": 38
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 63,
+                        "offset": 155
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 63,
+                    "offset": 155
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 63,
+                "offset": 155
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "FloatingLayer"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/FloatingLayer",
+              "lineNumber": 5
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 7,
+              "name": "ui/Cancelable.Cancelable"
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 234,
+              "column": 0
+            },
+            "end": {
+              "line": 243,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 244,
+                "column": 0
+              },
+              "end": {
+                "line": 244,
+                "column": 91
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/FloatingLayer/FloatingLayer.js",
+            "sortKey": "undefined 00000244"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "FloatingLayer",
+          "memberof": "ui/FloatingLayer",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/FloatingLayer",
+              "kind": "module"
+            },
+            {
+              "name": "FloatingLayer",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/FloatingLayerFloatingLayer"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/FloatingLayer",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/FloatingLayer"
+  }
+]

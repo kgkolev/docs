@@ -1,0 +1,1758 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Cancelable.Cancelable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Cancelable.Cancelable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "end": {
+                  "line": 1,
+                  "column": 75,
+                  "offset": 74
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 75,
+              "offset": 74
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 75,
+          "offset": 74
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "ui/Cancelable"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 66
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Cancelable",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/Cancelable.Cancelable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Cancelable.Cancelable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that allows mapping\na cancel key event to existing event handler either directly or via a custom function which can\nadapt the event payload.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 25,
+                        "offset": 201
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 25,
+                    "offset": 201
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 203
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 5,
+                        "offset": 207
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onCancel",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 5,
+                        "offset": 207
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 15,
+                        "offset": 217
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " config option is required.",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 15,
+                        "offset": 217
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 42,
+                        "offset": 244
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 203
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 42,
+                    "offset": 244
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 42,
+                "offset": 244
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 7,
+              "type": null,
+              "name": "Cancelable"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Cancelable",
+              "lineNumber": 8
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 9
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 10
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 66,
+              "column": 0
+            },
+            "end": {
+              "line": 77,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 78,
+                "column": 0
+              },
+              "end": {
+                "line": 163,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+            "sortKey": "undefined 00000078"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 9
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Cancelable",
+          "memberof": "ui/Cancelable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Cancelable.Cancelable",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Cancelable.Cancelable"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 52,
+                          "offset": 51
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 52,
+                      "offset": 51
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/Cancelable.Cancelable",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 61,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+                  "sortKey": "undefined 00000023"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/Cancelable.Cancelable",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "If it is a string, the cancel handler will attempt to invoke a function passed as a prop of\nthat name. If it is a function, that function will be called with the current props as the\nonly argument.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 15,
+                                    "offset": 197
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 3,
+                                "column": 15,
+                                "offset": 197
+                              },
+                              "indent": [
+                                1,
+                                1
+                              ]
+                            }
+                          },
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "If the function handles the cancel action, it should returning ",
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 1,
+                                    "offset": 199
+                                  },
+                                  "end": {
+                                    "line": 5,
+                                    "column": 64,
+                                    "offset": 262
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "true",
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 64,
+                                    "offset": 262
+                                  },
+                                  "end": {
+                                    "line": 5,
+                                    "column": 70,
+                                    "offset": 268
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to prevent container or\n",
+                                "position": {
+                                  "start": {
+                                    "line": 5,
+                                    "column": 70,
+                                    "offset": 268
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 1,
+                                    "offset": 293
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "modal",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 1,
+                                    "offset": 293
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 8,
+                                    "offset": 300
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " Cancelable instances from also handling the action.",
+                                "position": {
+                                  "start": {
+                                    "line": 6,
+                                    "column": 8,
+                                    "offset": 300
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 60,
+                                    "offset": 352
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 5,
+                                "column": 1,
+                                "offset": 199
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 60,
+                                "offset": 352
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 60,
+                            "offset": 352
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 8,
+                          "type": {
+                            "type": "UnionType",
+                            "elements": [
+                              {
+                                "type": "NameExpression",
+                                "name": "String"
+                              },
+                              {
+                                "type": "NameExpression",
+                                "name": "Function"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "required",
+                          "description": null,
+                          "lineNumber": 9
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Cancelable.Cancelable.defaultConfig",
+                          "lineNumber": 10
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 24,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 36,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 36,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+                        "sortKey": "undefined 00000036"
+                      },
+                      "augments": [],
+                      "errors": [
+                        {
+                          "message": "unknown tag @required",
+                          "commentLineNumber": 9
+                        }
+                      ],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Cancelable.Cancelable.defaultConfig",
+                      "name": "onCancel",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Cancelable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Cancelable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "onCancel"
+                        }
+                      ],
+                      "namespace": "ui/CancelableCancelabledefaultConfigonCancel"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "When ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 6,
+                                    "offset": 5
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "true",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 6,
+                                    "offset": 5
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 12,
+                                    "offset": 11
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ", the Cancelable instance will handle cancel events globally that successfully\nbubble up to ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 12,
+                                    "offset": 11
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 14,
+                                    "offset": 103
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "window",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 14,
+                                    "offset": 103
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 22,
+                                    "offset": 111
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " regardless of which component is focused.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 22,
+                                    "offset": 111
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 64,
+                                    "offset": 153
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 64,
+                                "offset": 153
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          },
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "inlineCode",
+                                "value": "modal",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 1,
+                                    "offset": 155
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 8,
+                                    "offset": 162
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " cancel handlers are processed in reverse of the order they are created such that the\ninnermost instance (in terms of the component hierarchy) have the first opportunity to handle\nthe event before its container components.",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 8,
+                                    "offset": 162
+                                  },
+                                  "end": {
+                                    "line": 6,
+                                    "column": 43,
+                                    "offset": 384
+                                  },
+                                  "indent": [
+                                    1,
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 4,
+                                "column": 1,
+                                "offset": 155
+                              },
+                              "end": {
+                                "line": 6,
+                                "column": 43,
+                                "offset": 384
+                              },
+                              "indent": [
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 6,
+                            "column": 43,
+                            "offset": 384
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 8,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "false",
+                          "lineNumber": 9
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Cancelable.Cancelable.defaultConfig",
+                          "lineNumber": 10
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 38,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 49,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 50,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 50,
+                            "column": 13
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+                        "sortKey": "undefined 00000050"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Cancelable.Cancelable.defaultConfig",
+                      "name": "modal",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Cancelable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Cancelable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "modal"
+                        }
+                      ],
+                      "namespace": "ui/CancelableCancelabledefaultConfigmodal"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "When set, the Wrapped component will be contained within an instance of ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 73,
+                                    "offset": 72
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "component",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 73,
+                                    "offset": 72
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 84,
+                                    "offset": 83
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ". This may\nbe necessary if the props passed to Wrapped are not placed on the root element.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 84,
+                                    "offset": 83
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 80,
+                                    "offset": 173
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 80,
+                                "offset": 173
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 80,
+                            "offset": 173
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "UnionType",
+                            "elements": [
+                              {
+                                "type": "NameExpression",
+                                "name": "String"
+                              },
+                              {
+                                "type": "NameExpression",
+                                "name": "Function"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "null",
+                          "lineNumber": 5
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Cancelable.Cancelable.defaultConfig",
+                          "lineNumber": 6
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 52,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 59,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 60,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 60,
+                            "column": 16
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/Cancelable.js",
+                        "sortKey": "undefined 00000060"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Cancelable.Cancelable.defaultConfig",
+                      "name": "component",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Cancelable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Cancelable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "component"
+                        }
+                      ],
+                      "namespace": "ui/CancelableCancelabledefaultConfigcomponent"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/Cancelable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Cancelable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/CancelableCancelabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/Cancelable",
+              "kind": "module"
+            },
+            {
+              "name": "Cancelable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/CancelableCancelable"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Adds an event handler to filter cancel events.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 47,
+                    "offset": 46
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 47,
+                "offset": 46
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "function",
+              "description": null,
+              "lineNumber": 3,
+              "name": null
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Cancelable",
+              "lineNumber": 4
+            },
+            {
+              "title": "param",
+              "description": "Function that will receive the event and should return `false` if\n\t\t\t\t\t\t\tthe event is a cancel event.",
+              "lineNumber": 5,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              },
+              "name": "handler"
+            },
+            {
+              "title": "returns",
+              "description": null,
+              "lineNumber": 7,
+              "type": {
+                "type": "UndefinedLiteral"
+              }
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 45,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 46,
+                "column": 0
+              },
+              "end": {
+                "line": 50,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/cancelHandler.js",
+            "sortKey": "undefined 00000046"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "handler",
+              "lineNumber": 5,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Function that will receive the event and should return ",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "inlineCode",
+                        "value": "false",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                          },
+                          "indent": []
+                        }
+                      },
+                      {
+                        "type": "text",
+                        "value": " if\n\t\t\t\t\t\t\tthe event is a cancel event.",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 63,
+                            "offset": 62
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 101
+                          },
+                          "indent": [
+                            1
+                          ]
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 36,
+                        "offset": 101
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 36,
+                    "offset": 101
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "properties": [],
+          "returns": [
+            {
+              "description": {
+                "type": "root",
+                "children": [],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  }
+                }
+              },
+              "title": "returns",
+              "type": {
+                "type": "UndefinedLiteral"
+              }
+            }
+          ],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "function",
+          "memberof": "ui/Cancelable",
+          "access": "public",
+          "name": "addCancelHandler",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Cancelable",
+              "kind": "module"
+            },
+            {
+              "name": "addCancelHandler",
+              "kind": "function"
+            }
+          ],
+          "namespace": "ui/CancelableaddCancelHandler"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Removes an event handler to filter cancel events",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 49,
+                        "offset": 48
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 49,
+                    "offset": 48
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 49,
+                "offset": 48
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "function",
+              "description": null,
+              "lineNumber": 3,
+              "name": null
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Cancelable",
+              "lineNumber": 4
+            },
+            {
+              "title": "param",
+              "description": "A previously added filter function",
+              "lineNumber": 5,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              },
+              "name": "handler"
+            },
+            {
+              "title": "returns",
+              "description": null,
+              "lineNumber": 6,
+              "type": {
+                "type": "UndefinedLiteral"
+              }
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 0
+            },
+            "end": {
+              "line": 60,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 61,
+                "column": 0
+              },
+              "end": {
+                "line": 66,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Cancelable/cancelHandler.js",
+            "sortKey": "undefined 00000061"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "handler",
+              "lineNumber": 5,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "A previously added filter function",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 35,
+                            "offset": 34
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 35,
+                        "offset": 34
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 35,
+                    "offset": 34
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "properties": [],
+          "returns": [
+            {
+              "description": {
+                "type": "root",
+                "children": [],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  }
+                }
+              },
+              "title": "returns",
+              "type": {
+                "type": "UndefinedLiteral"
+              }
+            }
+          ],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "function",
+          "memberof": "ui/Cancelable",
+          "access": "public",
+          "name": "removeCancelHandler",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Cancelable",
+              "kind": "module"
+            },
+            {
+              "name": "removeCancelHandler",
+              "kind": "function"
+            }
+          ],
+          "namespace": "ui/CancelableremoveCancelHandler"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Cancelable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Cancelable"
+  }
+]

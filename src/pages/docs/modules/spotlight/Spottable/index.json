@@ -1,0 +1,2265 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "spotlight/Spottable.Spottable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "spotlight/Spottable.Spottable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 50,
+                  "offset": 49
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component and\nthe ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 50,
+                  "offset": 49
+                },
+                "end": {
+                  "line": 2,
+                  "column": 5,
+                  "offset": 81
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "spotlight/Spottable.spottableClass",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "spotlight/Spottable.spottableClass"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 5,
+                  "offset": 81
+                },
+                "end": {
+                  "line": 2,
+                  "column": 47,
+                  "offset": 123
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " ",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 47,
+                  "offset": 123
+                },
+                "end": {
+                  "line": 2,
+                  "column": 48,
+                  "offset": 124
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "inlineCode",
+              "value": "className",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 48,
+                  "offset": 124
+                },
+                "end": {
+                  "line": 2,
+                  "column": 59,
+                  "offset": 135
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ". The default export is\n",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 59,
+                  "offset": 135
+                },
+                "end": {
+                  "line": 3,
+                  "column": 1,
+                  "offset": 159
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "spotlight/Spottable.Spottable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "spotlight/Spottable.Spottable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 1,
+                  "offset": 159
+                },
+                "end": {
+                  "line": 3,
+                  "column": 38,
+                  "offset": 196
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 38,
+                  "offset": 196
+                },
+                "end": {
+                  "line": 3,
+                  "column": 39,
+                  "offset": 197
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 39,
+              "offset": 197
+            },
+            "indent": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 39,
+          "offset": 197
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 5,
+        "type": null,
+        "name": "spotlight/Spottable"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 71
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "spotlight/Spottable",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The class name for spottable components. In general, you do not need to directly access this class",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 99,
+                        "offset": 98
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 99,
+                    "offset": 98
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 99,
+                "offset": 98
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "spotlight/Spottable",
+              "lineNumber": 3
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 4
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 24,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 25,
+                "column": 0
+              },
+              "end": {
+                "line": 25,
+                "column": 35
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+            "sortKey": "undefined 00000025"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "spotlight/Spottable",
+          "access": "public",
+          "name": "spottableClass",
+          "kind": "constant",
+          "type": {
+            "type": "NameExpression",
+            "name": "string"
+          },
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "spotlight/Spottable",
+              "kind": "module"
+            },
+            {
+              "name": "spottableClass",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "spotlight/SpottablespottableClass"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Constructs a Spotlight 5-way navigation-enabled Higher-order Component.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 72,
+                        "offset": 71
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 72,
+                    "offset": 71
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Example:",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 73
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 9,
+                        "offset": 81
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 73
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 9,
+                    "offset": 81
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "const SpottableComponent = Spottable(Component);",
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 82
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 4,
+                    "offset": 138
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 4,
+                "offset": 138
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 7,
+              "type": null,
+              "name": "Spottable"
+            },
+            {
+              "title": "memberof",
+              "description": "spotlight/Spottable",
+              "lineNumber": 8
+            },
+            {
+              "title": "param",
+              "description": "Set of default configuration parameters",
+              "lineNumber": 9,
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              "name": "defaultConfig"
+            },
+            {
+              "title": "param",
+              "description": "Component to wrap",
+              "lineNumber": 10,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              },
+              "name": "Wrapped"
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 12
+            },
+            {
+              "title": "returns",
+              "description": "Spottable",
+              "lineNumber": 13,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 72,
+              "column": 0
+            },
+            "end": {
+              "line": 86,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 87,
+                "column": 0
+              },
+              "end": {
+                "line": 372,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+            "sortKey": "undefined 00000087"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 12
+            }
+          ],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "defaultConfig",
+              "lineNumber": 9,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Set of default configuration parameters",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 40,
+                            "offset": 39
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 40,
+                    "offset": 39
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              }
+            },
+            {
+              "title": "param",
+              "name": "Wrapped",
+              "lineNumber": 10,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Component to wrap",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 18,
+                        "offset": 17
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 18,
+                    "offset": 17
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "properties": [],
+          "returns": [
+            {
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Spottable",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 10,
+                            "offset": 9
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 10,
+                        "offset": 9
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 10,
+                    "offset": 9
+                  }
+                }
+              },
+              "title": "returns",
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Spottable",
+          "memberof": "spotlight/Spottable",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Whether or not the component is in a disabled state.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 53,
+                          "offset": 52
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 53,
+                      "offset": 52
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 94,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 100,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 101,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 101,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000101"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the component is removed while retaining focus.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 72,
+                          "offset": 71
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 72,
+                      "offset": 71
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 103,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 109,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 110,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 110,
+                      "column": 39
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000110"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightDisappear",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightDisappear",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#onSpotlightDisappear"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the 5-way down key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 112,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 118,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 119,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 119,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000119"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightDown",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightDown",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#onSpotlightDown"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the 5-way left key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 121,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 127,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 128,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 128,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000128"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightLeft",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightLeft",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#onSpotlightLeft"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the 5-way right key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 56,
+                              "offset": 55
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 56,
+                          "offset": 55
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 56,
+                      "offset": 55
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 130,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 136,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 137,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 137,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000137"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightRight",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightRight",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#onSpotlightRight"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the 5-way up key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 53,
+                          "offset": 52
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 53,
+                      "offset": 52
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 139,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 145,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 146,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 146,
+                      "column": 32
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000146"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightUp",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightUp",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#onSpotlightUp"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the component cannot be navigated using spotlight.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 64,
+                          "offset": 63
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 64,
+                      "offset": 63
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 148,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 154,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 155,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 155,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000155"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "spotlightDisabled",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "spotlightDisabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#spotlightDisabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The tabIndex of the component. This value will default to -1 if left\nunset and the control is spottable.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 104
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 36,
+                          "offset": 104
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 36,
+                      "offset": 104
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 157,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 163,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 164,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 164,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000164"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "tabIndex",
+                "memberof": "spotlight/Spottable.Spottable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "tabIndex",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottable#tabIndex"
+              }
+            ],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default configuration for Spottable",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 36,
+                          "offset": 35
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 36,
+                      "offset": 35
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Spottable.Spottable",
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 53,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 59,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 70,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                  "sortKey": "undefined 00000059"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 3
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "spotlight/Spottable.Spottable",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Whether or not the component should emulate mouse events as a response\nto Spotlight 5-way events.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 27,
+                                    "offset": 97
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 27,
+                                "offset": 97
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 27,
+                            "offset": 97
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Boolean"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "false",
+                          "lineNumber": 5
+                        },
+                        {
+                          "title": "public",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": null
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "spotlight/Spottable.Spottable.defaultConfig",
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 60,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 68,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 69,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 69,
+                            "column": 19
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Spottable/Spottable.js",
+                        "sortKey": "undefined 00000069"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "access": "public",
+                      "memberof": "spotlight/Spottable.Spottable.defaultConfig",
+                      "name": "emulateMouse",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "spotlight/Spottable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Spottable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "emulateMouse"
+                        }
+                      ],
+                      "namespace": "spotlight/SpottableSpottabledefaultConfigemulateMouse"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Spottable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spottable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "spotlight/SpottableSpottabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "spotlight/Spottable",
+              "kind": "module"
+            },
+            {
+              "name": "Spottable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "spotlight/SpottableSpottable"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "spotlight/Spottable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "spotlight/Spottable"
+  }
+]

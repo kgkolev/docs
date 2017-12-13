@@ -1,0 +1,993 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "i18n/Uppercase.Uppercase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "i18n/Uppercase.Uppercase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-Order Component (HOC)",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "end": {
+                  "line": 1,
+                  "column": 74,
+                  "offset": 73
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 74,
+              "offset": 73
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 74,
+          "offset": 73
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "i18n/Uppercase"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 55
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/Uppercase/Uppercase.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "i18n/Uppercase",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "i18n/Uppercase.Uppercase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "i18n/Uppercase.Uppercase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher Order Component that is used to wrap\nan element to provide locale-aware uppercasing of ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 51,
+                        "offset": 132
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "children",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 51,
+                        "offset": 132
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 61,
+                        "offset": 142
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ", provided that ",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 61,
+                        "offset": 142
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 77,
+                        "offset": 158
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "children",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 77,
+                        "offset": 158
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 87,
+                        "offset": 168
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a single\nstring. Other values for ",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 87,
+                        "offset": 168
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 26,
+                        "offset": 206
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "children",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 26,
+                        "offset": 206
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 36,
+                        "offset": 216
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " are unchanged. It supports a ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 36,
+                        "offset": 216
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 66,
+                        "offset": 246
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "casing",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 66,
+                        "offset": 246
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 74,
+                        "offset": 254
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property which can be\nused to override the uppercase as-needed.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 74,
+                        "offset": 254
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 42,
+                        "offset": 318
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 42,
+                    "offset": 318
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "There are no configurable options on this HOC.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 320
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 47,
+                        "offset": 366
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 320
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 47,
+                    "offset": 366
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 47,
+                "offset": 366
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "Uppercase"
+            },
+            {
+              "title": "memberof",
+              "description": "i18n/Uppercase",
+              "lineNumber": 9
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 10
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 11
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 0
+            },
+            "end": {
+              "line": 27,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 28,
+                "column": 0
+              },
+              "end": {
+                "line": 92,
+                "column": 4
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/Uppercase/Uppercase.js",
+            "sortKey": "undefined 00000028"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 10
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Uppercase",
+          "memberof": "i18n/Uppercase",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Configures the mode of uppercasing that should be performed. Options are:\n  ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 3,
+                              "offset": 76
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'upper'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 3,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 85
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to capitalize all characters.\n  ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 12,
+                              "offset": 85
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 3,
+                              "offset": 118
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'preserve'",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 3,
+                              "offset": 118
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 130
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to maintain the original casing.\n  ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 130
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 3,
+                              "offset": 166
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'word'",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 3,
+                              "offset": 166
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 11,
+                              "offset": 174
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to capitalize the first letter of each word.\n  ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 11,
+                              "offset": 174
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 3,
+                              "offset": 222
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'sentence'",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 3,
+                              "offset": 222
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 15,
+                              "offset": 234
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to capitalize the first letter of the string.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 15,
+                              "offset": 234
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 61,
+                              "offset": 280
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 61,
+                          "offset": 280
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 61,
+                      "offset": 280
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'upper'",
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 42,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 43,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 43,
+                      "column": 68
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/Uppercase/Uppercase.js",
+                  "sortKey": "undefined 00000043"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "casing",
+                "memberof": "i18n/Uppercase.Uppercase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "i18n/Uppercase",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Uppercase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "casing",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "i18n/UppercaseUppercase#casing"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The children string will be uppercased, unless this is set to true.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "deprecated",
+                    "description": "replaced by `casing`",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 45,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 53,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 53,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/Uppercase/Uppercase.js",
+                  "sortKey": "undefined 00000053"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "deprecated": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "replaced by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "casing",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 13,
+                              "offset": 12
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 21,
+                              "offset": 20
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 21,
+                          "offset": 20
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 21,
+                      "offset": 20
+                    }
+                  }
+                },
+                "access": "public",
+                "name": "preserveCase",
+                "memberof": "i18n/Uppercase.Uppercase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "i18n/Uppercase",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Uppercase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "preserveCase",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "i18n/UppercaseUppercase#preserveCase"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "i18n/Uppercase",
+              "kind": "module"
+            },
+            {
+              "name": "Uppercase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "i18n/UppercaseUppercase"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "i18n/Uppercase",
+        "kind": "module"
+      }
+    ],
+    "namespace": "i18n/Uppercase"
+  }
+]

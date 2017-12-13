@@ -1,0 +1,2202 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Toggleable.Toggleable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Toggleable.Toggleable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 45,
+                  "offset": 44
+                },
+                "end": {
+                  "line": 1,
+                  "column": 75,
+                  "offset": 74
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 75,
+              "offset": 74
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 75,
+          "offset": 74
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "ui/Toggleable"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 60
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Toggleable",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/Toggleable.Toggleable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Toggleable.Toggleable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that applies a 'Toggleable' behavior\nto its wrapped component.  Its default event and property can be configured when applied to a component.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 33,
+                        "offset": 32
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 105,
+                        "offset": 202
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 105,
+                    "offset": 202
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, Toggleable applies the ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 204
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 36,
+                        "offset": 239
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "active",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 36,
+                        "offset": 239
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 44,
+                        "offset": 247
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property on click events.",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 44,
+                        "offset": 247
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 70,
+                        "offset": 273
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 204
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 70,
+                    "offset": 273
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 4,
+                "column": 70,
+                "offset": 273
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 6,
+              "type": null,
+              "name": "Toggleable"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Toggleable",
+              "lineNumber": 7
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 8
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 9
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 0
+            },
+            "end": {
+              "line": 75,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 76,
+                "column": 0
+              },
+              "end": {
+                "line": 198,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+            "sortKey": "undefined 00000076"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 8
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Toggleable",
+          "memberof": "ui/Toggleable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default toggled state applied at construction when the toggled prop is ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "undefined",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 86
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 86
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 7,
+                              "offset": 92
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 7,
+                              "offset": 92
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 93
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 8,
+                          "offset": 93
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 8,
+                      "offset": 93
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 82,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 89,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 90,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 90,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                  "sortKey": "undefined 00000090"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "defaultPropKey",
+                "memberof": "ui/Toggleable.Toggleable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Toggleable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Toggleable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultPropKey",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ToggleableToggleable#defaultPropKey"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Current toggled state. When set at construction, the component is considered\n\"controlled\" and will only update its internal value when updated by new props. If\nundefined, the component is \"uncontrolled\" and ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 207
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "Toggleable",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 207
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 219
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will manage the toggled\nstate using callbacks defined by its configuration.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 60,
+                              "offset": 219
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 52,
+                              "offset": 295
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 52,
+                          "offset": 295
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 52,
+                      "offset": 295
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 92,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 100,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 101,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 101,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                  "sortKey": "undefined 00000101"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "prop",
+                "memberof": "ui/Toggleable.Toggleable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Toggleable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Toggleable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "prop",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ToggleableToggleable#prop"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Event callback to notify that state should be toggled.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 103,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 108,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 109,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 109,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                  "sortKey": "undefined 00000109"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "toggle",
+                "memberof": "ui/Toggleable.Toggleable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Toggleable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Toggleable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "toggle",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ToggleableToggleable#toggle"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Whether or not the component is in a disabled state.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 53,
+                          "offset": 52
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 53,
+                      "offset": 52
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 111,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 116,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 117,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 117,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                  "sortKey": "undefined 00000117"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "ui/Toggleable.Toggleable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Toggleable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Toggleable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/ToggleableToggleable#disabled"
+              }
+            ],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Toggleable.Toggleable",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Toggleable.Toggleable"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 52,
+                          "offset": 51
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 52,
+                      "offset": 51
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/Toggleable.Toggleable",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 17,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 22,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 23,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 63,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                  "sortKey": "undefined 00000023"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/Toggleable.Toggleable",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the event name that activates the component.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 56,
+                                    "offset": 55
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 56,
+                                "offset": 55
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Note: When using ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 1,
+                                    "offset": 57
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 18,
+                                    "offset": 74
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "activate",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 18,
+                                    "offset": 74
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 84
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": "/",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 84
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 29,
+                                    "offset": 85
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "deactivate",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 29,
+                                    "offset": 85
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 41,
+                                    "offset": 97
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " instead of ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 41,
+                                    "offset": 97
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 53,
+                                    "offset": 109
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "toggle",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 53,
+                                    "offset": 109
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 61,
+                                    "offset": 117
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ", set ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 61,
+                                    "offset": 117
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 67,
+                                    "offset": 123
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "toggle",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 67,
+                                    "offset": 123
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 75,
+                                    "offset": 131
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 75,
+                                    "offset": 131
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 79,
+                                    "offset": 135
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "null",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 79,
+                                    "offset": 135
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 85,
+                                    "offset": 141
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to\nprevent passing the default ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 85,
+                                    "offset": 141
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 29,
+                                    "offset": 173
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onToggle",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 29,
+                                    "offset": 173
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 183
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " prop to the wrapped component.",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 183
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 70,
+                                    "offset": 214
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 3,
+                                "column": 1,
+                                "offset": 57
+                              },
+                              "end": {
+                                "line": 4,
+                                "column": 70,
+                                "offset": 214
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 70,
+                            "offset": 214
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Toggleable.Toggleable.defaultConfig",
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 24,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 32,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 33,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 33,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                        "sortKey": "undefined 00000033"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Toggleable.Toggleable.defaultConfig",
+                      "name": "activate",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Toggleable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Toggleable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "activate"
+                        }
+                      ],
+                      "namespace": "ui/ToggleableToggleabledefaultConfigactivate"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the event name that deactivates the component.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 58,
+                                    "offset": 57
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 58,
+                                "offset": 57
+                              },
+                              "indent": []
+                            }
+                          },
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Note: When using ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 1,
+                                    "offset": 59
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 18,
+                                    "offset": 76
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "activate",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 18,
+                                    "offset": 76
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 86
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": "/",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 28,
+                                    "offset": 86
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 29,
+                                    "offset": 87
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "deactivate",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 29,
+                                    "offset": 87
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 41,
+                                    "offset": 99
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " instead of ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 41,
+                                    "offset": 99
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 53,
+                                    "offset": 111
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "toggle",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 53,
+                                    "offset": 111
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 61,
+                                    "offset": 119
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ", set ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 61,
+                                    "offset": 119
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 67,
+                                    "offset": 125
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "toggle",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 67,
+                                    "offset": 125
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 75,
+                                    "offset": 133
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 75,
+                                    "offset": 133
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 79,
+                                    "offset": 137
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "null",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 79,
+                                    "offset": 137
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 85,
+                                    "offset": 143
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to\nprevent passing the default ",
+                                "position": {
+                                  "start": {
+                                    "line": 3,
+                                    "column": 85,
+                                    "offset": 143
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 29,
+                                    "offset": 175
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "onToggle",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 29,
+                                    "offset": 175
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 185
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " prop to the wrapped component.",
+                                "position": {
+                                  "start": {
+                                    "line": 4,
+                                    "column": 39,
+                                    "offset": 185
+                                  },
+                                  "end": {
+                                    "line": 4,
+                                    "column": 70,
+                                    "offset": 216
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 3,
+                                "column": 1,
+                                "offset": 59
+                              },
+                              "end": {
+                                "line": 4,
+                                "column": 70,
+                                "offset": 216
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 70,
+                            "offset": 216
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 6,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Toggleable.Toggleable.defaultConfig",
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 43,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 44,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 44,
+                            "column": 17
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                        "sortKey": "undefined 00000044"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Toggleable.Toggleable.defaultConfig",
+                      "name": "deactivate",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Toggleable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Toggleable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "deactivate"
+                        }
+                      ],
+                      "namespace": "ui/ToggleableToggleabledefaultConfigdeactivate"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the event name that toggles the component.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 54,
+                                    "offset": 53
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 54,
+                                "offset": 53
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 54,
+                            "offset": 53
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'onToggle'",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Toggleable.Toggleable.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 46,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 52,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 53,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 53,
+                            "column": 19
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                        "sortKey": "undefined 00000053"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Toggleable.Toggleable.defaultConfig",
+                      "name": "toggle",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Toggleable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Toggleable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "toggle"
+                        }
+                      ],
+                      "namespace": "ui/ToggleableToggleabledefaultConfigtoggle"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the property that is passed to the wrapped component when toggled.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 78,
+                                    "offset": 77
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 78,
+                                "offset": 77
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 78,
+                            "offset": 77
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'active'",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Toggleable.Toggleable.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 55,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 61,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 62,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 62,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Toggleable/Toggleable.js",
+                        "sortKey": "undefined 00000062"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Toggleable.Toggleable.defaultConfig",
+                      "name": "prop",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Toggleable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Toggleable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "prop"
+                        }
+                      ],
+                      "namespace": "ui/ToggleableToggleabledefaultConfigprop"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/Toggleable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Toggleable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/ToggleableToggleabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/Toggleable",
+              "kind": "module"
+            },
+            {
+              "name": "Toggleable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/ToggleableToggleable"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Toggleable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Toggleable"
+  }
+]

@@ -1,0 +1,1809 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Contains the declaration for the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 34,
+                  "offset": 33
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/SwitchItem.SwitchItem",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/SwitchItem.SwitchItem"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 34,
+                  "offset": 33
+                },
+                "end": {
+                  "line": 1,
+                  "column": 73,
+                  "offset": 72
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component.",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 73,
+                  "offset": 72
+                },
+                "end": {
+                  "line": 1,
+                  "column": 84,
+                  "offset": 83
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 84,
+              "offset": 83
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 84,
+          "offset": 83
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "moonstone/SwitchItem"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 36
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/SwitchItem",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/SwitchItem.SwitchItemBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/SwitchItem.SwitchItemBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 44,
+                        "offset": 43
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " represents a Boolean state. It displays a descriptive\ntext and has a switch that represents the on/off state.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 44,
+                        "offset": 43
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 56,
+                        "offset": 153
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 56,
+                    "offset": 153
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 56,
+                "offset": 153
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "SwitchItemBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/SwitchItem",
+              "lineNumber": 5
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 0
+            },
+            "end": {
+              "line": 26,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 27,
+                "column": 0
+              },
+              "end": {
+                "line": 104,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+            "sortKey": "undefined 00000027"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "SwitchItemBase",
+          "memberof": "moonstone/SwitchItem",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The string to be displayed as the main content of the switch item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 67,
+                              "offset": 66
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 67,
+                          "offset": 66
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 67,
+                      "offset": 66
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 36,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 37,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 39
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000037"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a disabled visual state is applied to the switch item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 39,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 45,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 46,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 46,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000046"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When true, inline styling is applied to the switch item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 57,
+                          "offset": 56
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 57,
+                      "offset": 56
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 48,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 55,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 55,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000055"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "inline",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "inline",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#inline"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the switch item is toggled.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 52,
+                          "offset": 51
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 52,
+                      "offset": 51
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "param",
+                    "description": "Selected value of item.",
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    },
+                    "name": "event.selected"
+                  },
+                  {
+                    "title": "param",
+                    "description": "Value passed from `value` prop.",
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "AllLiteral"
+                    },
+                    "name": "event.value"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 57,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 65,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 66,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 66,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000066"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "properties": [
+                      {
+                        "title": "param",
+                        "name": "event.selected",
+                        "lineNumber": 5,
+                        "description": {
+                          "type": "root",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Selected value of item.",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 1,
+                                      "offset": 0
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 24,
+                                      "offset": 23
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 24,
+                                  "offset": 23
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            }
+                          }
+                        },
+                        "type": {
+                          "type": "NameExpression",
+                          "name": "String"
+                        }
+                      },
+                      {
+                        "title": "param",
+                        "name": "event.value",
+                        "lineNumber": 6,
+                        "description": {
+                          "type": "root",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Value passed from ",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 1,
+                                      "offset": 0
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 19,
+                                      "offset": 18
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "value",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 19,
+                                      "offset": 18
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 26,
+                                      "offset": 25
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " prop.",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 26,
+                                      "offset": 25
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 32,
+                                      "offset": 31
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 32,
+                                  "offset": 31
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            }
+                          }
+                        },
+                        "type": {
+                          "type": "AllLiteral"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onToggle",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onToggle",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#onToggle"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the dispalyed \"switch\" icon is set to the \"on\" position.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 70,
+                          "offset": 69
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 70,
+                      "offset": 69
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 68,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 73,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 74,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 74,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000074"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#selected"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The value that will be sent to the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onToggle",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " handler.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "''",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 76,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 83,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 83,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+                  "sortKey": "undefined 00000083"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "value",
+                "memberof": "moonstone/SwitchItem.SwitchItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/SwitchItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SwitchItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "value",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SwitchItemSwitchItemBase#value"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/SwitchItem",
+              "kind": "module"
+            },
+            {
+              "name": "SwitchItemBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/SwitchItemSwitchItemBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/SwitchItem.SwitchItem",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/SwitchItem.SwitchItem"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " represents a Boolean state. It displays a descriptive\ntext and has a switch that represents the on/off state.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 56,
+                        "offset": 149
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 56,
+                    "offset": 149
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 151
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 13,
+                        "offset": 163
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "SwitchItem",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 13,
+                        "offset": 163
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 25,
+                        "offset": 175
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 25,
+                        "offset": 175
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 203
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 203
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 63,
+                        "offset": 213
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the\n",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 63,
+                        "offset": 213
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 235
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultSelected",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 235
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 18,
+                        "offset": 252
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to control its initial value. If you wish to directly control updates\nto the component, supply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 18,
+                        "offset": 252
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 37,
+                        "offset": 368
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 37,
+                        "offset": 368
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 47,
+                        "offset": 378
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 47,
+                        "offset": 378
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 1,
+                        "offset": 425
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onToggle",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 1,
+                        "offset": 425
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 11,
+                        "offset": 435
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 11,
+                        "offset": 435
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 19,
+                        "offset": 443
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 151
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 19,
+                    "offset": 443
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 19,
+                "offset": 443
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 9,
+              "type": null,
+              "name": "SwitchItem"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/SwitchItem",
+              "lineNumber": 10
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 11,
+              "name": "ui/Toggleable.Toggleable"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 12
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 13
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 106,
+              "column": 0
+            },
+            "end": {
+              "line": 120,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 121,
+                "column": 0
+              },
+              "end": {
+                "line": 126,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/SwitchItem/SwitchItem.js",
+            "sortKey": "undefined 00000121"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 12
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "SwitchItem",
+          "memberof": "moonstone/SwitchItem",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/SwitchItem",
+              "kind": "module"
+            },
+            {
+              "name": "SwitchItem",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/SwitchItemSwitchItem"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/SwitchItem",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/SwitchItem"
+  }
+]

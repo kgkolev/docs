@@ -1,0 +1,1344 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/RadioDecorator.RadioDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/RadioDecorator.RadioDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 53,
+                  "offset": 52
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 53,
+                  "offset": 52
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 57
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/RadioDecorator.RadioControllerDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/RadioDecorator.RadioControllerDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 57
+                },
+                "end": {
+                  "line": 2,
+                  "column": 51,
+                  "offset": 107
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Components (HOCs).",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 51,
+                  "offset": 107
+                },
+                "end": {
+                  "line": 2,
+                  "column": 83,
+                  "offset": 139
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 83,
+              "offset": 139
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 83,
+          "offset": 139
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "ui/RadioDecorator"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 43
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/RadioDecorator",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/RadioDecorator.RadioDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/RadioDecorator.RadioDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that allows another\ncomponent to have a mutually exclusive relationship with other descendants of the same\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 176
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/RadioDecorator.RadioControllerDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/RadioDecorator.RadioControllerDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 176
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 51,
+                        "offset": 226
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 51,
+                        "offset": 226
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 52,
+                        "offset": 227
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 52,
+                    "offset": 227
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "When the ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 229
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 10,
+                        "offset": 238
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "activate",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 10,
+                        "offset": 238
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 20,
+                        "offset": 248
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " event for the wrapped component is called, the component is activated and the\npreviously activated component, if any, is deactivated by invoking the ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 20,
+                        "offset": 248
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 72,
+                        "offset": 398
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "deactivate",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 72,
+                        "offset": 398
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 84,
+                        "offset": 410
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " event.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 84,
+                        "offset": 410
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 91,
+                        "offset": 417
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 229
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 91,
+                    "offset": 417
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 91,
+                "offset": 417
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "RadioDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/RadioDecorator",
+              "lineNumber": 9
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 10
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 11
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 49,
+              "column": 0
+            },
+            "end": {
+              "line": 61,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 62,
+                "column": 0
+              },
+              "end": {
+                "line": 145,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+            "sortKey": "undefined 00000062"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 10
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "RadioDecorator",
+          "memberof": "ui/RadioDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/RadioDecorator.RadioDecorator",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/RadioDecorator.RadioDecorator"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 61,
+                          "offset": 60
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 61,
+                      "offset": 60
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/RadioDecorator.RadioDecorator",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 14,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 19,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 20,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+                  "sortKey": "undefined 00000020"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/RadioDecorator.RadioDecorator",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "The event indicating the wrapped component is activated",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 56,
+                                    "offset": 55
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 56,
+                                "offset": 55
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "null",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 21,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 27,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 28,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 28,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+                        "sortKey": "undefined 00000028"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                      "name": "activate",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/RadioDecorator",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "RadioDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "activate"
+                        }
+                      ],
+                      "namespace": "ui/RadioDecoratorRadioDecoratordefaultConfigactivate"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "The event indicating the wrapped component is deactivated",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 58,
+                                    "offset": 57
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 58,
+                                "offset": 57
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 58,
+                            "offset": 57
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "null",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 30,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 36,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 37,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 37,
+                            "column": 17
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+                        "sortKey": "undefined 00000037"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                      "name": "deactivate",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/RadioDecorator",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "RadioDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "deactivate"
+                        }
+                      ],
+                      "namespace": "ui/RadioDecoratorRadioDecoratordefaultConfigdeactivate"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "The name of a boolean prop that, when ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "true",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 45,
+                                    "offset": 44
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": ", should activate the wrapped component.",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 45,
+                                    "offset": 44
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 85,
+                                    "offset": 84
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 85,
+                                "offset": 84
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 85,
+                            "offset": 84
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'active'",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 39,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 45,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 46,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 46,
+                            "column": 15
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioDecorator.js",
+                        "sortKey": "undefined 00000046"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/RadioDecorator.RadioDecorator.defaultConfig",
+                      "name": "prop",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/RadioDecorator",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "RadioDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "prop"
+                        }
+                      ],
+                      "namespace": "ui/RadioDecoratorRadioDecoratordefaultConfigprop"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/RadioDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RadioDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/RadioDecoratorRadioDecoratordefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/RadioDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "RadioDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/RadioDecoratorRadioDecorator"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/RadioDecorator.RadioControllerDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/RadioDecorator.RadioControllerDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 51,
+                        "offset": 50
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that establishes\na radio group context for its descendants. Any descendants that are wrapped by\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 51,
+                        "offset": 50
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 175
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/RadioDecorator.RadioDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/RadioDecorator.RadioDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 175
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 41,
+                        "offset": 215
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " will be mutually exclusive.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 41,
+                        "offset": 215
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 69,
+                        "offset": 243
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 69,
+                    "offset": 243
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 69,
+                "offset": 243
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "RadioControllerDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/RadioDecorator",
+              "lineNumber": 6
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 44,
+              "column": 0
+            },
+            "end": {
+              "line": 53,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 54,
+                "column": 0
+              },
+              "end": {
+                "line": 114,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/RadioDecorator/RadioControllerDecorator.js",
+            "sortKey": "undefined 00000054"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "RadioControllerDecorator",
+          "memberof": "ui/RadioDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/RadioDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "RadioControllerDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/RadioDecoratorRadioControllerDecorator"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/RadioDecorator",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/RadioDecorator"
+  }
+]

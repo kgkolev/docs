@@ -1,0 +1,1499 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Skinnable.Skinnable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Skinnable.Skinnable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 43,
+                  "offset": 42
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 43,
+                  "offset": 42
+                },
+                "end": {
+                  "line": 1,
+                  "column": 73,
+                  "offset": 72
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 73,
+              "offset": 72
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "This is the base-level implementation of this component. It will typically never be accessed\ndirectly, and only be instantiated with a configuration once inside a visual-library like\n",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 1,
+                  "offset": 74
+                },
+                "end": {
+                  "line": 5,
+                  "column": 1,
+                  "offset": 257
+                },
+                "indent": [
+                  1,
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Skinnable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Skinnable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 5,
+                  "column": 1,
+                  "offset": 257
+                },
+                "end": {
+                  "line": 5,
+                  "column": 28,
+                  "offset": 284
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ". Interface libraries will supply a set of supported skins which will\nbe accessible to their components.",
+              "position": {
+                "start": {
+                  "line": 5,
+                  "column": 28,
+                  "offset": 284
+                },
+                "end": {
+                  "line": 6,
+                  "column": 35,
+                  "offset": 388
+                },
+                "indent": [
+                  1
+                ]
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 74
+            },
+            "end": {
+              "line": 6,
+              "column": 35,
+              "offset": 388
+            },
+            "indent": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 35,
+          "offset": 388
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 8,
+        "type": null,
+        "name": "ui/Skinnable"
+      },
+      {
+        "title": "public",
+        "description": null,
+        "lineNumber": 9
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 11,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 34
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+      "sortKey": "undefined 00000013"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Skinnable",
+    "access": "public",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "linkReference",
+                    "identifier": "skinnable",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Skinnable",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 2,
+                            "offset": 1
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 11,
+                            "offset": 10
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 12,
+                        "offset": 11
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Skinnable.Skinnable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Skinnable.Skinnable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 12,
+                        "offset": 11
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 42,
+                        "offset": 41
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that assigns skinning\nclasses for the purposes of styling children components.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 42,
+                        "offset": 41
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 57,
+                        "offset": 148
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 57,
+                    "offset": 148
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Use the config options to specify the skins your theme has. Set this up in your Theme's decorator\ncomponent to establish your supported skins.",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 150
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 45,
+                        "offset": 292
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 150
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 45,
+                    "offset": 292
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Example:",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 1,
+                        "offset": 294
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 9,
+                        "offset": 302
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 294
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 9,
+                    "offset": 302
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "App = Skinnable({\n\tskins: {\n\t\tdark: 'moonstone',\n\t\tlight: 'moonstone-light'\n\t},\n\tdefaultTheme: 'dark'\n}, App);",
+                "position": {
+                  "start": {
+                    "line": 8,
+                    "column": 1,
+                    "offset": 303
+                  },
+                  "end": {
+                    "line": 16,
+                    "column": 4,
+                    "offset": 421
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 16,
+                "column": 4,
+                "offset": 421
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 18,
+              "type": null,
+              "name": "Skinnable"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Skinnable",
+              "lineNumber": 19
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 20
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 21
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 54,
+              "column": 0
+            },
+            "end": {
+              "line": 76,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 77,
+                "column": 0
+              },
+              "end": {
+                "line": 183,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+            "sortKey": "undefined 00000077"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 20
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Skinnable",
+          "memberof": "ui/Skinnable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Select a skin by name. The list of available skins is established by the direct consumer\nof this component via the config options. This will typically be done once by the theme\ndecorator, like ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 17,
+                              "offset": 193
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "moonstonedecorator",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "MoonstoneDecorator",
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 18,
+                                  "offset": 194
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 36,
+                                  "offset": 212
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 17,
+                              "offset": 193
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 37,
+                              "offset": 213
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/MoonstoneDecorator",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/MoonstoneDecorator"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 37,
+                              "offset": 213
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 73,
+                              "offset": 249
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " which will\nsupply the list of skins.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 73,
+                              "offset": 249
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 26,
+                              "offset": 286
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 26,
+                          "offset": 286
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 26,
+                      "offset": 286
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 92,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 93,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 93,
+                      "column": 44
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+                  "sortKey": "undefined 00000093"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "skin",
+                "memberof": "ui/Skinnable.Skinnable",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/Skinnable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Skinnable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "skin",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/SkinnableSkinnable#skin"
+              }
+            ],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Skinnable.Skinnable",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Skinnable.Skinnable"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 51,
+                              "offset": 50
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 51,
+                          "offset": 50
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 51,
+                      "offset": 50
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/Skinnable.Skinnable",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 27,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 34,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+                  "sortKey": "undefined 00000034"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/Skinnable.Skinnable",
+                "access": "public",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "A hash mapping the available skin names to their CSS class name. The keys are accepted as\nthe only valid values for the ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 31,
+                                    "offset": 120
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "skin",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 31,
+                                    "offset": 120
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 37,
+                                    "offset": 126
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " prop on the wrapped component.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 37,
+                                    "offset": 126
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 68,
+                                    "offset": 157
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 68,
+                                "offset": 157
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 68,
+                            "offset": 157
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Object"
+                          }
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Skinnable.Skinnable.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 35,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 41,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 42,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 42,
+                            "column": 12
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+                        "sortKey": "undefined 00000042"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Skinnable.Skinnable.defaultConfig",
+                      "name": "skins",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Skinnable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Skinnable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "skins"
+                        }
+                      ],
+                      "namespace": "ui/SkinnableSkinnabledefaultConfigskins"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Assign a default skin from the ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 32,
+                                    "offset": 31
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "skins",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 32,
+                                    "offset": 31
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " list. This will be used if the instantiator of the\nwrapped component provides no value to the ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 39,
+                                    "offset": 38
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 44,
+                                    "offset": 133
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "skin",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 44,
+                                    "offset": 133
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 50,
+                                    "offset": 139
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " prop.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 50,
+                                    "offset": 139
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 56,
+                                    "offset": 145
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 56,
+                                "offset": 145
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 56,
+                            "offset": 145
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Skinnable.Skinnable.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 44,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 50,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 51,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 51,
+                            "column": 18
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+                        "sortKey": "undefined 00000051"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Skinnable.Skinnable.defaultConfig",
+                      "name": "defaultSkin",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Skinnable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Skinnable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "defaultSkin"
+                        }
+                      ],
+                      "namespace": "ui/SkinnableSkinnabledefaultConfigdefaultSkin"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/Skinnable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Skinnable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/SkinnableSkinnabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/Skinnable",
+              "kind": "module"
+            },
+            {
+              "name": "Skinnable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/SkinnableSkinnable"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Occasionally, there's a case where context isn't available or your component only updates on\nspecific props changes. This HOC supplies the relevant context state values as props. In this\ncase, ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 7,
+                        "offset": 193
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "skin",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 7,
+                        "offset": 193
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 199
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is avaliable as a prop to the wrapped component.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 199
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 62,
+                        "offset": 248
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 62,
+                    "offset": 248
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 62,
+                "offset": 248
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "withSkinnableProps"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Skinnable",
+              "lineNumber": 6
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 185,
+              "column": 0
+            },
+            "end": {
+              "line": 194,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 195,
+                "column": 0
+              },
+              "end": {
+                "line": 198,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Skinnable/Skinnable.js",
+            "sortKey": "undefined 00000195"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "withSkinnableProps",
+          "memberof": "ui/Skinnable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Skinnable",
+              "kind": "module"
+            },
+            {
+              "name": "withSkinnableProps",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/SkinnablewithSkinnableProps"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Skinnable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Skinnable"
+  }
+]

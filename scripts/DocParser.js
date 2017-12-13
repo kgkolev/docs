@@ -33,7 +33,7 @@ const getValidFiles = (pattern) => {
 };
 
 const getDocumentation = (paths, strict) => {
-	const docOutputPath = '/pages/docs/modules';
+	const docOutputPath = 'src/pages/docs/modules';
 	// TODO: Add @module to all files and scan files and combine json
 	const validPaths = paths.reduce((prev, path) => {
 		return prev.add(path.split('/').slice(0, -1).join('/'));
@@ -141,10 +141,10 @@ function copyStaticDocs (source, outputBase) {
 function generateIndex () {
 	// Note: The $map($string) is needed because spotlight has a literal 'false' in a return type!
 	const expression = `{
-	  "title": name,
-	  "description": $join(description.**.value, ' '),
-	  "memberDescriptions": $join(members.**.value ~> $map($string), ' '),
-	  "members": $join(**.members.*.name,' ')
+		"title": name,
+		"description": $join(description.**.value, ' '),
+		"memberDescriptions": $join(members.**.value ~> $map($string), ' '),
+		"members": $join(**.members.*.name,' ')
 	}`;
 
 	const elasticlunrNoStem = function (config) {
@@ -171,7 +171,7 @@ function generateIndex () {
 
 	console.log('Generating search index...');	// eslint-disable-line no-console
 
-	readdirp({root: 'pages/docs/modules', fileFilter: '*.json'}, (err, res) => {
+	readdirp({root: 'src/pages/docs/modules', fileFilter: '*.json'}, (err, res) => {
 		if (!err) {
 			res.files.forEach(result => {
 				const filename = result.fullPath;
@@ -216,9 +216,9 @@ function init () {
 			getDocumentation(validFiles, strict).then(generateIndex);
 		}
 		if (args.static !== false) {
-			copyStaticDocs('node_modules/enact/', 'pages/docs/developer-guide/');
-			copyStaticDocs('node_modules/enact-dev/', 'pages/docs/developer-tools/enact-dev/');
-			copyStaticDocs('node_modules/eslint-config-enact/', 'pages/docs/developer-tools/eslint-config-enact/');
+			copyStaticDocs('node_modules/enact/', 'src/pages/docs/developer-guide/');
+			copyStaticDocs('node_modules/enact-dev/', 'src/pages/docs/developer-tools/enact-dev/');
+			copyStaticDocs('node_modules/eslint-config-enact/', 'src/pages/docs/developer-tools/eslint-config-enact/');
 		}
 	}
 }

@@ -1,0 +1,4510 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ExpandableList.ExpandableList",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ExpandableList.ExpandableList"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 60,
+                  "offset": 59
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 60,
+                  "offset": 59
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 64
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ExpandableList.ExpandableListBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ExpandableList.ExpandableListBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 64
+                },
+                "end": {
+                  "line": 2,
+                  "column": 52,
+                  "offset": 115
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " components. The default export is\n",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 52,
+                  "offset": 115
+                },
+                "end": {
+                  "line": 3,
+                  "column": 1,
+                  "offset": 150
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ExpandableList.ExpandableList",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ExpandableList.ExpandableList"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 1,
+                  "offset": 150
+                },
+                "end": {
+                  "line": 3,
+                  "column": 48,
+                  "offset": 197
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 48,
+                  "offset": 197
+                },
+                "end": {
+                  "line": 3,
+                  "column": 49,
+                  "offset": 198
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 49,
+              "offset": 198
+            },
+            "indent": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 49,
+          "offset": 198
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 5,
+        "type": null,
+        "name": "moonstone/ExpandableList"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 46
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/ExpandableList",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ExpandableList.ExpandableListBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ExpandableList.ExpandableListBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 52,
+                        "offset": 51
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a stateless component that\nrenders a ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 52,
+                        "offset": 51
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 11,
+                        "offset": 92
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/LabeledItem.LabeledItem",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/LabeledItem.LabeledItem"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 11,
+                        "offset": 92
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 52,
+                        "offset": 133
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that can be expanded to show\na selectable list of items.",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 52,
+                        "offset": 133
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 28,
+                        "offset": 190
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 28,
+                    "offset": 190
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 28,
+                "offset": 190
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "ExpandableListBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ExpandableList",
+              "lineNumber": 6
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 54,
+              "column": 0
+            },
+            "end": {
+              "line": 63,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 64,
+                "column": 0
+              },
+              "end": {
+                "line": 348,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+            "sortKey": "undefined 00000064"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ExpandableListBase",
+          "memberof": "moonstone/ExpandableList",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The items to be displayed in the list. This supports two data types. If an array of\nstrings is provided, the strings will be used in the generated components as the readable\ntext. If an array of objects is provided, each object will be spread onto the generated\ncomponent with no interpretation. You'll be responsible for setting properties like\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 346
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "disabled",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 346
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 11,
+                              "offset": 356
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 11,
+                              "offset": 356
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 13,
+                              "offset": 358
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "className",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 13,
+                              "offset": 358
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 24,
+                              "offset": 369
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and setting the text content using the ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 24,
+                              "offset": 369
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 65,
+                              "offset": 410
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "children",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 65,
+                              "offset": 410
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 75,
+                              "offset": 420
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " key.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 75,
+                              "offset": 420
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 80,
+                              "offset": 425
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 80,
+                          "offset": 425
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 80,
+                      "offset": 425
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "TypeApplication",
+                          "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                          },
+                          "applications": [
+                            {
+                              "type": "NameExpression",
+                              "name": "String"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "TypeApplication",
+                          "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                          },
+                          "applications": [
+                            {
+                              "type": "NameExpression",
+                              "name": "Object"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "required",
+                    "description": null,
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 68,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 78,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 79,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 82,
+                      "column": 15
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000079"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @required",
+                    "commentLineNumber": 8
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The primary text of the item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 30,
+                              "offset": 29
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 30,
+                          "offset": 29
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 30,
+                      "offset": 29
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "required",
+                    "description": null,
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 90,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 91,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 91,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000091"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @required",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "title",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "title",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#title"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 17,
+                              "offset": 16
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "select",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 17,
+                              "offset": 16
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is not ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 33,
+                              "offset": 32
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'multiple'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 33,
+                              "offset": 32
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the expandable will be closed when an item\nis selected.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 13,
+                              "offset": 101
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 13,
+                          "offset": 101
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 13,
+                      "offset": 101
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 93,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 99,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 100,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 100,
+                      "column": 31
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000100"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "closeOnSelect",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "closeOnSelect",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#closeOnSelect"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", applies a disabled style and the control becomes non-interactive.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 79,
+                              "offset": 78
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 79,
+                          "offset": 78
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 79,
+                      "offset": 78
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 102,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 107,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 108,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 108,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000108"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The secondary, or supportive text. Typically under the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 56,
+                              "offset": 55
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "title",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 56,
+                              "offset": 55
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a subtitle. If omitted,\nthe label will be generated as a comma-separated list of the selected items.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 77,
+                              "offset": 164
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 77,
+                          "offset": 164
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 77,
+                      "offset": 164
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "null",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 110,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "label",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "label",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#label"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the expandable will not automatically close when the user navigates to the\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 88
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "title",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 88
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " of the component using 5-way controls.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 47,
+                              "offset": 134
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 47,
+                          "offset": 134
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "This does not affect ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 136
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 157
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "closeOnSelect",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 157
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 37,
+                              "offset": 172
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 37,
+                              "offset": 172
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 38,
+                              "offset": 173
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 4,
+                          "column": 1,
+                          "offset": 136
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 38,
+                          "offset": 173
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 38,
+                      "offset": 173
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 129,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 130,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 130,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000130"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAutoClose",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAutoClose",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#noAutoClose"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the user may move {@glossary Spotlight} past the bottom of the expandable\n(when open) using 5-way controls.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 120
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 34,
+                          "offset": 120
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 34,
+                      "offset": 120
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 132,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 139,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 140,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 140,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000140"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noLockBottom",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noLockBottom",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#noLockBottom"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Text to display when no ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "label",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is set.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 40,
+                              "offset": 39
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 40,
+                          "offset": 39
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 40,
+                      "offset": 39
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 142,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 146,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 147,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 147,
+                      "column": 28
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000147"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "noneText",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noneText",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#noneText"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when the expandable is closing. Also called when selecting an item if\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 77
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "closeOnSelect",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 77
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 92
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 16,
+                              "offset": 92
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 26,
+                              "offset": 102
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 26,
+                              "offset": 102
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 103
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 27,
+                          "offset": 103
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 27,
+                      "offset": 103
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 149,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 155,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 156,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 156,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000156"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onClose",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onClose",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onClose"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when the expandable is opening",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 38,
+                              "offset": 37
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 38,
+                          "offset": 37
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 38,
+                      "offset": 37
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 158,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 163,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 164,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 164,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000164"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onOpen",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onOpen",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onOpen"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called when an item is selected",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 32,
+                          "offset": 31
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 32,
+                      "offset": 31
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 166,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 171,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 172,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 172,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000172"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSelect",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSelect",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onSelect"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the component is removed while retaining focus.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 72,
+                          "offset": 71
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 72,
+                      "offset": 71
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 174,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 180,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 181,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 181,
+                      "column": 38
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000181"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightDisappear",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightDisappear",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onSpotlightDisappear"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run prior to focus leaving the expandable when the 5-way left key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 93,
+                              "offset": 92
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 93,
+                          "offset": 92
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 93,
+                      "offset": 92
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 183,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 189,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 190,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 190,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000190"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightLeft",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightLeft",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onSpotlightLeft"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run prior to focus leaving the expandable when the 5-way right key is pressed.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 94,
+                              "offset": 93
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 94,
+                          "offset": 93
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 94,
+                      "offset": 93
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 192,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 198,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 199,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 199,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000199"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onSpotlightRight",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onSpotlightRight",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#onSpotlightRight"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the expandable is open with its contents visible",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 62,
+                          "offset": 61
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 62,
+                      "offset": 61
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 201,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 206,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 207,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 207,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000207"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "open",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "open",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#open"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Selection mode for the list",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 28,
+                          "offset": 27
+                        },
+                        "indent": []
+                      }
+                    },
+                    {
+                      "type": "list",
+                      "ordered": false,
+                      "start": null,
+                      "loose": false,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'single'",
+                                  "position": {
+                                    "start": {
+                                      "line": 3,
+                                      "column": 3,
+                                      "offset": 31
+                                    },
+                                    "end": {
+                                      "line": 3,
+                                      "column": 13,
+                                      "offset": 41
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " - Allows for 0 or 1 item to be selected. The selected item may be deselected.",
+                                  "position": {
+                                    "start": {
+                                      "line": 3,
+                                      "column": 13,
+                                      "offset": 41
+                                    },
+                                    "end": {
+                                      "line": 3,
+                                      "column": 91,
+                                      "offset": 119
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 3,
+                                  "offset": 31
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 91,
+                                  "offset": 119
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 29
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 91,
+                              "offset": 119
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'radio'",
+                                  "position": {
+                                    "start": {
+                                      "line": 4,
+                                      "column": 3,
+                                      "offset": 122
+                                    },
+                                    "end": {
+                                      "line": 4,
+                                      "column": 12,
+                                      "offset": 131
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " - Allows for 0 or 1 item to be selected. The selected item may only be\n deselected by selecting another item.",
+                                  "position": {
+                                    "start": {
+                                      "line": 4,
+                                      "column": 12,
+                                      "offset": 131
+                                    },
+                                    "end": {
+                                      "line": 5,
+                                      "column": 41,
+                                      "offset": 243
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 4,
+                                  "column": 3,
+                                  "offset": 122
+                                },
+                                "end": {
+                                  "line": 5,
+                                  "column": 41,
+                                  "offset": 243
+                                },
+                                "indent": [
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 120
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 41,
+                              "offset": 243
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "listItem",
+                          "loose": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "inlineCode",
+                                  "value": "'multiple'",
+                                  "position": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 3,
+                                      "offset": 246
+                                    },
+                                    "end": {
+                                      "line": 6,
+                                      "column": 15,
+                                      "offset": 258
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " - Allows 0 to ",
+                                  "position": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 15,
+                                      "offset": 258
+                                    },
+                                    "end": {
+                                      "line": 6,
+                                      "column": 30,
+                                      "offset": 273
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "emphasis",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "value": "n",
+                                      "position": {
+                                        "start": {
+                                          "line": 6,
+                                          "column": 31,
+                                          "offset": 274
+                                        },
+                                        "end": {
+                                          "line": 6,
+                                          "column": 32,
+                                          "offset": 275
+                                        },
+                                        "indent": []
+                                      }
+                                    }
+                                  ],
+                                  "position": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 30,
+                                      "offset": 273
+                                    },
+                                    "end": {
+                                      "line": 6,
+                                      "column": 33,
+                                      "offset": 276
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " items to be selected. Each item may be selected or\n deselected.",
+                                  "position": {
+                                    "start": {
+                                      "line": 6,
+                                      "column": 33,
+                                      "offset": 276
+                                    },
+                                    "end": {
+                                      "line": 7,
+                                      "column": 15,
+                                      "offset": 342
+                                    },
+                                    "indent": [
+                                      3
+                                    ]
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 6,
+                                  "column": 3,
+                                  "offset": 246
+                                },
+                                "end": {
+                                  "line": 7,
+                                  "column": 15,
+                                  "offset": 342
+                                },
+                                "indent": [
+                                  3
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 6,
+                              "column": 1,
+                              "offset": 244
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 15,
+                              "offset": 342
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 3,
+                          "column": 1,
+                          "offset": 29
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 15,
+                          "offset": 342
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 15,
+                      "offset": 342
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 9,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'single'",
+                    "lineNumber": 10
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 11
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 209,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 221,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 222,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 222,
+                      "column": 58
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000222"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "select",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "select",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#select"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Index or array of indices of the selected item(s)",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 50,
+                          "offset": 49
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 50,
+                      "offset": 49
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        },
+                        {
+                          "type": "TypeApplication",
+                          "expression": {
+                            "type": "NameExpression",
+                            "name": "Array"
+                          },
+                          "applications": [
+                            {
+                              "type": "NameExpression",
+                              "name": "Number"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 224,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 229,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 230,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 230,
+                      "column": 88
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000230"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#selected"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the component cannot be navigated using spotlight.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 64,
+                          "offset": 63
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 64,
+                      "offset": 63
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 232,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 238,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 239,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 239,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+                  "sortKey": "undefined 00000239"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "spotlightDisabled",
+                "memberof": "moonstone/ExpandableList.ExpandableListBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ExpandableList",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ExpandableListBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "spotlightDisabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ExpandableListExpandableListBase#spotlightDisabled"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/ExpandableList",
+              "kind": "module"
+            },
+            {
+              "name": "ExpandableListBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ExpandableListExpandableListBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ExpandableList.ExpandableList",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ExpandableList.ExpandableList"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 48,
+                        "offset": 47
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " renders a\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 48,
+                        "offset": 47
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 58
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/LabeledItem.LabeledItem",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/LabeledItem.LabeledItem"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 58
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 42,
+                        "offset": 99
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that can be expanded to show a selectable\nlist of items.",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 42,
+                        "offset": 99
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 15,
+                        "offset": 156
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 15,
+                    "offset": 156
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 158
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 13,
+                        "offset": 170
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "ExpandableList",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 13,
+                        "offset": 170
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 29,
+                        "offset": 186
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 29,
+                        "offset": 186
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 57,
+                        "offset": 214
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 57,
+                        "offset": 214
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 67,
+                        "offset": 224
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the\n",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 67,
+                        "offset": 224
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 246
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultSelected",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 246
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 18,
+                        "offset": 263
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to control its initial value. If you wish to directly control updates\nto the component, supply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 18,
+                        "offset": 263
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 37,
+                        "offset": 379
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 37,
+                        "offset": 379
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 47,
+                        "offset": 389
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 47,
+                        "offset": 389
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 436
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onChange",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 436
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 11,
+                        "offset": 446
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 11,
+                        "offset": 446
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 19,
+                        "offset": 454
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 158
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 19,
+                    "offset": 454
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "ExpandableList",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 1,
+                        "offset": 456
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 17,
+                        "offset": 472
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains its open/closed state by default. The initial state can be supplied\nusing ",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 17,
+                        "offset": 472
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 7,
+                        "offset": 557
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultOpen",
+                    "position": {
+                      "start": {
+                        "line": 11,
+                        "column": 7,
+                        "offset": 557
+                      },
+                      "end": {
+                        "line": 11,
+                        "column": 20,
+                        "offset": 570
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". In order to directly control the open/closed state, supply a value for\n",
+                    "position": {
+                      "start": {
+                        "line": 11,
+                        "column": 20,
+                        "offset": 570
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 1,
+                        "offset": 643
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "open",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 1,
+                        "offset": 643
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 7,
+                        "offset": 649
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update its value in response to ",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 7,
+                        "offset": 649
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 61,
+                        "offset": 703
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onClose",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 61,
+                        "offset": 703
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 70,
+                        "offset": 712
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "/",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 70,
+                        "offset": 712
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 71,
+                        "offset": 713
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onOpen",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 71,
+                        "offset": 713
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 79,
+                        "offset": 721
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 79,
+                        "offset": 721
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 87,
+                        "offset": 729
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 456
+                  },
+                  "end": {
+                    "line": 12,
+                    "column": 87,
+                    "offset": 729
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 12,
+                "column": 87,
+                "offset": 729
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 14,
+              "type": null,
+              "name": "ExpandableList"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ExpandableList",
+              "lineNumber": 15
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 16,
+              "name": "moonstone/ExpandableItem.Expandable"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 17,
+              "name": "ui/Changeable.Changeable"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 18
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 19
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 350,
+              "column": 0
+            },
+            "end": {
+              "line": 370,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 371,
+                "column": 0
+              },
+              "end": {
+                "line": 381,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ExpandableList/ExpandableList.js",
+            "sortKey": "undefined 00000371"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 18
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ExpandableList",
+          "memberof": "moonstone/ExpandableList",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/ExpandableList",
+              "kind": "module"
+            },
+            {
+              "name": "ExpandableList",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ExpandableListExpandableList"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/ExpandableList",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/ExpandableList"
+  }
+]

@@ -1,0 +1,2979 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 9,
+                  "offset": 8
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "linkReference",
+              "identifier": "formcheckboxitembase",
+              "referenceType": "shortcut",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "FormCheckboxItemBase",
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 10,
+                      "offset": 9
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 30,
+                      "offset": 29
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 9,
+                  "offset": 8
+                },
+                "end": {
+                  "line": 1,
+                  "column": 31,
+                  "offset": 30
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/FormCheckboxItem.FormCheckboxItemBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 31,
+                  "offset": 30
+                },
+                "end": {
+                  "line": 1,
+                  "column": 86,
+                  "offset": 85
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 86,
+                  "offset": 85
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 90
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "linkReference",
+              "identifier": "formcheckboxitem",
+              "referenceType": "shortcut",
+              "children": [
+                {
+                  "type": "text",
+                  "value": "FormCheckboxItem",
+                  "position": {
+                    "start": {
+                      "line": 2,
+                      "column": 2,
+                      "offset": 91
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 18,
+                      "offset": 107
+                    },
+                    "indent": []
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 90
+                },
+                "end": {
+                  "line": 2,
+                  "column": 19,
+                  "offset": 108
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/FormCheckboxItem.FormCheckboxItem",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/FormCheckboxItem.FormCheckboxItem"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 19,
+                  "offset": 108
+                },
+                "end": {
+                  "line": 2,
+                  "column": 70,
+                  "offset": 159
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " (default) components.",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 70,
+                  "offset": 159
+                },
+                "end": {
+                  "line": 2,
+                  "column": 92,
+                  "offset": 181
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 92,
+              "offset": 181
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 92,
+          "offset": 181
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "moonstone/FormCheckboxItem"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 36
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/FormCheckboxItem",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "linkReference",
+                    "identifier": "formcheckboxitembase",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FormCheckboxItemBase",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 2,
+                            "offset": 1
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 23,
+                        "offset": 22
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/FormCheckboxItem.FormCheckboxItemBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 23,
+                        "offset": 22
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 78,
+                        "offset": 77
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a stateless\ncomponent that is an extension of ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 78,
+                        "offset": 77
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 35,
+                        "offset": 127
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "item",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Item",
+                        "position": {
+                          "start": {
+                            "line": 2,
+                            "column": 36,
+                            "offset": 128
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 40,
+                            "offset": 132
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 35,
+                        "offset": 127
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 41,
+                        "offset": 133
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Item",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Item"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 41,
+                        "offset": 133
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 63,
+                        "offset": 155
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " that supports\n",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 63,
+                        "offset": 155
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 170
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "toggleableability",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "toggleableability",
+                        "position": {
+                          "start": {
+                            "line": 3,
+                            "column": 2,
+                            "offset": 171
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 19,
+                            "offset": 188
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 170
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 20,
+                        "offset": 189
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Toggleable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Toggleable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 20,
+                        "offset": 189
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 41,
+                        "offset": 210
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". It has two states: ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 41,
+                        "offset": 210
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 62,
+                        "offset": 231
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "true",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 62,
+                        "offset": 231
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 68,
+                        "offset": 237
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " (selected) & ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 68,
+                        "offset": 237
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 82,
+                        "offset": 251
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "false",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 82,
+                        "offset": 251
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 89,
+                        "offset": 258
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n(unselected). It uses a check icon to represent its selected state. This differs from\n",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 89,
+                        "offset": 258
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 345
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "checkboxitembase",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "CheckboxItemBase",
+                        "position": {
+                          "start": {
+                            "line": 5,
+                            "column": 2,
+                            "offset": 346
+                          },
+                          "end": {
+                            "line": 5,
+                            "column": 18,
+                            "offset": 362
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 345
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 19,
+                        "offset": 363
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/CheckboxItem.CheckboxItemBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/CheckboxItem.CheckboxItemBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 19,
+                        "offset": 363
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 66,
+                        "offset": 410
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ", only visually, in its handling\nof ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 66,
+                        "offset": 410
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 4,
+                        "offset": 446
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "Spotlight",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 4,
+                        "offset": 446
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 15,
+                        "offset": 457
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " focus. This item receives focus, but the entire element does not appear focused,\nrelying on its child element ",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 15,
+                        "offset": 457
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 30,
+                        "offset": 568
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "formcheckbox",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FormCheckbox",
+                        "position": {
+                          "start": {
+                            "line": 7,
+                            "column": 31,
+                            "offset": 569
+                          },
+                          "end": {
+                            "line": 7,
+                            "column": 43,
+                            "offset": 581
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 30,
+                        "offset": 568
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 44,
+                        "offset": 582
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/FormCheckbox",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/FormCheckbox"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 44,
+                        "offset": 582
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 74,
+                        "offset": 612
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " to reflect that state.",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 74,
+                        "offset": 612
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 97,
+                        "offset": 635
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 97,
+                    "offset": 635
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 7,
+                "column": 97,
+                "offset": 635
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 9,
+              "type": null,
+              "name": "FormCheckboxItemBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/FormCheckboxItem",
+              "lineNumber": 10
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 11
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 12
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 0
+            },
+            "end": {
+              "line": 33,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 34,
+                "column": 0
+              },
+              "end": {
+                "line": 123,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+            "sortKey": "undefined 00000034"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 11
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "FormCheckboxItemBase",
+          "memberof": "moonstone/FormCheckboxItem",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The string to be displayed as the main content of the checkbox item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 69,
+                          "offset": 68
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 69,
+                      "offset": 68
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 38,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 43,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 44,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 44,
+                      "column": 39
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000044"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", applies a disabled style and the control becomes non-interactive.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 79,
+                              "offset": 78
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 79,
+                          "offset": 78
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 79,
+                      "offset": 78
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 46,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 52,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 53,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 53,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000053"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Specifies on which side (",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "before",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 34,
+                              "offset": 33
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 38,
+                              "offset": 37
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "after",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 38,
+                              "offset": 37
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ") of the text the icon appears.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 76,
+                          "offset": 75
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 76,
+                      "offset": 75
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'before'",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 55,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 61,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 62,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 62,
+                      "column": 52
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000062"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "iconPosition",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "iconPosition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#iconPosition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", an inline visual effect is applied to the button.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 63,
+                          "offset": 62
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 63,
+                      "offset": 62
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 64,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 70,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 71,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 71,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000071"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "inline",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "inline",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#inline"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The handler to run when the checkbox item is toggled.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 54,
+                          "offset": 53
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 54,
+                      "offset": 53
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "param",
+                    "description": "Selected value of item.",
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    },
+                    "name": "event.selected"
+                  },
+                  {
+                    "title": "param",
+                    "description": "Value passed from `value` prop.",
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "AllLiteral"
+                    },
+                    "name": "event.value"
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 73,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 81,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 82,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 82,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000082"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "properties": [
+                      {
+                        "title": "param",
+                        "name": "event.selected",
+                        "lineNumber": 5,
+                        "description": {
+                          "type": "root",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Selected value of item.",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 1,
+                                      "offset": 0
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 24,
+                                      "offset": 23
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 24,
+                                  "offset": 23
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 24,
+                              "offset": 23
+                            }
+                          }
+                        },
+                        "type": {
+                          "type": "NameExpression",
+                          "name": "String"
+                        }
+                      },
+                      {
+                        "title": "param",
+                        "name": "event.value",
+                        "lineNumber": 6,
+                        "description": {
+                          "type": "root",
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "value": "Value passed from ",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 1,
+                                      "offset": 0
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 19,
+                                      "offset": 18
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "inlineCode",
+                                  "value": "value",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 19,
+                                      "offset": 18
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 26,
+                                      "offset": 25
+                                    },
+                                    "indent": []
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "value": " prop.",
+                                  "position": {
+                                    "start": {
+                                      "line": 1,
+                                      "column": 26,
+                                      "offset": 25
+                                    },
+                                    "end": {
+                                      "line": 1,
+                                      "column": 32,
+                                      "offset": 31
+                                    },
+                                    "indent": []
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 32,
+                                  "offset": 31
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 32,
+                              "offset": 31
+                            }
+                          }
+                        },
+                        "type": {
+                          "type": "AllLiteral"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onToggle",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onToggle",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#onToggle"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a check mark icon is applied to the button.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 57,
+                          "offset": 56
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 57,
+                      "offset": 56
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 84,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 89,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 90,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 90,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000090"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#selected"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The value that will be sent to the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onToggle",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " handler.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "''",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 92,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 98,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 99,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 99,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+                  "sortKey": "undefined 00000099"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "value",
+                "memberof": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/FormCheckboxItem",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "FormCheckboxItemBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "value",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase#value"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/FormCheckboxItem",
+              "kind": "module"
+            },
+            {
+              "name": "FormCheckboxItemBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/FormCheckboxItemFormCheckboxItemBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "linkReference",
+                    "identifier": "formcheckboxitem",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FormCheckboxItem",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 2,
+                            "offset": 1
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 18,
+                            "offset": 17
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 19,
+                        "offset": 18
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/FormCheckboxItem.FormCheckboxItem",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/FormCheckboxItem.FormCheckboxItem"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 19,
+                        "offset": 18
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 70,
+                        "offset": 69
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is the composed version of\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 70,
+                        "offset": 69
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 97
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "formcheckboxitembase",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FormCheckboxItemBase",
+                        "position": {
+                          "start": {
+                            "line": 2,
+                            "column": 2,
+                            "offset": 98
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 22,
+                            "offset": 118
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 1,
+                        "offset": 97
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 23,
+                        "offset": 119
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/FormCheckboxItem.FormCheckboxItemBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/FormCheckboxItem.FormCheckboxItemBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 23,
+                        "offset": 119
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 78,
+                        "offset": 174
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " which adds the\n",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 78,
+                        "offset": 174
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 190
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "toggleable",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Toggleable",
+                        "position": {
+                          "start": {
+                            "line": 3,
+                            "column": 2,
+                            "offset": 191
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 12,
+                            "offset": 201
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 190
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 202
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "ui/Toggleable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Toggleable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 202
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 34,
+                        "offset": 223
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " High Order Component to support interactivity of the component.\n",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 34,
+                        "offset": 223
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 288
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "formcheckboxitem",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "FormCheckboxItem",
+                        "position": {
+                          "start": {
+                            "line": 4,
+                            "column": 2,
+                            "offset": 289
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 18,
+                            "offset": 305
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 288
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 19,
+                        "offset": 306
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/FormCheckboxItem.FormCheckboxItem",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/FormCheckboxItem.FormCheckboxItem"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 19,
+                        "offset": 306
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 70,
+                        "offset": 357
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " has two states: ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 70,
+                        "offset": 357
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 87,
+                        "offset": 374
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "true",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 87,
+                        "offset": 374
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 93,
+                        "offset": 380
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\n(selected) & ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 93,
+                        "offset": 380
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 14,
+                        "offset": 394
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "false",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 14,
+                        "offset": 394
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 21,
+                        "offset": 401
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " (unselected). It uses a check icon to represent its selected state.",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 21,
+                        "offset": 401
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 89,
+                        "offset": 469
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 89,
+                    "offset": 469
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 1,
+                        "offset": 471
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 13,
+                        "offset": 483
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "FormCheckboxItem",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 13,
+                        "offset": 483
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 31,
+                        "offset": 501
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 31,
+                        "offset": 501
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 59,
+                        "offset": 529
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 59,
+                        "offset": 529
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 69,
+                        "offset": 539
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the\n",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 69,
+                        "offset": 539
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 561
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultSelected",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 561
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 18,
+                        "offset": 578
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to control its initial value. If you wish to directly control updates\nto the component, supply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 18,
+                        "offset": 578
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 37,
+                        "offset": 694
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "selected",
+                    "position": {
+                      "start": {
+                        "line": 9,
+                        "column": 37,
+                        "offset": 694
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 47,
+                        "offset": 704
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 9,
+                        "column": 47,
+                        "offset": 704
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 1,
+                        "offset": 751
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onToggle",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 1,
+                        "offset": 751
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 11,
+                        "offset": 761
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 11,
+                        "offset": 761
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 19,
+                        "offset": 769
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 471
+                  },
+                  "end": {
+                    "line": 10,
+                    "column": 19,
+                    "offset": 769
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 10,
+                "column": 19,
+                "offset": 769
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 12,
+              "type": null,
+              "name": "FormCheckboxItem"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/FormCheckboxItem",
+              "lineNumber": 13
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 14
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 15
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 125,
+              "column": 0
+            },
+            "end": {
+              "line": 141,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 142,
+                "column": 0
+              },
+              "end": {
+                "line": 149,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/FormCheckboxItem/FormCheckboxItem.js",
+            "sortKey": "undefined 00000142"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 14
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "FormCheckboxItem",
+          "memberof": "moonstone/FormCheckboxItem",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/FormCheckboxItem",
+              "kind": "module"
+            },
+            {
+              "name": "FormCheckboxItem",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/FormCheckboxItemFormCheckboxItem"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/FormCheckboxItem",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/FormCheckboxItem"
+  }
+]

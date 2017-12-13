@@ -1,0 +1,735 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "core/factory.factory",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "core/factory.factory"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 41,
+                  "offset": 40
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " function for creating customizeable components.",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 41,
+                  "offset": 40
+                },
+                "end": {
+                  "line": 1,
+                  "column": 89,
+                  "offset": 88
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 89,
+              "offset": 88
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 89,
+          "offset": 88
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "core/factory"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 24
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/core/factory/factory.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "core/factory",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Creates a factory function which reconciles a default configuration object (",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 77,
+                        "offset": 76
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultConfig",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 77,
+                        "offset": 76
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 92,
+                        "offset": 91
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ") and\na customized configuration object and provides the result to an executing function (",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 92,
+                        "offset": 91
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 85,
+                        "offset": 181
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "fn",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 85,
+                        "offset": 181
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 89,
+                        "offset": 185
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "). The\nconfiguration objects are processed by features which determine how to reconcile the values from\neach.",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 89,
+                        "offset": 185
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 6,
+                        "offset": 294
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 6,
+                    "offset": 294
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Currently, ",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 296
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 12,
+                        "offset": 307
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "factory",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 12,
+                        "offset": 307
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 21,
+                        "offset": 316
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " only supports the ",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 21,
+                        "offset": 316
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 40,
+                        "offset": 335
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "css",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 40,
+                        "offset": 335
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 45,
+                        "offset": 340
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " feature which expects its key to contain a map\nof local class names to exported class names. When both maps contain matching keys, the class\nnames are joined together with a space.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 45,
+                        "offset": 340
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 40,
+                        "offset": 521
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 296
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 40,
+                    "offset": 521
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import factory from '@enact/core/factory';\nimport kind from '@enact/core/kind';\n\nimport componentCss from './Button.less';\n\nconst ButtonFactory = factory({css: componentCss}, ({css}) => {\n\treturn kind({\n\t\tname: 'Button',\n\n\t// Since 'button' will be resolved against the combined `css` map, it can be overridden too\n\t\tstyles: {\n\t\t\tcss,\n\t\t\tclassName: 'button'\n\t\t},\n\n\t// Component authors can also prevent overrides by using their css map directly as is done\n\t// with the `inner` class below\n\t\trender: ({children, ...rest}) => (\n\t\t\t<button {...rest}>\n\t\t\t\t<div className={componentCss.inner}>\n\t\t\t\t\t{children}\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t)\n\t});\n});\n\n// If `buttonCss` includes a `button` class, it will be appended to the `button` class of the\n// `Button` component.\nimport buttonCss from './CustomButton.less';\nCustomizedButton = ButtonFactory({css: buttonCss});\n\n<CustomizedButton />",
+                "position": {
+                  "start": {
+                    "line": 10,
+                    "column": 1,
+                    "offset": 523
+                  },
+                  "end": {
+                    "line": 44,
+                    "column": 5,
+                    "offset": 1410
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 44,
+                "column": 5,
+                "offset": 1410
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "param",
+              "description": "Default configuration object",
+              "lineNumber": 46,
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              },
+              "name": "defaultConfig"
+            },
+            {
+              "title": "param",
+              "description": "Executing function which receives the merged configuration",
+              "lineNumber": 47,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              },
+              "name": "fn"
+            },
+            {
+              "title": "returns",
+              "description": "Factory function accepting the customized configuration",
+              "lineNumber": 49,
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            },
+            {
+              "title": "method",
+              "description": null,
+              "lineNumber": 51,
+              "name": "factory"
+            },
+            {
+              "title": "memberof",
+              "description": "core/factory",
+              "lineNumber": 52
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 53
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 80,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 81,
+                "column": 0
+              },
+              "end": {
+                "line": 95,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/core/factory/factory.js",
+            "sortKey": "undefined 00000081"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "defaultConfig",
+              "lineNumber": 46,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Default configuration object",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 29,
+                            "offset": 28
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 29,
+                        "offset": 28
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 29,
+                    "offset": 28
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              }
+            },
+            {
+              "title": "param",
+              "name": "fn",
+              "lineNumber": 47,
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Executing function which receives the merged configuration",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 59,
+                            "offset": 58
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 59,
+                        "offset": 58
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 59,
+                    "offset": 58
+                  }
+                }
+              },
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "properties": [],
+          "returns": [
+            {
+              "description": {
+                "type": "root",
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "Factory function accepting the customized configuration",
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 56,
+                            "offset": 55
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 56,
+                        "offset": 55
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 56,
+                    "offset": 55
+                  }
+                }
+              },
+              "title": "returns",
+              "type": {
+                "type": "NameExpression",
+                "name": "Function"
+              }
+            }
+          ],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "function",
+          "name": "factory",
+          "memberof": "core/factory",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "core/factory",
+              "kind": "module"
+            },
+            {
+              "name": "factory",
+              "kind": "function"
+            }
+          ],
+          "namespace": "core/factoryfactory"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "core/factory",
+        "kind": "module"
+      }
+    ],
+    "namespace": "core/factory"
+  }
+]

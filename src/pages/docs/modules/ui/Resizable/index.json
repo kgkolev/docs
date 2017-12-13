@@ -1,0 +1,1102 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/Resizable.Resizable",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/Resizable.Resizable"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 43,
+                  "offset": 42
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC).",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 43,
+                  "offset": 42
+                },
+                "end": {
+                  "line": 1,
+                  "column": 73,
+                  "offset": 72
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 73,
+              "offset": 72
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 73,
+          "offset": 72
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "ui/Resizable"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 51
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/Resizable",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/Resizable.Resizable",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/Resizable.Resizable"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 31,
+                        "offset": 30
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that can be used to notify a container\nthat the Wrapped component has been resized. It may be useful in cases where a component may need\nto update itself as a result of its children changing in size, such a Scroller.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 31,
+                        "offset": 30
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 80,
+                        "offset": 275
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 80,
+                    "offset": 275
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Containers must provide an ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 277
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 28,
+                        "offset": 304
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "invalidateBounds",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 28,
+                        "offset": 304
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 46,
+                        "offset": 322
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " method via React's context in order for ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 46,
+                        "offset": 322
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 87,
+                        "offset": 363
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "Resizable",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 87,
+                        "offset": 363
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 98,
+                        "offset": 374
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\ninstances to notify it of resize.",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 98,
+                        "offset": 374
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 34,
+                        "offset": 408
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 277
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 34,
+                    "offset": 408
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 34,
+                "offset": 408
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "Resizable"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Resizable",
+              "lineNumber": 9
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 10
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 11
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 53,
+              "column": 0
+            },
+            "end": {
+              "line": 65,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 66,
+                "column": 0
+              },
+              "end": {
+                "line": 110,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+            "sortKey": "undefined 00000066"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 10
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Resizable",
+          "memberof": "ui/Resizable",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/Resizable.Resizable",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/Resizable.Resizable"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 50,
+                          "offset": 49
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 50,
+                      "offset": 49
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "memberof",
+                    "description": "ui/Resizable.Resizable",
+                    "lineNumber": 3
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 13,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+                  "sortKey": "undefined 00000019"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "ui/Resizable.Resizable",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the event name that will indicate a resize of a container may be necessary",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 86,
+                                    "offset": 85
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 86,
+                                "offset": 85
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 86,
+                            "offset": 85
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "null",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Resizable.Resizable.defaultConfig",
+                          "lineNumber": 5
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 20,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 26,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 27,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 27,
+                            "column": 13
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+                        "sortKey": "undefined 00000027"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Resizable.Resizable.defaultConfig",
+                      "name": "filter",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Resizable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Resizable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "filter"
+                        }
+                      ],
+                      "namespace": "ui/ResizableResizabledefaultConfigfilter"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures a function that can filter the event to limit when the container is notified. This\nfunction will receive the event payload as its only argument and should return ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 80,
+                                    "offset": 173
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "true",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 80,
+                                    "offset": 173
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 86,
+                                    "offset": 179
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to\nprevent the resize notification.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 86,
+                                    "offset": 179
+                                  },
+                                  "end": {
+                                    "line": 3,
+                                    "column": 33,
+                                    "offset": 215
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 3,
+                                "column": 33,
+                                "offset": 215
+                              },
+                              "indent": [
+                                1,
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 3,
+                            "column": 33,
+                            "offset": 215
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 5,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Function"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "null",
+                          "lineNumber": 6
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "ui/Resizable.Resizable.defaultConfig",
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 29,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 37,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 38,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 38,
+                            "column": 13
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+                        "sortKey": "undefined 00000038"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "ui/Resizable.Resizable.defaultConfig",
+                      "name": "resize",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "ui/Resizable",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "Resizable",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "resize"
+                        }
+                      ],
+                      "namespace": "ui/ResizableResizabledefaultConfigresize"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "ui/Resizable",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Resizable",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "ui/ResizableResizabledefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "ui/Resizable",
+              "kind": "module"
+            },
+            {
+              "name": "Resizable",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/ResizableResizable"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The context propTypes required by ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 35,
+                        "offset": 34
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "Resizable",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 35,
+                        "offset": 34
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 46,
+                        "offset": 45
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". This should be set as the ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 46,
+                        "offset": 45
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 74,
+                        "offset": 73
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "childContextTypes",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 74,
+                        "offset": 73
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 93,
+                        "offset": 92
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " of a\ncontainer that needs to be notified of a resize.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 93,
+                        "offset": 92
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 49,
+                        "offset": 146
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 49,
+                    "offset": 146
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 49,
+                "offset": 146
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "type",
+              "description": null,
+              "lineNumber": 4,
+              "type": {
+                "type": "NameExpression",
+                "name": "Object"
+              }
+            },
+            {
+              "title": "memberof",
+              "description": "ui/Resizable",
+              "lineNumber": 5
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 6
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 41,
+              "column": 0
+            },
+            "end": {
+              "line": 48,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 49,
+                "column": 0
+              },
+              "end": {
+                "line": 51,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/Resizable/Resizable.js",
+            "sortKey": "undefined 00000049"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "ui/Resizable",
+          "access": "public",
+          "name": "contextTypes",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/Resizable",
+              "kind": "module"
+            },
+            {
+              "name": "contextTypes",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "ui/ResizablecontextTypes"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/Resizable",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/Resizable"
+  }
+]

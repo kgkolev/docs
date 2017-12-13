@@ -1,0 +1,3541 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Picker.Picker",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Picker.Picker"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 44,
+                  "offset": 43
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 44,
+                  "offset": 43
+                },
+                "end": {
+                  "line": 1,
+                  "column": 49,
+                  "offset": 48
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Picker.PickerBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Picker.PickerBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 49,
+                  "offset": 48
+                },
+                "end": {
+                  "line": 1,
+                  "column": 84,
+                  "offset": 83
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": "\ncomponents. The default export is ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 84,
+                  "offset": 83
+                },
+                "end": {
+                  "line": 2,
+                  "column": 35,
+                  "offset": 118
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Picker.Picker",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Picker.Picker"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 35,
+                  "offset": 118
+                },
+                "end": {
+                  "line": 2,
+                  "column": 66,
+                  "offset": 149
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 66,
+                  "offset": 149
+                },
+                "end": {
+                  "line": 2,
+                  "column": 67,
+                  "offset": 150
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 67,
+              "offset": 150
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 67,
+          "offset": 150
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "moonstone/Picker"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 46
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/Picker",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "The base component for ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 24,
+                        "offset": 23
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Picker.Picker",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Picker.Picker"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 24,
+                        "offset": 23
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 55,
+                        "offset": 54
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". This version is not spottable.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 55,
+                        "offset": 54
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 87,
+                        "offset": 86
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 87,
+                    "offset": 86
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 1,
+                "column": 87,
+                "offset": 86
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 3,
+              "type": null,
+              "name": "PickerBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Picker",
+              "lineNumber": 4
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 5
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 6
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 0
+            },
+            "end": {
+              "line": 28,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 29,
+                "column": 0
+              },
+              "end": {
+                "line": 201,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+            "sortKey": "undefined 00000029"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 5
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "PickerBase",
+          "memberof": "moonstone/Picker",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Children from which to pick",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 28,
+                          "offset": 27
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 28,
+                      "offset": 27
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 38,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 39,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 37
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000039"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Overrides the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 15,
+                              "offset": 14
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "aria-valuetext",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 15,
+                              "offset": 14
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for the picker. By default, ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "aria-valuetext",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is set\nto the current selected child text.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 118
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 36,
+                          "offset": 118
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 36,
+                      "offset": 118
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/Picker.PickerBase.prototype",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 48,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 49,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000049"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "moonstone/Picker.PickerBase",
+                "access": "public",
+                "name": "aria-valuetext",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "aria-valuetext",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#aria-valuetext"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Assign a custom icon for the decrementer. All strings supported by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "icon",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Icon",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 69,
+                                  "offset": 68
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 73,
+                                  "offset": 72
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon} are\nsupported. Without a custom icon, the default is used, and is automatically changed when\nthe ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "orientation",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "orientation",
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 6,
+                                  "offset": 178
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 17,
+                                  "offset": 189
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon#orientation} is changed.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 220
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 48,
+                          "offset": 220
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 48,
+                      "offset": 220
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 51,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 58,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 59,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 59,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000059"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "decrementIcon",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "decrementIcon",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#decrementIcon"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the Picker is shown as disabled and does not generate ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onChange",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 78,
+                              "offset": 77
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 78,
+                              "offset": 77
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 78
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "events",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "events",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 2,
+                                  "offset": 79
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 8,
+                                  "offset": 85
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 78
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 86
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary event}.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 86
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 104
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 27,
+                          "offset": 104
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 27,
+                      "offset": 104
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 61,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 67,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 68,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 68,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000068"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Assign a custom icon for the incrementer. All strings supported by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "icon",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Icon",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 69,
+                                  "offset": 68
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 73,
+                                  "offset": 72
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon} are\nsupported. Without a custom icon, the default is used, and is automatically changed when\nthe ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "orientation",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "orientation",
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 6,
+                                  "offset": 178
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 17,
+                                  "offset": 189
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon#orientation} is changed.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 220
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 48,
+                          "offset": 220
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 48,
+                      "offset": 220
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 70,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 77,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 78,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 78,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000078"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "incrementIcon",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "incrementIcon",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#incrementIcon"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Determines the user interaction of the control. A joined picker allows the user to use\nthe arrow keys to adjust the picker's value. The user may no longer use those arrow keys\nto navigate, while this control is focused. A split control allows full navigation,\nbut requires individual ENTER presses on the incrementer and decrementer buttons.\nPointer interaction is the same for both formats.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 50,
+                              "offset": 391
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 50,
+                          "offset": 391
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 50,
+                      "offset": 391
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 80,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 89,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 90,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 90,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000090"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "joined",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "joined",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#joined"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "By default, each picker item is wrapped by a\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 45
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/Marquee.MarqueeText",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/Marquee.MarqueeText"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 45
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 38,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". When ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 38,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 45,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "marqueeDisabled",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 45,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 62,
+                              "offset": 106
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 62,
+                              "offset": 106
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 110
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 110
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 72,
+                              "offset": 116
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\nthe items will not be wrapped.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 72,
+                              "offset": 116
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 31,
+                              "offset": 148
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 31,
+                          "offset": 148
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 31,
+                      "offset": 148
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 92,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 99,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 100,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 100,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000100"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "marqueeDisabled",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "marqueeDisabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#marqueeDisabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "By default, the picker will animate transitions between items if it has a defined\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 82
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "width",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". Specifying ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 102
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "noAnimation",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 102
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 115
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will prevent any transition animation for the\ncomponent.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 115
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 11,
+                              "offset": 172
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 11,
+                          "offset": 172
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 11,
+                      "offset": 172
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 102,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 109,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 110,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 110,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000110"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAnimation",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAnimation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#noAnimation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to run when the control should increment or decrement.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 66,
+                          "offset": 65
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 66,
+                      "offset": 65
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 112,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onChange",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onChange",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#onChange"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Sets the orientation of the picker, whether the buttons are above and below or on the\nsides of the value. Must be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 121
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'horizontal'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 121
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 139
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'vertical'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 139
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 151
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 151
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 152
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 67,
+                          "offset": 152
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 67,
+                      "offset": 152
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 126,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 127,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 127,
+                      "column": 58
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000127"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "orientation",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "orientation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#orientation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Index of the selected child",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 28,
+                          "offset": 27
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 28,
+                      "offset": 27
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "0",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 129,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 135,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 136,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 136,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000136"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "value",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "value",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#value"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Choose a specific size for your picker. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 41,
+                              "offset": 40
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'small'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 41,
+                              "offset": 40
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'medium'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'large'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or set to ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 85,
+                              "offset": 84
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 85,
+                              "offset": 84
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 91,
+                              "offset": 90
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to\nassume auto-sizing. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 91,
+                              "offset": 90
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 114
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'small'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 114
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 30,
+                              "offset": 123
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is good for numeric pickers, ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 30,
+                              "offset": 123
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 153
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'medium'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 153
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 70,
+                              "offset": 163
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for single or short\nword pickers, ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 70,
+                              "offset": 163
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 198
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'large'",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 198
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 24,
+                              "offset": 207
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for maximum-sized pickers.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 24,
+                              "offset": 207
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 51,
+                              "offset": 234
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 51,
+                          "offset": 234
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "You may also supply a number. This number will determine the minumum size of the Picker.\nSetting a number to less than the number of characters in your longest value may produce\nunexpected results.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 236
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 20,
+                              "offset": 433
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 5,
+                          "column": 1,
+                          "offset": 236
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 20,
+                          "offset": 433
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 20,
+                      "offset": 433
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 9,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 10
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 138,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 149,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 150,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 153,
+                      "column": 4
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000150"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "width",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "width",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#width"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Should the picker stop incrementing when the picker reaches the last element? Set ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "wrap",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\nto ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 92
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 92
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 98
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to allow the picker to continue from the opposite end of the list of options.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 98
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 88,
+                              "offset": 176
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 88,
+                          "offset": 176
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 88,
+                      "offset": 176
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 155,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 162,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 162,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+                  "sortKey": "undefined 00000162"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "wrap",
+                "memberof": "moonstone/Picker.PickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Picker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "PickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "wrap",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/PickerPickerBase#wrap"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Picker",
+              "kind": "module"
+            },
+            {
+              "name": "PickerBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/PickerPickerBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "A Picker component that allows selecting values from a list of values.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 71,
+                        "offset": 70
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 1,
+                    "column": 71,
+                    "offset": 70
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 72
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 84
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "Picker",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 13,
+                        "offset": 84
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 21,
+                        "offset": 92
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 21,
+                        "offset": 92
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 49,
+                        "offset": 120
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 49,
+                        "offset": 120
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 56,
+                        "offset": 127
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 56,
+                        "offset": 127
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 78,
+                        "offset": 149
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultValue",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 78,
+                        "offset": 149
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 92,
+                        "offset": 163
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nproperty to control its initial value. If you wish to directly control updates to the component,\nsupply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 92,
+                        "offset": 163
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 19,
+                        "offset": 279
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 19,
+                        "offset": 279
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 26,
+                        "offset": 286
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to ",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 26,
+                        "offset": 286
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 73,
+                        "offset": 333
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onChange",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 73,
+                        "offset": 333
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 83,
+                        "offset": 343
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 83,
+                        "offset": 343
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 91,
+                        "offset": 351
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 3,
+                    "column": 1,
+                    "offset": 72
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 91,
+                    "offset": 351
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 91,
+                "offset": 351
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 7,
+              "type": null,
+              "name": "Picker"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Picker",
+              "lineNumber": 8
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 9,
+              "name": "ui/Changeable.Changeable"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 10,
+              "name": "moonstone/Marquee.MarqueeController"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 11
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 12
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 203,
+              "column": 0
+            },
+            "end": {
+              "line": 216,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 217,
+                "column": 0
+              },
+              "end": {
+                "line": 226,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Picker/Picker.js",
+            "sortKey": "undefined 00000217"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 11
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Picker",
+          "memberof": "moonstone/Picker",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Picker",
+              "kind": "module"
+            },
+            {
+              "name": "Picker",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/PickerPicker"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/Picker",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/Picker"
+  }
+]

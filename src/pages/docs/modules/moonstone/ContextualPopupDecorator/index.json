@@ -1,0 +1,4531 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 80,
+                  "offset": 79
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order\nComponent (HOC) and the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 80,
+                  "offset": 79
+                },
+                "end": {
+                  "line": 2,
+                  "column": 25,
+                  "offset": 117
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ContextualPopupDecorator.ContextualPopup",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ContextualPopupDecorator.ContextualPopup"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 25,
+                  "offset": 117
+                },
+                "end": {
+                  "line": 2,
+                  "column": 83,
+                  "offset": 175
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component.\nThe default export is ",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 83,
+                  "offset": 175
+                },
+                "end": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 209
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 23,
+                  "offset": 209
+                },
+                "end": {
+                  "line": 3,
+                  "column": 90,
+                  "offset": 276
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 90,
+                  "offset": 276
+                },
+                "end": {
+                  "line": 3,
+                  "column": 91,
+                  "offset": 277
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 3,
+              "column": 91,
+              "offset": 277
+            },
+            "indent": [
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 3,
+          "column": 91,
+          "offset": 277
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 5,
+        "type": null,
+        "name": "moonstone/ContextualPopupDecorator"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 7,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 50
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+      "sortKey": "undefined 00000009"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/ContextualPopupDecorator",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 68,
+                        "offset": 67
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component\nwhich positions ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 68,
+                        "offset": 67
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 17,
+                        "offset": 112
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ContextualPopupDecorator.ContextualPopup"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 17,
+                        "offset": 112
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 75,
+                        "offset": 170
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " in\nrelation to the Wrapped component.",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 75,
+                        "offset": 170
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 35,
+                        "offset": 208
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 35,
+                    "offset": 208
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Example:",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 210
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 9,
+                        "offset": 218
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 210
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 9,
+                    "offset": 218
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import PopupComponent from './PopupComponent';\n\nconst ContextualPopupComponent = ContextualPopupDecorator(Button);\n\nconst MyComponent = kind({\n\tname: 'MyComponent',\n\n\trender: (props) => {\n\t\tconst popupProps = {\n\t\t\tfunctionProp: () => {},\n\t\t\tstringProp: '',\n\t\t\tbooleanProp: false\n\t\t};\n\n\t\treturn (\n\t\t\t<div {...props}>\n\t\t\t\t<ContextualPopupComponent\n\t\t\t\t\tpopupComponent={PopupComponent}\n\t\t\t\t\tpopupProps={popupProps}\n\t\t\t\t>\n\t\t\t\t\tOpen Popup\n\t\t\t\t</ContextualPopupComponent>\n\t\t\t</div>\n\t\t);\n\t}\n});",
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 219
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 4,
+                    "offset": 714
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 33,
+                "column": 4,
+                "offset": 714
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 35,
+              "type": null,
+              "name": "ContextualPopupDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ContextualPopupDecorator",
+              "lineNumber": 36
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 37
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 38
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 0
+            },
+            "end": {
+              "line": 95,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 96,
+                "column": 0
+              },
+              "end": {
+                "line": 566,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+            "sortKey": "undefined 00000096"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 37
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ContextualPopupDecorator",
+          "memberof": "moonstone/ContextualPopupDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The component to use to render popup.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 38,
+                              "offset": 37
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 38,
+                          "offset": 37
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 38,
+                      "offset": 37
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 103,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 108,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 109,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 109,
+                      "column": 44
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000109"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "popupComponent",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "popupComponent",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#popupComponent"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Direction of ContextualPopup",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 29,
+                              "offset": 28
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 29,
+                          "offset": 28
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 29,
+                      "offset": 28
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": null
+                  },
+                  {
+                    "title": "default",
+                    "description": "'down'",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 111,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 62
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "direction",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "direction",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#direction"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the popup will not close when the user presses ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "ESC",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " key or click outside.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 88,
+                              "offset": 87
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 88,
+                          "offset": 87
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 88,
+                      "offset": 87
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 126,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 127,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 127,
+                      "column": 32
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000127"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAutoDismiss",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAutoDismiss",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#noAutoDismiss"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when either the close button is clicked or spotlight focus\nmoves outside the boundary of the popup. Setting ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 129
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "spotlightRestrict",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 129
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 148
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 69,
+                              "offset": 148
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 73,
+                              "offset": 152
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'self-only'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 73,
+                              "offset": 152
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 86,
+                              "offset": 165
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\nwill prevent Spotlight focus from leaving the popup.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 86,
+                              "offset": 165
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 53,
+                              "offset": 218
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 53,
+                          "offset": 218
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 53,
+                      "offset": 218
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 129,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 136,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 137,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 137,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000137"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onClose",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onClose",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#onClose"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when the popup is opened.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 47,
+                              "offset": 46
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 47,
+                          "offset": 46
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 47,
+                      "offset": 46
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 139,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 144,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 145,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 145,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000145"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onOpen",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onOpen",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#onOpen"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the contextual popup will be visible.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 51,
+                              "offset": 50
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 51,
+                          "offset": 50
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 51,
+                      "offset": 50
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": null
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 147,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 153,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 154,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 154,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000154"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "open",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "open",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#open"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Classname to pass to the popup. You may set width and height of the popup with it.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 83,
+                          "offset": 82
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 83,
+                      "offset": 82
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 156,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 162,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 162,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000162"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "popupClassName",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "popupClassName",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#popupClassName"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A custom container ID to use with Spotlight.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 45,
+                          "offset": 44
+                        },
+                        "indent": []
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The spotlight container for the popup isn't created until it is open. To configure\nthe container using ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 46
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 21,
+                              "offset": 149
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "Spotlight.set()",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 21,
+                              "offset": 149
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 38,
+                              "offset": 166
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", handle the ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 38,
+                              "offset": 166
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 51,
+                              "offset": 179
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onOpen",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 51,
+                              "offset": 179
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 59,
+                              "offset": 187
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " event which is fired after\nthe popup has been created and opened.",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 59,
+                              "offset": 187
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 39,
+                              "offset": 253
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 3,
+                          "column": 1,
+                          "offset": 46
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 39,
+                          "offset": 253
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 39,
+                      "offset": 253
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 164,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 173,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 174,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 174,
+                      "column": 37
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000174"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "popupContainerId",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "popupContainerId",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#popupContainerId"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "An object containing properties to be passed to popup component.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 65,
+                              "offset": 64
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 65,
+                          "offset": 64
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 65,
+                      "offset": 64
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 176,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 181,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 182,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 182,
+                      "column": 31
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000182"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "popupProps",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "popupProps",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#popupProps"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", it shows close button.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 36,
+                              "offset": 35
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 36,
+                          "offset": 35
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 36,
+                      "offset": 35
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": null
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 192,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 198,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 199,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 199,
+                      "column": 35
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000199"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "showCloseButton",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "showCloseButton",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#showCloseButton"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Overrides the current skin for this component. When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "noSkin",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is set on the config\nobject, ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 61,
+                              "offset": 60
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 90
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "skin",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 90
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will only be applied to the\n",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 125
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 1,
+                              "offset": 125
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 53,
+                              "offset": 177
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " and not to the popup's activator\ncomponent.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 53,
+                              "offset": 177
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 11,
+                              "offset": 221
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 11,
+                          "offset": 221
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 11,
+                      "offset": 221
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 201,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 209,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 210,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 210,
+                      "column": 25
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000210"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "skin",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "skin",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#skin"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Restricts or prioritizes navigation when focus attempts to leave the popup. It\ncan be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 93
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'none'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 93
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 23,
+                              "offset": 101
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 23,
+                              "offset": 101
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 25,
+                              "offset": 103
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'self-first'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 25,
+                              "offset": 103
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 39,
+                              "offset": 117
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 39,
+                              "offset": 117
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 44,
+                              "offset": 122
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'self-only'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 44,
+                              "offset": 122
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 57,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 57,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 58,
+                              "offset": 136
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 58,
+                          "offset": 136
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 58,
+                      "offset": 136
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'self-first'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 212,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 219,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 220,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 220,
+                      "column": 74
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000220"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "spotlightRestrict",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "spotlightRestrict",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator#spotlightRestrict"
+              }
+            ],
+            "events": [],
+            "static": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Default config for ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 20,
+                              "offset": 19
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 87,
+                          "offset": 86
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 87,
+                      "offset": 86
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "hocconfig",
+                    "description": null,
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 24,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 30,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 52,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                  "sortKey": "undefined 00000031"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @hocconfig",
+                    "commentLineNumber": 4
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator",
+                "name": "defaultConfig",
+                "kind": "constant",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": [
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "If the wrapped component does not support skinning, set ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 57,
+                                    "offset": 56
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "noSkin",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 57,
+                                    "offset": 56
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 65,
+                                    "offset": 64
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 65,
+                                    "offset": 64
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 69,
+                                    "offset": 68
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "true",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 69,
+                                    "offset": 68
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 75,
+                                    "offset": 74
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " to disable passing\nthe ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 75,
+                                    "offset": 74
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 5,
+                                    "offset": 98
+                                  },
+                                  "indent": [
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "skin",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 5,
+                                    "offset": 98
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 11,
+                                    "offset": 104
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " prop to it.",
+                                "position": {
+                                  "start": {
+                                    "line": 2,
+                                    "column": 11,
+                                    "offset": 104
+                                  },
+                                  "end": {
+                                    "line": 2,
+                                    "column": 23,
+                                    "offset": 116
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 2,
+                                "column": 23,
+                                "offset": 116
+                              },
+                              "indent": [
+                                1
+                              ]
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 2,
+                            "column": 23,
+                            "offset": 116
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 4,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "Boolean"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "false",
+                          "lineNumber": 5
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator.defaultConfig",
+                          "lineNumber": 6
+                        },
+                        {
+                          "title": "public",
+                          "description": null,
+                          "lineNumber": 7
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 32,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 40,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 41,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 41,
+                            "column": 14
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                        "sortKey": "undefined 00000041"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator.defaultConfig",
+                      "access": "public",
+                      "name": "noSkin",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "moonstone/ContextualPopupDecorator",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "ContextualPopupDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "noSkin"
+                        }
+                      ],
+                      "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecoratordefaultConfignoSkin"
+                    },
+                    {
+                      "description": {
+                        "type": "root",
+                        "children": [
+                          {
+                            "type": "paragraph",
+                            "children": [
+                              {
+                                "type": "text",
+                                "value": "Configures the prop name to map value of ",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 1,
+                                    "offset": 0
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "inlineCode",
+                                "value": "open",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 42,
+                                    "offset": 41
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 48,
+                                    "offset": 47
+                                  },
+                                  "indent": []
+                                }
+                              },
+                              {
+                                "type": "text",
+                                "value": " state of ContextualPopupDecorator",
+                                "position": {
+                                  "start": {
+                                    "line": 1,
+                                    "column": 48,
+                                    "offset": 47
+                                  },
+                                  "end": {
+                                    "line": 1,
+                                    "column": 82,
+                                    "offset": 81
+                                  },
+                                  "indent": []
+                                }
+                              }
+                            ],
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 82,
+                                "offset": 81
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 82,
+                            "offset": 81
+                          }
+                        }
+                      },
+                      "tags": [
+                        {
+                          "title": "type",
+                          "description": null,
+                          "lineNumber": 3,
+                          "type": {
+                            "type": "NameExpression",
+                            "name": "String"
+                          }
+                        },
+                        {
+                          "title": "default",
+                          "description": "'selected'",
+                          "lineNumber": 4
+                        },
+                        {
+                          "title": "memberof",
+                          "description": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator.defaultConfig",
+                          "lineNumber": 5
+                        },
+                        {
+                          "title": "public",
+                          "description": null,
+                          "lineNumber": 6
+                        }
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 43,
+                          "column": 1
+                        },
+                        "end": {
+                          "line": 50,
+                          "column": 4
+                        }
+                      },
+                      "context": {
+                        "loc": {
+                          "start": {
+                            "line": 51,
+                            "column": 1
+                          },
+                          "end": {
+                            "line": 51,
+                            "column": 21
+                          }
+                        },
+                        "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopupDecorator.js",
+                        "sortKey": "undefined 00000051"
+                      },
+                      "augments": [],
+                      "errors": [],
+                      "examples": [],
+                      "params": [],
+                      "properties": [],
+                      "returns": [],
+                      "sees": [],
+                      "throws": [],
+                      "todos": [],
+                      "memberof": "moonstone/ContextualPopupDecorator.ContextualPopupDecorator.defaultConfig",
+                      "access": "public",
+                      "name": "openProp",
+                      "members": {
+                        "global": [],
+                        "inner": [],
+                        "instance": [],
+                        "events": [],
+                        "static": []
+                      },
+                      "path": [
+                        {
+                          "name": "moonstone/ContextualPopupDecorator",
+                          "kind": "module"
+                        },
+                        {
+                          "name": "ContextualPopupDecorator",
+                          "kind": "class"
+                        },
+                        {
+                          "name": "defaultConfig",
+                          "kind": "constant"
+                        },
+                        {
+                          "name": "openProp"
+                        }
+                      ],
+                      "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecoratordefaultConfigopenProp"
+                    }
+                  ]
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopupDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "defaultConfig",
+                    "kind": "constant"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecoratordefaultConfig"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "moonstone/ContextualPopupDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "ContextualPopupDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ContextualPopupDecoratorContextualPopupDecorator"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/ContextualPopupDecorator.ContextualPopup"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 59,
+                        "offset": 58
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a modal component that\nappears in context to an activator.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 59,
+                        "offset": 58
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 36,
+                        "offset": 120
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 36,
+                    "offset": 120
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 36,
+                "offset": 120
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "ContextualPopup"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/ContextualPopupDecorator",
+              "lineNumber": 5
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 53,
+              "column": 0
+            },
+            "end": {
+              "line": 61,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 62,
+                "column": 0
+              },
+              "end": {
+                "line": 181,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+            "sortKey": "undefined 00000062"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ContextualPopup",
+          "memberof": "moonstone/ContextualPopupDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The element(s) to be displayed in the body of the popup.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 57,
+                          "offset": 56
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 57,
+                      "offset": 56
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 66,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 71,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 72,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 75,
+                      "column": 15
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000072"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Style object for arrow position.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 33,
+                              "offset": 32
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 33,
+                          "offset": 32
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 33,
+                      "offset": 32
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 77,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 83,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 88,
+                      "column": 4
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000083"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "arrowPosition",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "arrowPosition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#arrowPosition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Style object for container position.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 37,
+                              "offset": 36
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 37,
+                          "offset": 36
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 37,
+                      "offset": 36
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 90,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 95,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 96,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 101,
+                      "column": 4
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000096"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "containerPosition",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "containerPosition",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#containerPosition"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A callback function to get the reference to the container node.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 64,
+                          "offset": 63
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 64,
+                      "offset": 63
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 103,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 108,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 109,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 109,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000109"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "containerRef",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "containerRef",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#containerRef"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Direction of ContextualPopup. Can be one of: ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'up'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'down'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'left'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'right'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 86,
+                              "offset": 85
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 86,
+                              "offset": 85
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 87,
+                              "offset": 86
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 87,
+                          "offset": 86
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 87,
+                      "offset": 86
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": null
+                  },
+                  {
+                    "title": "default",
+                    "description": "'down'",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 111,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 61
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "direction",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "direction",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#direction"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to be run when close button is clicked.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 51,
+                              "offset": 50
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 51,
+                          "offset": 50
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 51,
+                      "offset": 50
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 125,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 126,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 126,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000126"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onCloseButtonClick",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onCloseButtonClick",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#onCloseButtonClick"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the close button is shown; when ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 46,
+                              "offset": 45
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", it is hidden.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 68,
+                          "offset": 67
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 68,
+                      "offset": 67
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": null
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 128,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 134,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 135,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 135,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/ContextualPopupDecorator/ContextualPopup.js",
+                  "sortKey": "undefined 00000135"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "showCloseButton",
+                "memberof": "moonstone/ContextualPopupDecorator.ContextualPopup",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/ContextualPopupDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ContextualPopup",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "showCloseButton",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ContextualPopupDecoratorContextualPopup#showCloseButton"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/ContextualPopupDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "ContextualPopup",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ContextualPopupDecoratorContextualPopup"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/ContextualPopupDecorator",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/ContextualPopupDecorator"
+  }
+]

@@ -1,0 +1,4035 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Button.Button",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Button.Button"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 44,
+                  "offset": 43
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 44,
+                  "offset": 43
+                },
+                "end": {
+                  "line": 1,
+                  "column": 49,
+                  "offset": 48
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Button.ButtonBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Button.ButtonBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 49,
+                  "offset": 48
+                },
+                "end": {
+                  "line": 1,
+                  "column": 84,
+                  "offset": 83
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": "\ncomponents.  The default export is ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 84,
+                  "offset": 83
+                },
+                "end": {
+                  "line": 2,
+                  "column": 36,
+                  "offset": 119
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Button.Button",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Button.Button"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 36,
+                  "offset": 119
+                },
+                "end": {
+                  "line": 2,
+                  "column": 67,
+                  "offset": 150
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 67,
+                  "offset": 150
+                },
+                "end": {
+                  "line": 2,
+                  "column": 68,
+                  "offset": 151
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 68,
+              "offset": 151
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 68,
+          "offset": 151
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "example",
+        "description": "<Button small>Click me</Button>",
+        "lineNumber": 4
+      },
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 7,
+        "type": null,
+        "name": "moonstone/Button"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 9,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 11,
+          "column": 42
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+      "sortKey": "undefined 00000011"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [
+      {
+        "description": "<Button small>Click me</Button>"
+      }
+    ],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/Button",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.ButtonBaseFactory",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.ButtonBaseFactory"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 43,
+                        "offset": 42
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is Factory wrapper around ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 43,
+                        "offset": 42
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 70,
+                        "offset": 69
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.ButtonBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.ButtonBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 70,
+                        "offset": 69
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 105,
+                        "offset": 104
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nthat allows overriding certain classes at design time. The following are properties of the ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 105,
+                        "offset": 104
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 92,
+                        "offset": 196
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "css",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 92,
+                        "offset": 196
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 97,
+                        "offset": 201
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nmember of the argument to the factory.",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 97,
+                        "offset": 201
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 39,
+                        "offset": 240
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 39,
+                    "offset": 240
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Usage:",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 242
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 7,
+                        "offset": 248
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 242
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 7,
+                    "offset": 248
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import css from './CustomButton.less';\nimport {ButtonFactory} from '@enact/moonstone/Button';\nconst Button = ButtonFactory({\n    css: {\n        bg: css.bg,\n        selected: css.selected\n    }\n});",
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 249
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 4,
+                    "offset": 453
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 4,
+                "offset": 453
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 17,
+              "type": null,
+              "name": "ButtonBaseFactory"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Button",
+              "lineNumber": 18
+            },
+            {
+              "title": "factory",
+              "description": null,
+              "lineNumber": 19
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 20
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 0
+            },
+            "end": {
+              "line": 49,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 0
+              },
+              "end": {
+                "line": 224,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+            "sortKey": "undefined 00000050"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @factory",
+              "commentLineNumber": 19
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ButtonBaseFactory",
+          "memberof": "moonstone/Button",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Classes to apply to the background of the button, used on a child of button",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 76,
+                          "offset": 75
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 76,
+                      "offset": 75
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 2,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 3
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 174,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 178,
+                    "column": 7
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 179,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 179,
+                      "column": 14
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000179"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "bg",
+                "memberof": "moonstone/Button.ButtonBaseFactory",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBaseFactory",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "bg",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBaseFactory#bg"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Classes to apply to the selected state of the button, applied to the base element",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 82,
+                          "offset": 81
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 82,
+                      "offset": 81
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 2,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 3
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 181,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 185,
+                    "column": 7
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 186,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 186,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000186"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/Button.ButtonBaseFactory",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBaseFactory",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBaseFactory#selected"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Button",
+              "kind": "module"
+            },
+            {
+              "name": "ButtonBaseFactory",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ButtonButtonBaseFactory"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.ButtonBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.ButtonBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 36,
+                        "offset": 35
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a stateless Button with Moonstone styling\napplied. In most circumstances, you will want to use the Pressable and Spottable version:\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 36,
+                        "offset": 35
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 171
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.Button",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.Button"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 171
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 32,
+                        "offset": 202
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 32,
+                    "offset": 202
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 32,
+                "offset": 202
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "ButtonBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Button",
+              "lineNumber": 6
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 1
+            },
+            "end": {
+              "line": 61,
+              "column": 4
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 62,
+                "column": 1
+              },
+              "end": {
+                "line": 223,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+            "sortKey": "undefined 00000062"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ButtonBase",
+          "memberof": "moonstone/Button",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The background-color opacity of this button; valid values are ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'opaque'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'translucent'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 90,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 90,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 91
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'lightTranslucent'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 91
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 111
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", and ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 111
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 117
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'transparent'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 117
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 42,
+                              "offset": 132
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 42,
+                              "offset": 132
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 43,
+                              "offset": 133
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 43,
+                          "offset": 133
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 43,
+                      "offset": 133
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'opaque'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 68,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 75,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 76,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 76,
+                      "column": 99
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000076"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "backgroundOpacity",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "backgroundOpacity",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#backgroundOpacity"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "This property accepts one of the following color names, which correspond with the\ncolored buttons on a standard remote control: ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 47,
+                              "offset": 128
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'red'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 47,
+                              "offset": 128
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 56,
+                              "offset": 137
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'green'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 56,
+                              "offset": 137
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 65,
+                              "offset": 146
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 65,
+                              "offset": 146
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 148
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'yellow'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 148
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 77,
+                              "offset": 158
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 77,
+                              "offset": 158
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 79,
+                              "offset": 160
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'blue'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 79,
+                              "offset": 160
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 87,
+                              "offset": 168
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 87,
+                          "offset": 168
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 87,
+                      "offset": 168
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 78,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 84,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 85,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 85,
+                      "column": 67
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000085"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "color",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "color",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#color"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "button",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "button",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 19,
+                                  "offset": 18
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 25,
+                                  "offset": 24
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary button} is shown as disabled and does not\ngenerate ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 26,
+                              "offset": 25
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 87
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onClick",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 87
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 19,
+                              "offset": 96
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 19,
+                              "offset": 96
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 97
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "events",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "events",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 21,
+                                  "offset": 98
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 27,
+                                  "offset": 104
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 20,
+                              "offset": 97
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 105
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary event}.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 105
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 46,
+                              "offset": 123
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 46,
+                          "offset": 123
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 46,
+                      "offset": 123
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 87,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 94,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 95,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 95,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000095"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Include an ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "icon",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "icon",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 13,
+                                  "offset": 12
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 17,
+                                  "offset": 16
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/Icon.Icon",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/Icon.Icon"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " in your ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "button",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "button",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 55,
+                                  "offset": 54
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 61,
+                                  "offset": 60
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 54,
+                              "offset": 53
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/Button.Button",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/Button.Button"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 93,
+                              "offset": 92
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".\nThe icon will be displayed before the natural reading order of the text, regardless\nof locale. Any string that is valid for the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 93,
+                              "offset": 92
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 45,
+                              "offset": 222
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "Icon",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 45,
+                              "offset": 222
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 51,
+                              "offset": 228
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " component is valid here. ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 51,
+                              "offset": 228
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 77,
+                              "offset": 254
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "icon",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 77,
+                              "offset": 254
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 83,
+                              "offset": 260
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is\noutside the marqueeable content so it will not scroll along with the text content of\nyour button. This also supports a custom icon, in the form of a DOM node or a\nComponent, with the caveat that if you supply a custom icon, you are responsible for\nsizing and locale positioning of the custom component.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 83,
+                              "offset": 260
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 55,
+                              "offset": 566
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 55,
+                          "offset": 566
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 55,
+                      "offset": 566
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 9,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 10
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 97,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 108,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 109,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 109,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000109"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "icon",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "icon",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#icon"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A boolean parameter affecting the minimum width of the button. When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 69,
+                              "offset": 68
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\nthe minimum width will be set to 180px (or 130px if ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 53,
+                              "offset": 128
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "small",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "small",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 54,
+                                  "offset": 129
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 59,
+                                  "offset": 134
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 53,
+                              "offset": 128
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/Button.Button#small",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/Button.Button#small"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 97,
+                              "offset": 172
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\nis ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 97,
+                              "offset": 172
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 4,
+                              "offset": 176
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 4,
+                              "offset": 176
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 10,
+                              "offset": 182
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "). If ",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 10,
+                              "offset": 182
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 16,
+                              "offset": 188
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "false",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 16,
+                              "offset": 188
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 23,
+                              "offset": 195
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the minimum width will be set to the current value of\n",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 23,
+                              "offset": 195
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 251
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "@moon-button-height",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 251
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 272
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " (thus forcing the button to be no smaller than a circle with\ndiameter ",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 22,
+                              "offset": 272
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 10,
+                              "offset": 343
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "@moon-button-height",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 10,
+                              "offset": 343
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 31,
+                              "offset": 364
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ").",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 31,
+                              "offset": 364
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 33,
+                              "offset": 366
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 33,
+                          "offset": 366
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 33,
+                      "offset": 366
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "true",
+                    "lineNumber": 8
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 111,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 121,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 122,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 122,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000122"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "minWidth",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "minWidth",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#minWidth"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the button does not animate on press",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 50,
+                          "offset": 49
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 50,
+                      "offset": 49
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 124,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 130,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 131,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 131,
+                      "column": 30
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000131"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAnimation",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAnimation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#noAnimation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a pressed visual effect is applied to the button",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 62,
+                          "offset": 61
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 62,
+                      "offset": 61
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 133,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 139,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 140,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 140,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000140"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "pressed",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "pressed",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#pressed"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a selected visual effect is applied to the button",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 63,
+                              "offset": 62
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 63,
+                          "offset": 62
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 63,
+                      "offset": 62
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 142,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 147,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 148,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 148,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000148"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "selected",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "selected",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#selected"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A boolean parameter affecting the size of the button. If ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 58,
+                              "offset": 57
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 58,
+                              "offset": 57
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the\nbutton's diameter will be set to 60px. However, the button's tap target\nwill still have a diameter of 78px, with an invisible DOM element\nwrapping the small button to provide the larger tap zone.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 58,
+                              "offset": 264
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 4,
+                          "column": 58,
+                          "offset": 264
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 4,
+                      "column": 58,
+                      "offset": 264
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 150,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 159,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 160,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 160,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000160"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "small",
+                "memberof": "moonstone/Button.ButtonBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "ButtonBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "small",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButtonBase#small"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Button",
+              "kind": "module"
+            },
+            {
+              "name": "ButtonBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ButtonButtonBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.ButtonFactory",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.ButtonFactory"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 39,
+                        "offset": 38
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is Factory wrapper around ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 39,
+                        "offset": 38
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 66,
+                        "offset": 65
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.Button",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.Button"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 66,
+                        "offset": 65
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 97,
+                        "offset": 96
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nthat allows overriding certain classes at design time. See ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 97,
+                        "offset": 96
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 60,
+                        "offset": 156
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.ButtonBaseFactory",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.ButtonBaseFactory"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 60,
+                        "offset": 156
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 102,
+                        "offset": 198
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 102,
+                        "offset": 198
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 103,
+                        "offset": 199
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 103,
+                    "offset": 199
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 2,
+                "column": 103,
+                "offset": 199
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 4,
+              "type": null,
+              "name": "ButtonFactory"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Button",
+              "lineNumber": 5
+            },
+            {
+              "title": "factory",
+              "description": null,
+              "lineNumber": 6
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 7
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 226,
+              "column": 0
+            },
+            "end": {
+              "line": 234,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 235,
+                "column": 0
+              },
+              "end": {
+                "line": 293,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+            "sortKey": "undefined 00000235"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @factory",
+              "commentLineNumber": 6
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "ButtonFactory",
+          "memberof": "moonstone/Button",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Button",
+              "kind": "module"
+            },
+            {
+              "name": "ButtonFactory",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ButtonButtonFactory"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Button.Button",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Button.Button"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 32,
+                        "offset": 31
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Button with Moonstone styling, Spottable and\nPressable applied.  If the Button's child component is text, it will be uppercased unless\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 32,
+                        "offset": 31
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 172
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "casing",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 172
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 9,
+                        "offset": 180
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is set.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 9,
+                        "offset": 180
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 17,
+                        "offset": 188
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 17,
+                    "offset": 188
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Usage:",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 190
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 7,
+                        "offset": 196
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 5,
+                    "column": 1,
+                    "offset": 190
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 7,
+                    "offset": 196
+                  },
+                  "indent": []
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "<Button>Press me!</Button>",
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 197
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 4,
+                    "offset": 231
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 4,
+                "offset": 231
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 10,
+              "type": null,
+              "name": "Button"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Button",
+              "lineNumber": 11
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 12,
+              "name": "i18n/Uppercase.Uppercase"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 13,
+              "name": "moonstone/TooltipDecorator.TooltipDecorator"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 14,
+              "name": "moonstone/Marquee.MarqueeDecorator"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 15,
+              "name": "ui/Pressable.Pressable"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 16,
+              "name": "spotlight/Spottable.Spottable"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 17
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 18
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 237,
+              "column": 1
+            },
+            "end": {
+              "line": 256,
+              "column": 4
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 257,
+                "column": 1
+              },
+              "end": {
+                "line": 273,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+            "sortKey": "undefined 00000257"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 17
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Button",
+          "memberof": "moonstone/Button",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Transformation to apply to the text of the Button. By default, text is transformed\nto uppercase.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 14,
+                              "offset": 96
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 14,
+                          "offset": 96
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 14,
+                      "offset": 96
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "see",
+                    "description": "i18n/Uppercase#casing",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'upper'",
+                    "lineNumber": 6
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 276,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 284,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 285,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 285,
+                      "column": 68
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Button/Button.js",
+                  "sortKey": "undefined 00000285"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [
+                  {
+                    "type": "root",
+                    "children": [
+                      {
+                        "type": "paragraph",
+                        "children": [
+                          {
+                            "type": "text",
+                            "value": "i18n/Uppercase#casing",
+                            "position": {
+                              "start": {
+                                "line": 1,
+                                "column": 1,
+                                "offset": 0
+                              },
+                              "end": {
+                                "line": 1,
+                                "column": 22,
+                                "offset": 21
+                              },
+                              "indent": []
+                            }
+                          }
+                        ],
+                        "position": {
+                          "start": {
+                            "line": 1,
+                            "column": 1,
+                            "offset": 0
+                          },
+                          "end": {
+                            "line": 1,
+                            "column": 22,
+                            "offset": 21
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 22,
+                        "offset": 21
+                      }
+                    }
+                  }
+                ],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "casing",
+                "memberof": "moonstone/Button.Button",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Button",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Button",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "casing",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/ButtonButton#casing"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Button",
+              "kind": "module"
+            },
+            {
+              "name": "Button",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/ButtonButton"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/Button",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/Button"
+  }
+]

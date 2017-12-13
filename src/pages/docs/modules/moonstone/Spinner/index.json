@@ -1,0 +1,2182 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Spinner.Spinner",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Spinner.Spinner"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 46,
+                  "offset": 45
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 46,
+                  "offset": 45
+                },
+                "end": {
+                  "line": 1,
+                  "column": 51,
+                  "offset": 50
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Spinner.SpinnerBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Spinner.SpinnerBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 51,
+                  "offset": 50
+                },
+                "end": {
+                  "line": 1,
+                  "column": 88,
+                  "offset": 87
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " components.\nThe default export is ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 88,
+                  "offset": 87
+                },
+                "end": {
+                  "line": 2,
+                  "column": 23,
+                  "offset": 122
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/Spinner.Spinner",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/Spinner.Spinner"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 23,
+                  "offset": 122
+                },
+                "end": {
+                  "line": 2,
+                  "column": 56,
+                  "offset": 155
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": ".",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 56,
+                  "offset": 155
+                },
+                "end": {
+                  "line": 2,
+                  "column": 57,
+                  "offset": 156
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 57,
+              "offset": 156
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 57,
+          "offset": 156
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "moonstone/Spinner"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 52
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+      "sortKey": "undefined 00000007"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/Spinner",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Spinner.SpinnerBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Spinner.SpinnerBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 38,
+                        "offset": 37
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a component that shows a spinning\nanimation to indicate that some activity is taking place.\nOptionally, a scrim may be applied and clicks to underlying components may be blocked.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 38,
+                        "offset": 37
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 87,
+                        "offset": 219
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 87,
+                    "offset": 219
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 87,
+                "offset": 219
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "SpinnerBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Spinner",
+              "lineNumber": 6
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 55,
+              "column": 0
+            },
+            "end": {
+              "line": 64,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 65,
+                "column": 0
+              },
+              "end": {
+                "line": 189,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+            "sortKey": "undefined 00000065"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "SpinnerBase",
+          "memberof": "moonstone/Spinner",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Determines how far the click-blocking should extend. It can be ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'screen'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'container'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ",\nor ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 93
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 4,
+                              "offset": 93
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 99
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". 'screen' blocks entire screen. 'container' blocks up to the nearest ancestor\nwith absolute or relative positioning. When blockClickOn is either ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 10,
+                              "offset": 99
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 68,
+                              "offset": 245
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'screen'",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 68,
+                              "offset": 245
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 78,
+                              "offset": 255
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or\n",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 78,
+                              "offset": 255
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 259
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'container'",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 1,
+                              "offset": 259
+                            },
+                            "end": {
+                              "line": 4,
+                              "column": 14,
+                              "offset": 272
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", a translucent scrim can be added by setting\n",
+                          "position": {
+                            "start": {
+                              "line": 4,
+                              "column": 14,
+                              "offset": 272
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 318
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "scrim",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "scrim",
+                              "position": {
+                                "start": {
+                                  "line": 5,
+                                  "column": 2,
+                                  "offset": 319
+                                },
+                                "end": {
+                                  "line": 5,
+                                  "column": 7,
+                                  "offset": 324
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 318
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 325
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "moonstone/Spinner.Spinner#scrim",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "moonstone/Spinner.Spinner#scrim"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 8,
+                              "offset": 325
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 47,
+                              "offset": 364
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " prop to ",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 47,
+                              "offset": 364
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 56,
+                              "offset": 373
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 56,
+                              "offset": 373
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 62,
+                              "offset": 379
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 62,
+                              "offset": 379
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 63,
+                              "offset": 380
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 63,
+                          "offset": 380
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 63,
+                      "offset": 380
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 69,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 78,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 79,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 79,
+                      "column": 62
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000079"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "blockClickOn",
+                "memberof": "moonstone/Spinner.SpinnerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SpinnerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "blockClickOn",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinnerBase#blockClickOn"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the spinner is horizontally and vertically centered, relative to its\ncontaining component.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 22,
+                              "offset": 103
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 22,
+                          "offset": 103
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 22,
+                      "offset": 103
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 81,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 88,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 89,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 89,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000089"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "centered",
+                "memberof": "moonstone/Spinner.SpinnerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SpinnerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "centered",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinnerBase#centered"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The optional string to be displayed as the main content of the spinner.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 72,
+                              "offset": 71
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 72,
+                          "offset": 71
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 72,
+                      "offset": 71
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 91,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 96,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 97,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 97,
+                      "column": 28
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000097"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/Spinner.SpinnerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SpinnerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinnerBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", sets visible translucent scrim behind spinner only when blockClickOn is\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 85
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'screen'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 85
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 11,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 99
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'container'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 15,
+                              "offset": 99
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 112
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". Scrim has no effect by default or when blockClickOn is ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 28,
+                              "offset": 112
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 85,
+                              "offset": 169
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 85,
+                              "offset": 169
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 91,
+                              "offset": 175
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 91,
+                              "offset": 175
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 92,
+                              "offset": 176
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 92,
+                          "offset": 176
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 92,
+                      "offset": 176
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 99,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 106,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 107,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 107,
+                      "column": 23
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000107"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "scrim",
+                "memberof": "moonstone/Spinner.SpinnerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SpinnerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "scrim",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinnerBase#scrim"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the background-color  of the spinner is transparent.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 66,
+                          "offset": 65
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 66,
+                      "offset": 65
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "false",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 109,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 116,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 117,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 117,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000117"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "transparent",
+                "memberof": "moonstone/Spinner.SpinnerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "SpinnerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "transparent",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinnerBase#transparent"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Spinner",
+              "kind": "module"
+            },
+            {
+              "name": "SpinnerBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/SpinnerSpinnerBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/Spinner.Spinner",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Spinner.Spinner"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 34,
+                        "offset": 33
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " wraps ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 34,
+                        "offset": 33
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/Spinner.SpinnerBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/Spinner.SpinnerBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 78,
+                        "offset": 77
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nto make sure spotlight is paused when ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 78,
+                        "offset": 77
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 39,
+                        "offset": 116
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "blockClickOn",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 39,
+                        "offset": 116
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 53,
+                        "offset": 130
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " prop is ",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 53,
+                        "offset": 130
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 62,
+                        "offset": 139
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "'screen'",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 62,
+                        "offset": 139
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 72,
+                        "offset": 149
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ",\nand resume spotlight when unmounted.\nHowever, spotlight is not paused when ",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 72,
+                        "offset": 149
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 39,
+                        "offset": 226
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "blockClickOn",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 39,
+                        "offset": 226
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 240
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " prop is ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 240
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 62,
+                        "offset": 249
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "'container'",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 62,
+                        "offset": 249
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 75,
+                        "offset": 262
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". Blocking spotlight\nwithin the container is up to app implementation.",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 75,
+                        "offset": 262
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 50,
+                        "offset": 332
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 50,
+                    "offset": 332
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 5,
+                "column": 50,
+                "offset": 332
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 7,
+              "type": null,
+              "name": "Spinner"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/Spinner",
+              "lineNumber": 8
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 9
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 10
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 191,
+              "column": 0
+            },
+            "end": {
+              "line": 202,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 203,
+                "column": 0
+              },
+              "end": {
+                "line": 232,
+                "column": 1
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+            "sortKey": "undefined 00000203"
+          },
+          "augments": [
+            {
+              "title": "augments",
+              "name": "Component"
+            }
+          ],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 9
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Spinner",
+          "memberof": "moonstone/Spinner",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Click event blocking type. It can be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'screen'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 45,
+                              "offset": 44
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'container'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 70,
+                              "offset": 69
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 81,
+                              "offset": 80
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".\n'screen' pauses spotlight.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 81,
+                              "offset": 80
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 108
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 27,
+                          "offset": 108
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 27,
+                      "offset": 108
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "null",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 205,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 212,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 213,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 213,
+                      "column": 62
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/Spinner/Spinner.js",
+                  "sortKey": "undefined 00000213"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "blockClickOn",
+                "memberof": "moonstone/Spinner.Spinner",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/Spinner",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Spinner",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "blockClickOn",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/SpinnerSpinner#blockClickOn"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/Spinner",
+              "kind": "module"
+            },
+            {
+              "name": "Spinner",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/SpinnerSpinner"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/Spinner",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/Spinner"
+  }
+]

@@ -1,0 +1,1498 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/TimePicker.TimePicker",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/TimePicker.TimePicker"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 52,
+                  "offset": 51
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 52,
+                  "offset": 51
+                },
+                "end": {
+                  "line": 1,
+                  "column": 62,
+                  "offset": 61
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 62,
+              "offset": 61
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 62,
+          "offset": 61
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "moonstone/TimePicker"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 59
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+      "sortKey": "undefined 00000006"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/TimePicker",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/TimePicker.TimePicker",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/TimePicker.TimePicker"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " allows the selection (or simply display) of a hour,\nmonth, and meridiem.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 40,
+                        "offset": 39
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 21,
+                        "offset": 112
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 21,
+                    "offset": 112
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "Set the ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 114
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 9,
+                        "offset": 122
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "linkReference",
+                    "identifier": "value",
+                    "referenceType": "shortcut",
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "value",
+                        "position": {
+                          "start": {
+                            "line": 4,
+                            "column": 10,
+                            "offset": 123
+                          },
+                          "end": {
+                            "line": 4,
+                            "column": 15,
+                            "offset": 128
+                          },
+                          "indent": []
+                        }
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 9,
+                        "offset": 122
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 16,
+                        "offset": 129
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/TimePicker.TimePicker#value",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/TimePicker.TimePicker#value"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 16,
+                        "offset": 129
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 61,
+                        "offset": 174
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to a standard JavaScript\n{@glossary Date} object to initialize the picker.",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 61,
+                        "offset": 174
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 50,
+                        "offset": 258
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 114
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 50,
+                    "offset": 258
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 1,
+                        "offset": 260
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 13,
+                        "offset": 272
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "TimePicker",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 13,
+                        "offset": 272
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 25,
+                        "offset": 284
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 25,
+                        "offset": 284
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 53,
+                        "offset": 312
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 53,
+                        "offset": 312
+                      },
+                      "end": {
+                        "line": 7,
+                        "column": 60,
+                        "offset": 319
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the\n",
+                    "position": {
+                      "start": {
+                        "line": 7,
+                        "column": 60,
+                        "offset": 319
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 341
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultValue",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 1,
+                        "offset": 341
+                      },
+                      "end": {
+                        "line": 8,
+                        "column": 15,
+                        "offset": 355
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property to control its initial value. If you wish to directly control updates\nto the component, supply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 8,
+                        "column": 15,
+                        "offset": 355
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 37,
+                        "offset": 471
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 9,
+                        "column": 37,
+                        "offset": 471
+                      },
+                      "end": {
+                        "line": 9,
+                        "column": 44,
+                        "offset": 478
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 9,
+                        "column": 44,
+                        "offset": 478
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 1,
+                        "offset": 525
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onChange",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 1,
+                        "offset": 525
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 11,
+                        "offset": 535
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 10,
+                        "column": 11,
+                        "offset": 535
+                      },
+                      "end": {
+                        "line": 10,
+                        "column": 19,
+                        "offset": 543
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 260
+                  },
+                  "end": {
+                    "line": 10,
+                    "column": 19,
+                    "offset": 543
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "TimePicker",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 1,
+                        "offset": 545
+                      },
+                      "end": {
+                        "line": 12,
+                        "column": 13,
+                        "offset": 557
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is an expandable component and it maintains its open/closed state by default. The\ninitial state can be supplied using ",
+                    "position": {
+                      "start": {
+                        "line": 12,
+                        "column": 13,
+                        "offset": 557
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 37,
+                        "offset": 676
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultOpen",
+                    "position": {
+                      "start": {
+                        "line": 13,
+                        "column": 37,
+                        "offset": 676
+                      },
+                      "end": {
+                        "line": 13,
+                        "column": 50,
+                        "offset": 689
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ". In order to directly control the open/closed\nstate, supply a value for ",
+                    "position": {
+                      "start": {
+                        "line": 13,
+                        "column": 50,
+                        "offset": 689
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 27,
+                        "offset": 762
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "open",
+                    "position": {
+                      "start": {
+                        "line": 14,
+                        "column": 27,
+                        "offset": 762
+                      },
+                      "end": {
+                        "line": 14,
+                        "column": 33,
+                        "offset": 768
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update its value in response to\n",
+                    "position": {
+                      "start": {
+                        "line": 14,
+                        "column": 33,
+                        "offset": 768
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 1,
+                        "offset": 822
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onClose",
+                    "position": {
+                      "start": {
+                        "line": 15,
+                        "column": 1,
+                        "offset": 822
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 10,
+                        "offset": 831
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "/",
+                    "position": {
+                      "start": {
+                        "line": 15,
+                        "column": 10,
+                        "offset": 831
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 11,
+                        "offset": 832
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onOpen",
+                    "position": {
+                      "start": {
+                        "line": 15,
+                        "column": 11,
+                        "offset": 832
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 19,
+                        "offset": 840
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 15,
+                        "column": 19,
+                        "offset": 840
+                      },
+                      "end": {
+                        "line": 15,
+                        "column": 27,
+                        "offset": 848
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 12,
+                    "column": 1,
+                    "offset": 545
+                  },
+                  "end": {
+                    "line": 15,
+                    "column": 27,
+                    "offset": 848
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 15,
+                "column": 27,
+                "offset": 848
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 17,
+              "type": null,
+              "name": "TimePicker"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/TimePicker",
+              "lineNumber": 18
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 19,
+              "name": "ui/Toggleable.Toggleable"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 20,
+              "name": "ui/RadioDecorator.RadioDecorator"
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 21,
+              "name": "ui/Changeable.Changeable"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 22
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 23
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 192,
+              "column": 0
+            },
+            "end": {
+              "line": 216,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 217,
+                "column": 0
+              },
+              "end": {
+                "line": 224,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+            "sortKey": "undefined 00000217"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 22
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "TimePicker",
+          "memberof": "moonstone/TimePicker",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Callback to be called when a condition occurs which should cause the expandable to close",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 89,
+                          "offset": 88
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 89,
+                      "offset": 88
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "onClose"
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/TimePicker.TimePicker",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 247,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 255,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 267,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 267,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+                  "sortKey": "undefined 00000267"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "onClose",
+                "memberof": "moonstone/TimePicker.TimePicker",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/TimePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "TimePicker",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onClose",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/TimePickerTimePicker#onClose"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The primary text of the item.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 30,
+                              "offset": 29
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 30,
+                          "offset": 29
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 30,
+                      "offset": 29
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "title"
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/TimePicker.TimePicker",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "required",
+                    "description": null,
+                    "lineNumber": 7
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 226,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 235,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 267,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 267,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+                  "sortKey": "undefined 00000267"
+                },
+                "augments": [],
+                "errors": [
+                  {
+                    "message": "unknown tag @required",
+                    "commentLineNumber": 7
+                  }
+                ],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "title",
+                "memberof": "moonstone/TimePicker.TimePicker",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/TimePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "TimePicker",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "title",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/TimePickerTimePicker#title"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", omits the labels below the pickers",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 48,
+                              "offset": 47
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 48,
+                          "offset": 47
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 48,
+                      "offset": 47
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "noLabels"
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/TimePicker.TimePicker",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 237,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 245,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 267,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 267,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+                  "sortKey": "undefined 00000267"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "noLabels",
+                "memberof": "moonstone/TimePicker.TimePicker",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/TimePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "TimePicker",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noLabels",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/TimePickerTimePicker#noLabels"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The selected date",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 18,
+                              "offset": 17
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 18,
+                          "offset": 17
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 18,
+                      "offset": 17
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "name",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": "value"
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/TimePicker.TimePicker",
+                    "lineNumber": 4
+                  },
+                  {
+                    "title": "instance",
+                    "description": null,
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Date"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 7
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 257,
+                    "column": 0
+                  },
+                  "end": {
+                    "line": 265,
+                    "column": 3
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 267,
+                      "column": 0
+                    },
+                    "end": {
+                      "line": 267,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/TimePicker/TimePicker.js",
+                  "sortKey": "undefined 00000267"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "name": "value",
+                "memberof": "moonstone/TimePicker.TimePicker",
+                "scope": "instance",
+                "access": "public",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/TimePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "TimePicker",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "value",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/TimePickerTimePicker#value"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/TimePicker",
+              "kind": "module"
+            },
+            {
+              "name": "TimePicker",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/TimePickerTimePicker"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/TimePicker",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/TimePicker"
+  }
+]

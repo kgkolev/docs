@@ -1,0 +1,703 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a6d2892066334abf8aaae032ffd5b38f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1fadf5f71ffc745fd653b5dcb93759fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d6ea30721e34478313d2145257fd4c31",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ae1de8175dba5ab231ed1a5a0de328db",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "8613b362dbf071b6514df13dbc2bda8c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "933a4bb7a397f9e0dc72f7fe71270884",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "2.0.0-alpha.1",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "pages",
+        "path": "${__dirname}/src/pages/"
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "2.0.0-alpha.1",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f5d2102501d496585287cfe497a69838",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-json": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby-transformer-json",
+      "id": "Plugin gatsby-transformer-json",
+      "name": "gatsby-transformer-json",
+      "version": "1.0.14",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby-transformer-json",
+      "packageJson": {
+        "name": "gatsby-transformer-json",
+        "description": "Gatsby transformer plugin for JSON files",
+        "version": "1.0.14",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "json"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c085b4f08efd41a5342b3377c339e409",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "/Users/teck/enact/enact-docs/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.0.0-beta.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.0.0-beta.6",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b739bb1c355fedb4d6728c267a934f0f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/teck/enact/enact-docs",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "772787aae08a25ce9ba950e12748e587",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/teck/enact/enact-docs",
+      "packageJson": {
+        "name": "enact-docs",
+        "description": "Enact JavaScript Framework Docs",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "enact",
+          "enactjs",
+          "docs"
+        ],
+        "license": "Apache-2.0",
+        "dependencies": [
+          {
+            "name": "@enact/core",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "@enact/i18n",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "@enact/moonstone",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "@enact/spotlight",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "@enact/ui",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "@enact/webos",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "babel-core",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-loader",
+            "version": "^6.4.1"
+          },
+          {
+            "name": "babel-plugin-dev-expression",
+            "version": "~0.2.1"
+          },
+          {
+            "name": "babel-plugin-dynamic-import-webpack",
+            "version": "~1.0.1"
+          },
+          {
+            "name": "babel-plugin-transform-react-constant-elements",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-plugin-transform-react-inline-elements",
+            "version": "^6.22.0"
+          },
+          {
+            "name": "broken-link-checker",
+            "version": "^0.7.3"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.6.1"
+          },
+          {
+            "name": "chroma-js",
+            "version": "^0.7.2"
+          },
+          {
+            "name": "color-pairs-picker",
+            "version": "^1.3.5"
+          },
+          {
+            "name": "create-react-class",
+            "version": "^15.6.0"
+          },
+          {
+            "name": "css-loader",
+            "version": "^0.28.4"
+          },
+          {
+            "name": "documentation",
+            "version": "^4.0.0-rc.1"
+          },
+          {
+            "name": "elasticlunr",
+            "version": "^0.9.5"
+          },
+          {
+            "name": "enact",
+            "version": "github:enyojs/enact"
+          },
+          {
+            "name": "enact-dev",
+            "version": "github:enyojs/enact-dev"
+          },
+          {
+            "name": "eslint-config-enact",
+            "version": "github:enyojs/eslint-config-enact#master"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "find-cache-dir",
+            "version": "^0.1.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "1.9.70"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.31"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^2.0.0-alpha.1"
+          },
+          {
+            "name": "gatsby-transformer-json",
+            "version": "^1.0.14"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.0.0-beta.6"
+          },
+          {
+            "name": "global-modules",
+            "version": "^0.2.3"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^2.28.0"
+          },
+          {
+            "name": "ilib-webpack-plugin",
+            "version": "~0.1.3"
+          },
+          {
+            "name": "json-loader",
+            "version": "^0.5.4"
+          },
+          {
+            "name": "jsonata",
+            "version": "^1.0.9"
+          },
+          {
+            "name": "jsonfile",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "less-loader",
+            "version": "^2.2.3"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.15.0"
+          },
+          {
+            "name": "minimist",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "postcss",
+            "version": "^5.2.17"
+          },
+          {
+            "name": "postcss-loader",
+            "version": "^1.3.3"
+          },
+          {
+            "name": "progress",
+            "version": "~1.1.8"
+          },
+          {
+            "name": "prop-types",
+            "version": "^15.5.10"
+          },
+          {
+            "name": "react-document-title",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "react-live",
+            "version": "^1.5.1"
+          },
+          {
+            "name": "react-motion",
+            "version": "^0.1.0"
+          },
+          {
+            "name": "react-responsive-grid",
+            "version": "^0.3.3"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.14.0"
+          },
+          {
+            "name": "readdirp",
+            "version": "^2.1.0"
+          },
+          {
+            "name": "shelljs",
+            "version": "^0.7.5"
+          },
+          {
+            "name": "typography",
+            "version": "^0.14.0"
+          },
+          {
+            "name": "typography-plugin-code",
+            "version": "^0.14.0"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.2.2"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.15.0"
+          }
+        ],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "47684b3dbcf234442d20e7681137046a",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Enact",
+        "baseColor": "#1b5271",
+        "docPages": [
+          "/docs/",
+          "/docs/modules/",
+          "/docs/developer-guide/",
+          "/docs/developer-tools/",
+          "/docs/tutorials/"
+        ],
+        "linkPrefix": "/public"
+      },
+      "port": 8001,
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-12-13T01:22:04.001Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "b3ce0677570eedfc2fb61c69f34764e4",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "46a5e2dd2de7d6ad45d6509b49cdcdf7"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}

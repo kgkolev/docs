@@ -1,0 +1,644 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "i18n/I18nDecorator.I18nDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "i18n/I18nDecorator.I18nDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 53,
+                  "offset": 52
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 53,
+                  "offset": 52
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 67
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "i18n/I18nDecorator.contextTypes",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "i18n/I18nDecorator.contextTypes"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 67
+                },
+                "end": {
+                  "line": 2,
+                  "column": 40,
+                  "offset": 106
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " validation rules.",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 40,
+                  "offset": 106
+                },
+                "end": {
+                  "line": 2,
+                  "column": 58,
+                  "offset": 124
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 58,
+              "offset": 124
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 58,
+          "offset": 124
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "i18n/I18nDecorator"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 34
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/I18nDecorator/I18nDecorator.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "i18n/I18nDecorator",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "inlineCode",
+                    "value": "contextTypes",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 15,
+                        "offset": 14
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is an object that exports the default context validation rules. These must be applied\nto any child components that wish to receive the i18n context.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 15,
+                        "offset": 14
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 63,
+                        "offset": 163
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 63,
+                    "offset": 163
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import {contextTypes} from '@enact/i18n/I18nDecorator';\n...\nmyComponent.contextTypes = contextTypes;",
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 165
+                  },
+                  "end": {
+                    "line": 8,
+                    "column": 4,
+                    "offset": 273
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 8,
+                "column": 4,
+                "offset": 273
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "memberof",
+              "description": "i18n/I18nDecorator",
+              "lineNumber": 10
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 11
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 0
+            },
+            "end": {
+              "line": 31,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 32,
+                "column": 0
+              },
+              "end": {
+                "line": 35,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/I18nDecorator/I18nDecorator.js",
+            "sortKey": "undefined 00000032"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "memberof": "i18n/I18nDecorator",
+          "access": "public",
+          "name": "contextTypes",
+          "kind": "constant",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "i18n/I18nDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "contextTypes",
+              "kind": "constant"
+            }
+          ],
+          "namespace": "i18n/I18nDecoratorcontextTypes"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "i18n/I18nDecorator.I18nDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "i18n/I18nDecorator.I18nDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher Order Component that is used to wrap\nthe root element in an app. It provides an ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 41,
+                        "offset": 40
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 44,
+                        "offset": 133
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "rtl",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 44,
+                        "offset": 133
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 49,
+                        "offset": 138
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " member on the context of the wrapped component, allowing\nthe children to check the current text directionality as well as an ",
+                    "position": {
+                      "start": {
+                        "line": 2,
+                        "column": 49,
+                        "offset": 138
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 69,
+                        "offset": 264
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "updateLocale",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 69,
+                        "offset": 264
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 83,
+                        "offset": 278
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " method that can be\nused to update the current locale.",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 83,
+                        "offset": 278
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 35,
+                        "offset": 332
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 35,
+                    "offset": 332
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "There are no configurable options on this HOC.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 1,
+                        "offset": 334
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 47,
+                        "offset": 380
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 6,
+                    "column": 1,
+                    "offset": 334
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 47,
+                    "offset": 380
+                  },
+                  "indent": []
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 47,
+                "offset": 380
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "I18nDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "i18n/I18nDecorator",
+              "lineNumber": 9
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 10
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 11
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 49,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 50,
+                "column": 0
+              },
+              "end": {
+                "line": 139,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/i18n/I18nDecorator/I18nDecorator.js",
+            "sortKey": "undefined 00000050"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 10
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "I18nDecorator",
+          "memberof": "i18n/I18nDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "i18n/I18nDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "I18nDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "i18n/I18nDecoratorI18nDecorator"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "i18n/I18nDecorator",
+        "kind": "module"
+      }
+    ],
+    "namespace": "i18n/I18nDecorator"
+  }
+]

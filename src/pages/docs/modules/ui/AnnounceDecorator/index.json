@@ -1,0 +1,1060 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/AnnounceDecorator.AnnounceDecorator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/AnnounceDecorator.AnnounceDecorator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 59,
+                  "offset": 58
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " Higher-order Component (HOC) and the\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 59,
+                  "offset": 58
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 96
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "ui/AnnounceDecorator.Announce",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "ui/AnnounceDecorator.Announce"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 96
+                },
+                "end": {
+                  "line": 2,
+                  "column": 38,
+                  "offset": 133
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " component;",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 38,
+                  "offset": 133
+                },
+                "end": {
+                  "line": 2,
+                  "column": 49,
+                  "offset": 144
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 49,
+              "offset": 144
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 49,
+          "offset": 144
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "ui/AnnounceDecorator"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 34
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/AnnounceDecorator/AnnounceDecorator.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "ui/AnnounceDecorator",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/AnnounceDecorator.AnnounceDecorator",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/AnnounceDecorator.AnnounceDecorator"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a Higher-order Component that passes a function\nto its wrapped component which can be called to alert the user for accessibility notifications.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 47,
+                        "offset": 46
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 96,
+                        "offset": 193
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 96,
+                    "offset": 193
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, the function is passed in the ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 195
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 43,
+                        "offset": 237
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "announce",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 43,
+                        "offset": 237
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 247
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " prop but may be customized by specifying the\n",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 53,
+                        "offset": 247
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 293
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "prop",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 1,
+                        "offset": 293
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 7,
+                        "offset": 299
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " config member.",
+                    "position": {
+                      "start": {
+                        "line": 5,
+                        "column": 7,
+                        "offset": 299
+                      },
+                      "end": {
+                        "line": 5,
+                        "column": 22,
+                        "offset": 314
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 195
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 22,
+                    "offset": 314
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import AnnounceDecorator from '@enact/ui/AnnounceDecorator';\nimport React from 'react';\n\nconst Example = AnnounceDecorator(class extends React.Component {\n  static propTypes = {\n    // passed by AnnounceDecorator\n    announce: PropTypes.func\n  }\n\n  notify = () => {\n    const {announce} = this.props;\n    announce('this text will be alerted to user by TTS');\n  }\n\n  render () {\n    <div>\n      <button onClick={this.notify}>Notify on Click</button>\n    </div>\n  }\n});",
+                "position": {
+                  "start": {
+                    "line": 7,
+                    "column": 1,
+                    "offset": 316
+                  },
+                  "end": {
+                    "line": 28,
+                    "column": 4,
+                    "offset": 791
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 28,
+                "column": 4,
+                "offset": 791
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 30,
+              "type": null,
+              "name": "AnnounceDecorator"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/AnnounceDecorator",
+              "lineNumber": 31
+            },
+            {
+              "title": "hoc",
+              "description": null,
+              "lineNumber": 32
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 33
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 0
+            },
+            "end": {
+              "line": 65,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 66,
+                "column": 0
+              },
+              "end": {
+                "line": 103,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/AnnounceDecorator/AnnounceDecorator.js",
+            "sortKey": "undefined 00000066"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @hoc",
+              "commentLineNumber": 32
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "AnnounceDecorator",
+          "memberof": "ui/AnnounceDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "An instance of ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 16,
+                              "offset": 15
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "link",
+                          "url": "ui/AnnounceDecorator.Announce",
+                          "title": null,
+                          "jsdoc": true,
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "ui/AnnounceDecorator.Announce"
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 16,
+                              "offset": 15
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will be appended to children",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 53,
+                              "offset": 52
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 82,
+                              "offset": 81
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 82,
+                          "offset": 81
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 82,
+                      "offset": 81
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 71,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 76,
+                    "column": 6
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 77,
+                      "column": 3
+                    },
+                    "end": {
+                      "line": 77,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/AnnounceDecorator/AnnounceDecorator.js",
+                  "sortKey": "undefined 00000077"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "ui/AnnounceDecorator.AnnounceDecorator",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/AnnounceDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "AnnounceDecorator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/AnnounceDecoratorAnnounceDecorator#children"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/AnnounceDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "AnnounceDecorator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/AnnounceDecoratorAnnounceDecorator"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "ui/AnnounceDecorator.Announce",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "ui/AnnounceDecorator.Announce"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 38,
+                        "offset": 37
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " provides an imperative API, ",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 38,
+                        "offset": 37
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 67,
+                        "offset": 66
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "announce",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 67,
+                        "offset": 66
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 77,
+                        "offset": 76
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ", to alert the user\nof behavior for accessibility.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 77,
+                        "offset": 76
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 31,
+                        "offset": 126
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 31,
+                    "offset": 126
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "code",
+                "lang": null,
+                "value": "import {Announce} from '@enact/ui/AnnounceDecorator';\nimport React from 'react';\n\nclass Example extends React.Component {\n  notify = () => {\n    if (this.announce) {\n      this.announce.announce('this text will be alerted to user by TTS');\n    }\n  }\n\n  setAnnounceRef = (announce) => {\n    this.announce = announce;\n  }\n\n  render () {\n    <div>\n      <button onClick={this.notify}>Notify on Click</button>\n      <Announce ref={this.setAnnounceRef} />\n    </div>\n  }\n}",
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 128
+                  },
+                  "end": {
+                    "line": 26,
+                    "column": 4,
+                    "offset": 603
+                  },
+                  "indent": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 26,
+                "column": 4,
+                "offset": 603
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 28,
+              "type": null,
+              "name": "Announce"
+            },
+            {
+              "title": "memberof",
+              "description": "ui/AnnounceDecorator",
+              "lineNumber": 29
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 30
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 0
+            },
+            "end": {
+              "line": 35,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 36,
+                "column": 0
+              },
+              "end": {
+                "line": 95,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/AnnounceDecorator/Announce.js",
+            "sortKey": "undefined 00000036"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Announce",
+          "memberof": "ui/AnnounceDecorator",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Time, in milliseconds, to wait to remove the alert message. Subsequent updates to the\nmessage before the timeout are ignored.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 40,
+                              "offset": 125
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 40,
+                          "offset": 125
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 40,
+                      "offset": 125
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "500",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 40,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 47,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 48,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 27
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/ui/AnnounceDecorator/Announce.js",
+                  "sortKey": "undefined 00000048"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "timeout",
+                "memberof": "ui/AnnounceDecorator.Announce",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "ui/AnnounceDecorator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Announce",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "timeout",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "ui/AnnounceDecoratorAnnounce#timeout"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "ui/AnnounceDecorator",
+              "kind": "module"
+            },
+            {
+              "name": "Announce",
+              "kind": "class"
+            }
+          ],
+          "namespace": "ui/AnnounceDecoratorAnnounce"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "ui/AnnounceDecorator",
+        "kind": "module"
+      }
+    ],
+    "namespace": "ui/AnnounceDecorator"
+  }
+]

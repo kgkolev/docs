@@ -1,0 +1,1358 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Provides the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 14,
+                  "offset": 13
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "spotlight/Accelerator.Accelerator",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "spotlight/Accelerator.Accelerator"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 14,
+                  "offset": 13
+                },
+                "end": {
+                  "line": 1,
+                  "column": 55,
+                  "offset": 54
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " class.",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 55,
+                  "offset": 54
+                },
+                "end": {
+                  "line": 1,
+                  "column": 62,
+                  "offset": 61
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 1,
+              "column": 62,
+              "offset": 61
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 62,
+          "offset": 61
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 3,
+        "type": null,
+        "name": "spotlight/Accelerator"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 5,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 165,
+          "column": 1
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+      "sortKey": "undefined 00000011"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [
+      {
+        "title": "param",
+        "name": "frequency",
+        "lineNumber": 19,
+        "default": "[3,3,3,2,2,2,1]"
+      }
+    ],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "spotlight/Accelerator",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": "",
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 1,
+              "type": null,
+              "name": "Accelerator"
+            },
+            {
+              "title": "memberof",
+              "description": "spotlight/Accelerator",
+              "lineNumber": 2
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 0
+            },
+            "end": {
+              "line": 10,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 0
+              },
+              "end": {
+                "line": 165,
+                "column": 1
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+            "sortKey": "undefined 00000011"
+          },
+          "augments": [],
+          "errors": [],
+          "examples": [],
+          "params": [
+            {
+              "title": "param",
+              "name": "frequency",
+              "lineNumber": 19,
+              "default": "[3,3,3,2,2,2,1]"
+            }
+          ],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "Accelerator",
+          "memberof": "spotlight/Accelerator",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": [
+              {
+                "description": "",
+                "tags": [
+                  {
+                    "title": "constructor",
+                    "description": null,
+                    "lineNumber": 1,
+                    "type": null,
+                    "name": null
+                  },
+                  {
+                    "title": "param",
+                    "description": "Controls the frequency with which the acceleration will\n\"freeze\". While frozen, the current target item cannot change, and all events are directed\nto it.",
+                    "lineNumber": 2,
+                    "type": {
+                      "type": "TypeApplication",
+                      "expression": {
+                        "type": "NameExpression",
+                        "name": "Array"
+                      },
+                      "applications": [
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    },
+                    "name": "frequency"
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Accelerator.Accelerator",
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 12,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 18,
+                    "column": 4
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 19,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 70,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+                  "sortKey": "undefined 00000019"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "frequency",
+                    "lineNumber": 2,
+                    "description": {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Controls the frequency with which the acceleration will\n\"freeze\". While frozen, the current target item cannot change, and all events are directed\nto it.",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 7,
+                                  "offset": 153
+                                },
+                                "indent": [
+                                  1,
+                                  1
+                                ]
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 7,
+                              "offset": 153
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 7,
+                          "offset": 153
+                        }
+                      }
+                    },
+                    "type": {
+                      "type": "TypeApplication",
+                      "expression": {
+                        "type": "NameExpression",
+                        "name": "Array"
+                      },
+                      "applications": [
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    },
+                    "default": "[3,3,3,2,2,2,1]"
+                  }
+                ],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "kind": "class",
+                "memberof": "spotlight/Accelerator.Accelerator",
+                "name": "constructor",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Accelerator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Accelerator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "constructor",
+                    "kind": "class"
+                  }
+                ],
+                "namespace": "spotlight/AcceleratorAcceleratorconstructor"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Called with the current keydown event and callback, which will be called when the event is\nallowed through.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 17,
+                              "offset": 107
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 17,
+                          "offset": 107
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 17,
+                      "offset": 107
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "function",
+                    "description": null,
+                    "lineNumber": 4,
+                    "name": null
+                  },
+                  {
+                    "title": "param",
+                    "description": "The current event to validate.",
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    },
+                    "name": "event"
+                  },
+                  {
+                    "title": "param",
+                    "description": "The callback to execute.",
+                    "lineNumber": 6,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    },
+                    "name": "callback"
+                  },
+                  {
+                    "title": "returns",
+                    "description": "`true` if the event was consumed by processKey and callback was not called",
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8,
+                    "type": null
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Accelerator.Accelerator",
+                    "lineNumber": 9
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 72,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 82,
+                    "column": 4
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 83,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 124,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+                  "sortKey": "undefined 00000083"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [
+                  {
+                    "title": "param",
+                    "name": "event",
+                    "lineNumber": 5,
+                    "description": {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "The current event to validate.",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 31,
+                                  "offset": 30
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 31,
+                          "offset": 30
+                        }
+                      }
+                    },
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Object"
+                    }
+                  },
+                  {
+                    "title": "param",
+                    "name": "callback",
+                    "lineNumber": 6,
+                    "description": {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "The callback to execute.",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 25,
+                                  "offset": 24
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25,
+                          "offset": 24
+                        }
+                      }
+                    },
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  }
+                ],
+                "properties": [],
+                "returns": [
+                  {
+                    "description": {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "inlineCode",
+                              "value": "true",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 7,
+                                  "offset": 6
+                                },
+                                "indent": []
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "value": " if the event was consumed by processKey and callback was not called",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 7,
+                                  "offset": 6
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 75,
+                                  "offset": 74
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 75,
+                              "offset": 74
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 75,
+                          "offset": 74
+                        }
+                      }
+                    },
+                    "title": "returns",
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  }
+                ],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "kind": "function",
+                "access": "public",
+                "memberof": "spotlight/Accelerator.Accelerator",
+                "name": "processKey",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Accelerator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Accelerator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "processKey",
+                    "kind": "function"
+                  }
+                ],
+                "namespace": "spotlight/AcceleratorAcceleratorprocessKey"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Resets the Accelerator instance to the default values.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 55,
+                              "offset": 54
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 55,
+                          "offset": 54
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 55,
+                      "offset": 54
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "function",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": null
+                  },
+                  {
+                    "title": "returns",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "UndefinedLiteral"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": null
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Accelerator.Accelerator",
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 126,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 133,
+                    "column": 4
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 134,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 140,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+                  "sortKey": "undefined 00000134"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [
+                  {
+                    "description": {
+                      "type": "root",
+                      "children": [],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        }
+                      }
+                    },
+                    "title": "returns",
+                    "type": {
+                      "type": "UndefinedLiteral"
+                    }
+                  }
+                ],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "kind": "function",
+                "access": "public",
+                "memberof": "spotlight/Accelerator.Accelerator",
+                "name": "reset",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Accelerator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Accelerator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "reset",
+                    "kind": "function"
+                  }
+                ],
+                "namespace": "spotlight/AcceleratorAcceleratorreset"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Cancels the Accelerator.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25,
+                          "offset": 24
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 25,
+                      "offset": 24
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "function",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": null
+                  },
+                  {
+                    "title": "returns",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "UndefinedLiteral"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": null
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Accelerator.Accelerator",
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 142,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 149,
+                    "column": 4
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 150,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 152,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+                  "sortKey": "undefined 00000150"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [
+                  {
+                    "description": {
+                      "type": "root",
+                      "children": [],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        }
+                      }
+                    },
+                    "title": "returns",
+                    "type": {
+                      "type": "UndefinedLiteral"
+                    }
+                  }
+                ],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "kind": "function",
+                "access": "public",
+                "memberof": "spotlight/Accelerator.Accelerator",
+                "name": "cancel",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Accelerator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Accelerator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "cancel",
+                    "kind": "function"
+                  }
+                ],
+                "namespace": "spotlight/AcceleratorAcceleratorcancel"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Verifies that the Accelerator is active.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 41,
+                              "offset": 40
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 41,
+                          "offset": 40
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 41,
+                      "offset": 40
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "function",
+                    "description": null,
+                    "lineNumber": 3,
+                    "name": null
+                  },
+                  {
+                    "title": "returns",
+                    "description": "`true` if the Accelerator is active; otherwise, `false`.",
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": null
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "spotlight/Accelerator.Accelerator",
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 154,
+                    "column": 1
+                  },
+                  "end": {
+                    "line": 161,
+                    "column": 4
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 162,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 164,
+                      "column": 2
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/spotlight/Accelerator/Accelerator.js",
+                  "sortKey": "undefined 00000162"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [
+                  {
+                    "description": {
+                      "type": "root",
+                      "children": [
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "inlineCode",
+                              "value": "true",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 1,
+                                  "offset": 0
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 7,
+                                  "offset": 6
+                                },
+                                "indent": []
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "value": " if the Accelerator is active; otherwise, ",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 7,
+                                  "offset": 6
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 49,
+                                  "offset": 48
+                                },
+                                "indent": []
+                              }
+                            },
+                            {
+                              "type": "inlineCode",
+                              "value": "false",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 49,
+                                  "offset": 48
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 56,
+                                  "offset": 55
+                                },
+                                "indent": []
+                              }
+                            },
+                            {
+                              "type": "text",
+                              "value": ".",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 56,
+                                  "offset": 55
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 57,
+                                  "offset": 56
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 57,
+                              "offset": 56
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 57,
+                          "offset": 56
+                        }
+                      }
+                    },
+                    "title": "returns",
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  }
+                ],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "kind": "function",
+                "access": "public",
+                "memberof": "spotlight/Accelerator.Accelerator",
+                "name": "isAccelerating",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "spotlight/Accelerator",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "Accelerator",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "isAccelerating",
+                    "kind": "function"
+                  }
+                ],
+                "namespace": "spotlight/AcceleratorAcceleratorisAccelerating"
+              }
+            ]
+          },
+          "path": [
+            {
+              "name": "spotlight/Accelerator",
+              "kind": "module"
+            },
+            {
+              "name": "Accelerator",
+              "kind": "class"
+            }
+          ],
+          "namespace": "spotlight/AcceleratorAccelerator"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "spotlight/Accelerator",
+        "kind": "module"
+      }
+    ],
+    "namespace": "spotlight/Accelerator"
+  }
+]

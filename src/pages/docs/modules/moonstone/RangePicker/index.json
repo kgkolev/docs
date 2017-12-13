@@ -1,0 +1,4033 @@
+[
+  {
+    "description": {
+      "type": "root",
+      "children": [
+        {
+          "type": "paragraph",
+          "children": [
+            {
+              "type": "text",
+              "value": "Exports the ",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 1,
+                  "offset": 0
+                },
+                "end": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/RangePicker.RangePicker",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/RangePicker.RangePicker"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 13,
+                  "offset": 12
+                },
+                "end": {
+                  "line": 1,
+                  "column": 54,
+                  "offset": 53
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " and\n",
+              "position": {
+                "start": {
+                  "line": 1,
+                  "column": 54,
+                  "offset": 53
+                },
+                "end": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 58
+                },
+                "indent": [
+                  1
+                ]
+              }
+            },
+            {
+              "type": "link",
+              "url": "moonstone/RangePicker.RangePickerBase",
+              "title": null,
+              "jsdoc": true,
+              "children": [
+                {
+                  "type": "text",
+                  "value": "moonstone/RangePicker.RangePickerBase"
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 1,
+                  "offset": 58
+                },
+                "end": {
+                  "line": 2,
+                  "column": 46,
+                  "offset": 103
+                },
+                "indent": []
+              }
+            },
+            {
+              "type": "text",
+              "value": " components",
+              "position": {
+                "start": {
+                  "line": 2,
+                  "column": 46,
+                  "offset": 103
+                },
+                "end": {
+                  "line": 2,
+                  "column": 57,
+                  "offset": 114
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 1,
+              "offset": 0
+            },
+            "end": {
+              "line": 2,
+              "column": 57,
+              "offset": 114
+            },
+            "indent": [
+              1
+            ]
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 2,
+          "column": 57,
+          "offset": 114
+        }
+      }
+    },
+    "tags": [
+      {
+        "title": "module",
+        "description": null,
+        "lineNumber": 4,
+        "type": null,
+        "name": "moonstone/RangePicker"
+      }
+    ],
+    "loc": {
+      "start": {
+        "line": 1,
+        "column": 0
+      },
+      "end": {
+        "line": 6,
+        "column": 3
+      }
+    },
+    "context": {
+      "loc": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 46
+        }
+      },
+      "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+      "sortKey": "undefined 00000008"
+    },
+    "augments": [],
+    "errors": [],
+    "examples": [],
+    "params": [],
+    "properties": [],
+    "returns": [],
+    "sees": [],
+    "throws": [],
+    "todos": [],
+    "kind": "module",
+    "name": "moonstone/RangePicker",
+    "members": {
+      "global": [],
+      "inner": [],
+      "instance": [],
+      "events": [],
+      "static": [
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/RangePicker.RangePickerBase",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/RangePicker.RangePickerBase"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 46,
+                        "offset": 45
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a component that lets the user select a number\nfrom a range of numbers. This version is not spottable. Developers are encouraged to use\n",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 46,
+                        "offset": 45
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 185
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "link",
+                    "url": "moonstone/RangePicker.RangePicker",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/RangePicker.RangePicker"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 1,
+                        "offset": 185
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 42,
+                        "offset": 226
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": ".",
+                    "position": {
+                      "start": {
+                        "line": 3,
+                        "column": 42,
+                        "offset": 226
+                      },
+                      "end": {
+                        "line": 3,
+                        "column": 43,
+                        "offset": 227
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 43,
+                    "offset": 227
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 3,
+                "column": 43,
+                "offset": 227
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 5,
+              "type": null,
+              "name": "RangePickerBase"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/RangePicker",
+              "lineNumber": 6
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 7
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 8
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 27,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 236,
+                "column": 3
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+            "sortKey": "undefined 00000037"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 7
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "RangePickerBase",
+          "memberof": "moonstone/RangePicker",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The maximum value selectable by the picker (inclusive).",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 56,
+                              "offset": 55
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 56,
+                          "offset": 55
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 56,
+                      "offset": 55
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 41,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 46,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 47,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 47,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000047"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "max",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "max",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#max"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "The minimum value selectable by the picker (inclusive).",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 56,
+                              "offset": 55
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 56,
+                          "offset": 55
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 56,
+                      "offset": 55
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 49,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 54,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 55,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 55,
+                      "column": 34
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000055"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "min",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "min",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#min"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Current value",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 14,
+                              "offset": 13
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 14,
+                          "offset": 13
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 14,
+                      "offset": 13
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 57,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 62,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 63,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 63,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000063"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "value",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "value",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#value"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Overrides the ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 15,
+                              "offset": 14
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "aria-valuetext",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 15,
+                              "offset": 14
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for the picker. By default, ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 31,
+                              "offset": 30
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "aria-valuetext",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 60,
+                              "offset": 59
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is set\nto the current selected child value.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 76,
+                              "offset": 75
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 37,
+                              "offset": 119
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 37,
+                          "offset": 119
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 37,
+                      "offset": 119
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "memberof",
+                    "description": "moonstone/RangePicker.RangePickerBase.prototype",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 65,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 72,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 73,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 73,
+                      "column": 36
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000073"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "access": "public",
+                "name": "aria-valuetext",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "aria-valuetext",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#aria-valuetext"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Children from which to pick",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 28,
+                              "offset": 27
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 28,
+                          "offset": 27
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 28,
+                      "offset": 27
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Node"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 75,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 80,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 81,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 81,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000081"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "children",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "children",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#children"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Class name for component",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 25,
+                              "offset": 24
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 25,
+                          "offset": 24
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 25,
+                      "offset": 24
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 83,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 88,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 89,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 89,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000089"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "className",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "className",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#className"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Assign a custom icon for the decrementer. All strings supported by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "icon",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Icon",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 69,
+                                  "offset": 68
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 73,
+                                  "offset": 72
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon} are\nsupported. Without a custom icon, the default is used, and is automatically changed when\nthe ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "orientation",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "orientation",
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 6,
+                                  "offset": 178
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 17,
+                                  "offset": 189
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon#orientation} is changed.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 220
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 48,
+                          "offset": 220
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 48,
+                      "offset": 220
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "string"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 91,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 98,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 99,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 99,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000099"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "decrementIcon",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "decrementIcon",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#decrementIcon"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", the RangePicker is shown as disabled and does not generate ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "onChange",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 83
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "events",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "events",
+                              "position": {
+                                "start": {
+                                  "line": 2,
+                                  "column": 2,
+                                  "offset": 84
+                                },
+                                "end": {
+                                  "line": 2,
+                                  "column": 8,
+                                  "offset": 90
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 83
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 91
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{@glossary event}.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 9,
+                              "offset": 91
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 27,
+                              "offset": 109
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 27,
+                          "offset": 109
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 27,
+                      "offset": 109
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 101,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 107,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 108,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 108,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000108"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "disabled",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "disabled",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#disabled"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Assign a custom icon for the incrementer. All strings supported by ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "icon",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Icon",
+                              "position": {
+                                "start": {
+                                  "line": 1,
+                                  "column": 69,
+                                  "offset": 68
+                                },
+                                "end": {
+                                  "line": 1,
+                                  "column": 73,
+                                  "offset": 72
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 68,
+                              "offset": 67
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon} are\nsupported. Without a custom icon, the default is used, and is automatically changed when\nthe ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 74,
+                              "offset": 73
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "linkReference",
+                          "identifier": "orientation",
+                          "referenceType": "shortcut",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "orientation",
+                              "position": {
+                                "start": {
+                                  "line": 3,
+                                  "column": 6,
+                                  "offset": 178
+                                },
+                                "end": {
+                                  "line": 3,
+                                  "column": 17,
+                                  "offset": 189
+                                },
+                                "indent": []
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 5,
+                              "offset": 177
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "{Icon#orientation} is changed.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 18,
+                              "offset": 190
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 48,
+                              "offset": 220
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 48,
+                          "offset": 220
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 48,
+                      "offset": 220
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "string"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 110,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 117,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 118,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 118,
+                      "column": 33
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000118"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "incrementIcon",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "incrementIcon",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#incrementIcon"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Determines the user interaction of the control. A joined picker allows the user to use\nthe arrow keys to adjust the picker's value. The user may no longer use those arrow keys\nto navigate, while this control is focused. A split control allows full navigation,\nbut requires individual ENTER presses on the incrementer and decrementer buttons.\nPointer interaction is the same for both formats.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 5,
+                              "column": 50,
+                              "offset": 391
+                            },
+                            "indent": [
+                              1,
+                              1,
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 5,
+                          "column": 50,
+                          "offset": 391
+                        },
+                        "indent": [
+                          1,
+                          1,
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 5,
+                      "column": 50,
+                      "offset": 391
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 7,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 8
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 120,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 129,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 130,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 130,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000130"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "joined",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "joined",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#joined"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "By default, the picker will animate transitions between items if it has a defined\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 82
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "width",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 89
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ". Specifying ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 8,
+                              "offset": 89
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 102
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "noAnimation",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 102
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 115
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " will prevent any transition animation for the\ncomponent.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 34,
+                              "offset": 115
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 11,
+                              "offset": 172
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 11,
+                          "offset": 172
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 3,
+                      "column": 11,
+                      "offset": 172
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 5,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 132,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 139,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 140,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 140,
+                      "column": 29
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000140"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "noAnimation",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "noAnimation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#noAnimation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "A function to run when the control should increment or decrement.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 66,
+                              "offset": 65
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 1,
+                          "column": 66,
+                          "offset": 65
+                        },
+                        "indent": []
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 1,
+                      "column": 66,
+                      "offset": 65
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 3,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Function"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 4
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 142,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 147,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 148,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 148,
+                      "column": 26
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000148"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "onChange",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "onChange",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#onChange"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Sets the orientation of the picker, whether the buttons are above and below or on the\nsides of the value. Must be either ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 121
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'horizontal'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 36,
+                              "offset": 121
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 135
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 50,
+                              "offset": 135
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 139
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'vertical'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 139
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 151
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ".",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 66,
+                              "offset": 151
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 67,
+                              "offset": 152
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 67,
+                          "offset": 152
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 67,
+                      "offset": 152
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "String"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "'horizontal'",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 150,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 157,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 158,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 158,
+                      "column": 58
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000158"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "orientation",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "orientation",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#orientation"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "When ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "true",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 6,
+                              "offset": 5
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", pads the display value with zeros up to the number of digits of the value of\n",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 12,
+                              "offset": 11
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 90
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "min",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 1,
+                              "offset": 90
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 6,
+                              "offset": 95
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " or max`, whichever is greater.",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 6,
+                              "offset": 95
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 37,
+                              "offset": 126
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 37,
+                          "offset": 126
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 37,
+                      "offset": 126
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 160,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 166,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 167,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 167,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000167"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "padded",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "padded",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#padded"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Allow the picker to only increment or decrement by a given value. A step of ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "2",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 77,
+                              "offset": 76
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 80,
+                              "offset": 79
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " would\ncause a picker to increment from 10 to 12 to 14, etc.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 80,
+                              "offset": 79
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 54,
+                              "offset": 139
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 54,
+                          "offset": 139
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 54,
+                      "offset": 139
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Number"
+                    }
+                  },
+                  {
+                    "title": "default",
+                    "description": "1",
+                    "lineNumber": 5
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 6
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 169,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 176,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 177,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 177,
+                      "column": 24
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000177"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "step",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "step",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#step"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Choose a specific size for your picker. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 41,
+                              "offset": 40
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'small'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 41,
+                              "offset": 40
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 50,
+                              "offset": 49
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'medium'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 52,
+                              "offset": 51
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 62,
+                              "offset": 61
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'large'",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 64,
+                              "offset": 63
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": ", or set to ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 73,
+                              "offset": 72
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 85,
+                              "offset": 84
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "null",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 85,
+                              "offset": 84
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 91,
+                              "offset": 90
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " to\nassume auto-sizing. ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 91,
+                              "offset": 90
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 114
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'small'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 21,
+                              "offset": 114
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 30,
+                              "offset": 123
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " is good for numeric pickers, ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 30,
+                              "offset": 123
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 153
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'medium'",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 60,
+                              "offset": 153
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 70,
+                              "offset": 163
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for single or short\nword pickers, ",
+                          "position": {
+                            "start": {
+                              "line": 2,
+                              "column": 70,
+                              "offset": 163
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 198
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "'large'",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 15,
+                              "offset": 198
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 24,
+                              "offset": 207
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": " for maximum-sized pickers.",
+                          "position": {
+                            "start": {
+                              "line": 3,
+                              "column": 24,
+                              "offset": 207
+                            },
+                            "end": {
+                              "line": 3,
+                              "column": 51,
+                              "offset": 234
+                            },
+                            "indent": []
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 3,
+                          "column": 51,
+                          "offset": 234
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    },
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "You may also supply a number. This number will determine the minumum size of the Picker.\nSetting a number to less than the number of characters in your longest value may produce\nunexpected results.",
+                          "position": {
+                            "start": {
+                              "line": 5,
+                              "column": 1,
+                              "offset": 236
+                            },
+                            "end": {
+                              "line": 7,
+                              "column": 20,
+                              "offset": 433
+                            },
+                            "indent": [
+                              1,
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 5,
+                          "column": 1,
+                          "offset": 236
+                        },
+                        "end": {
+                          "line": 7,
+                          "column": 20,
+                          "offset": 433
+                        },
+                        "indent": [
+                          1,
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 7,
+                      "column": 20,
+                      "offset": 433
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 9,
+                    "type": {
+                      "type": "UnionType",
+                      "elements": [
+                        {
+                          "type": "NameExpression",
+                          "name": "String"
+                        },
+                        {
+                          "type": "NameExpression",
+                          "name": "Number"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 10
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 179,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 190,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 191,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 194,
+                      "column": 4
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000191"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "width",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "width",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#width"
+              },
+              {
+                "description": {
+                  "type": "root",
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "text",
+                          "value": "Should the picker stop incrementing when the picker reaches the last element? Set ",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 1,
+                              "offset": 0
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "inlineCode",
+                          "value": "wrap",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 83,
+                              "offset": 82
+                            },
+                            "end": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "indent": []
+                          }
+                        },
+                        {
+                          "type": "text",
+                          "value": "\nto true to allow the picker to continue from the opposite end of the list of options.",
+                          "position": {
+                            "start": {
+                              "line": 1,
+                              "column": 89,
+                              "offset": 88
+                            },
+                            "end": {
+                              "line": 2,
+                              "column": 86,
+                              "offset": 174
+                            },
+                            "indent": [
+                              1
+                            ]
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 1,
+                          "column": 1,
+                          "offset": 0
+                        },
+                        "end": {
+                          "line": 2,
+                          "column": 86,
+                          "offset": 174
+                        },
+                        "indent": [
+                          1
+                        ]
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 1,
+                      "column": 1,
+                      "offset": 0
+                    },
+                    "end": {
+                      "line": 2,
+                      "column": 86,
+                      "offset": 174
+                    }
+                  }
+                },
+                "tags": [
+                  {
+                    "title": "type",
+                    "description": null,
+                    "lineNumber": 4,
+                    "type": {
+                      "type": "NameExpression",
+                      "name": "Boolean"
+                    }
+                  },
+                  {
+                    "title": "public",
+                    "description": null,
+                    "lineNumber": 5
+                  }
+                ],
+                "loc": {
+                  "start": {
+                    "line": 196,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 202,
+                    "column": 5
+                  }
+                },
+                "context": {
+                  "loc": {
+                    "start": {
+                      "line": 203,
+                      "column": 2
+                    },
+                    "end": {
+                      "line": 203,
+                      "column": 22
+                    }
+                  },
+                  "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+                  "sortKey": "undefined 00000203"
+                },
+                "augments": [],
+                "errors": [],
+                "examples": [],
+                "params": [],
+                "properties": [],
+                "returns": [],
+                "sees": [],
+                "throws": [],
+                "todos": [],
+                "access": "public",
+                "name": "wrap",
+                "memberof": "moonstone/RangePicker.RangePickerBase",
+                "scope": "instance",
+                "members": {
+                  "global": [],
+                  "inner": [],
+                  "instance": [],
+                  "events": [],
+                  "static": []
+                },
+                "path": [
+                  {
+                    "name": "moonstone/RangePicker",
+                    "kind": "module"
+                  },
+                  {
+                    "name": "RangePickerBase",
+                    "kind": "class"
+                  },
+                  {
+                    "name": "wrap",
+                    "scope": "instance"
+                  }
+                ],
+                "namespace": "moonstone/RangePickerRangePickerBase#wrap"
+              }
+            ],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/RangePicker",
+              "kind": "module"
+            },
+            {
+              "name": "RangePickerBase",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/RangePickerRangePickerBase"
+        },
+        {
+          "description": {
+            "type": "root",
+            "children": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "link",
+                    "url": "moonstone/RangePicker.RangePicker",
+                    "title": null,
+                    "jsdoc": true,
+                    "children": [
+                      {
+                        "type": "text",
+                        "value": "moonstone/RangePicker.RangePicker"
+                      }
+                    ],
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 1,
+                        "offset": 0
+                      },
+                      "end": {
+                        "line": 1,
+                        "column": 42,
+                        "offset": 41
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " is a component that lets the user select a number from\na range of numbers.",
+                    "position": {
+                      "start": {
+                        "line": 1,
+                        "column": 42,
+                        "offset": 41
+                      },
+                      "end": {
+                        "line": 2,
+                        "column": 20,
+                        "offset": 116
+                      },
+                      "indent": [
+                        1
+                      ]
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 1,
+                    "column": 1,
+                    "offset": 0
+                  },
+                  "end": {
+                    "line": 2,
+                    "column": 20,
+                    "offset": 116
+                  },
+                  "indent": [
+                    1
+                  ]
+                }
+              },
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "type": "text",
+                    "value": "By default, ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 1,
+                        "offset": 118
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 13,
+                        "offset": 130
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "RangePicker",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 13,
+                        "offset": 130
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 26,
+                        "offset": 143
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " maintains the state of its ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 26,
+                        "offset": 143
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 54,
+                        "offset": 171
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 54,
+                        "offset": 171
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 61,
+                        "offset": 178
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " property. Supply the ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 61,
+                        "offset": 178
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 83,
+                        "offset": 200
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "defaultValue",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 83,
+                        "offset": 200
+                      },
+                      "end": {
+                        "line": 4,
+                        "column": 97,
+                        "offset": 214
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": "\nproperty to control its initial value. If you wish to directly control updates to the component,\nsupply a value to ",
+                    "position": {
+                      "start": {
+                        "line": 4,
+                        "column": 97,
+                        "offset": 214
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 19,
+                        "offset": 330
+                      },
+                      "indent": [
+                        1,
+                        1
+                      ]
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "value",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 19,
+                        "offset": 330
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 26,
+                        "offset": 337
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " at creation time and update it in response to ",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 26,
+                        "offset": 337
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 73,
+                        "offset": 384
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "inlineCode",
+                    "value": "onChange",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 73,
+                        "offset": 384
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 83,
+                        "offset": 394
+                      },
+                      "indent": []
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "value": " events.",
+                    "position": {
+                      "start": {
+                        "line": 6,
+                        "column": 83,
+                        "offset": 394
+                      },
+                      "end": {
+                        "line": 6,
+                        "column": 91,
+                        "offset": 402
+                      },
+                      "indent": []
+                    }
+                  }
+                ],
+                "position": {
+                  "start": {
+                    "line": 4,
+                    "column": 1,
+                    "offset": 118
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 91,
+                    "offset": 402
+                  },
+                  "indent": [
+                    1,
+                    1
+                  ]
+                }
+              }
+            ],
+            "position": {
+              "start": {
+                "line": 1,
+                "column": 1,
+                "offset": 0
+              },
+              "end": {
+                "line": 6,
+                "column": 91,
+                "offset": 402
+              }
+            }
+          },
+          "tags": [
+            {
+              "title": "class",
+              "description": null,
+              "lineNumber": 8,
+              "type": null,
+              "name": "RangePicker"
+            },
+            {
+              "title": "memberof",
+              "description": "moonstone/RangePicker",
+              "lineNumber": 9
+            },
+            {
+              "title": "mixes",
+              "description": null,
+              "lineNumber": 10,
+              "name": "ui/Changeable.Changeable"
+            },
+            {
+              "title": "ui",
+              "description": null,
+              "lineNumber": 11
+            },
+            {
+              "title": "public",
+              "description": null,
+              "lineNumber": 12
+            }
+          ],
+          "loc": {
+            "start": {
+              "line": 238,
+              "column": 0
+            },
+            "end": {
+              "line": 251,
+              "column": 3
+            }
+          },
+          "context": {
+            "loc": {
+              "start": {
+                "line": 252,
+                "column": 0
+              },
+              "end": {
+                "line": 258,
+                "column": 2
+              }
+            },
+            "file": "/Users/teck/enact/enact-docs/node_modules/enact/packages/moonstone/RangePicker/RangePicker.js",
+            "sortKey": "undefined 00000252"
+          },
+          "augments": [],
+          "errors": [
+            {
+              "message": "unknown tag @ui",
+              "commentLineNumber": 11
+            }
+          ],
+          "examples": [],
+          "params": [],
+          "properties": [],
+          "returns": [],
+          "sees": [],
+          "throws": [],
+          "todos": [],
+          "kind": "class",
+          "name": "RangePicker",
+          "memberof": "moonstone/RangePicker",
+          "access": "public",
+          "members": {
+            "global": [],
+            "inner": [],
+            "instance": [],
+            "events": [],
+            "static": []
+          },
+          "path": [
+            {
+              "name": "moonstone/RangePicker",
+              "kind": "module"
+            },
+            {
+              "name": "RangePicker",
+              "kind": "class"
+            }
+          ],
+          "namespace": "moonstone/RangePickerRangePicker"
+        }
+      ]
+    },
+    "path": [
+      {
+        "name": "moonstone/RangePicker",
+        "kind": "module"
+      }
+    ],
+    "namespace": "moonstone/RangePicker"
+  }
+]
