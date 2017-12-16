@@ -10,7 +10,10 @@ import CtaButton from '../components/CtaButton'
 class Index extends React.Component {
 
 	render() {
-		const postEdges = this.props.data.allMarkdownRemark.edges;
+		const data = this.props.data;
+		const postEdges = data.allContent.edges;
+		const indexContent = data.indexContent.edges[0].node;
+		console.log('indexContent', indexContent, 'postEdges', postEdges);
 		return (
 			<div className="index-container">
 				<Helmet title={config.siteTitle} />
@@ -23,9 +26,7 @@ class Index extends React.Component {
 						logo={config.siteLogo}
 					/>
 					<BodyContainer>
-						<h2>A Enact Template for Content</h2>
-						<p>Made for modern documentation sites. Table of Contents automatically generated from markdown files. </p>
-						<CtaButton to={'/lesson-one'}>See Your First Post</CtaButton>
+						<div dangerouslySetInnerHTML={{ __html: indexContent.html }} />
 					</BodyContainer>
 				</main>
 			</div>
@@ -45,7 +46,7 @@ const BodyContainer = styled.div`
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
 	query IndexQuery {
-		allMarkdownRemark(
+		allContent: allMarkdownRemark(
 			limit: 2000
 			sort: { fields: [frontmatter___date], order: DESC }
 		) {
@@ -62,6 +63,15 @@ export const pageQuery = graphql`
 						cover
 						date
 					}
+				}
+			}
+		}
+		indexContent: allMarkdownRemark(
+			filter: {fields: {slug: {eq: "/enact"}}}
+		) {
+			edges {
+				node {
+					html
 				}
 			}
 		}

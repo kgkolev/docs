@@ -1,6 +1,7 @@
 import React from "react"
 import styled from 'styled-components'
 import Navigation from './Navigation'
+import CtaButton from '../CtaButton'
 
 class MainHeader extends React.Component {
   getHeader() {
@@ -13,6 +14,8 @@ class MainHeader extends React.Component {
               <img src={this.props.logo} width='150px' />
               <h1>{this.props.siteTitle}</h1>
               <h4>{this.props.siteDescription}</h4>
+							<CtaButton to={'/lesson-one'}>API's</CtaButton>
+
             </Hero>
           </IndexHeadContainer>
         )
@@ -50,10 +53,8 @@ const SiteContainer = styled.div`
 const Hero = styled.div`
   padding: 50px 0;
   & > h1 {
-    font-weight: 600;  
+    font-weight: 600;
   }
 `
 
 export default MainHeader
-
-
