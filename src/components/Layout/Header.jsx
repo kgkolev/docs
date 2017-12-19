@@ -15,8 +15,7 @@ class MainHeader extends React.Component {
               <h1>{this.props.siteTitle}</h1>
               <h4>{this.props.siteDescription}</h4>
               <CtaButton to={'/lesson-one'}>GET STARTED</CtaButton>
-							<CtaButton to={'/enact-best-practices'}>DOCS</CtaButton>
-
+              <CtaButton to={'/enact-best-practices'}>DOCS</CtaButton>
             </Hero>
           </IndexHeadContainer>
         )
