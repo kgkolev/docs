@@ -18,9 +18,10 @@ class ctaButton extends Component {
 export default ctaButton
 
 const ButtonContainer = styled.div`
+  margin: 10px;
   border: 1px solid ${props => props.theme.lightGrey};
   border-radius: 3px;
-  padding: 25px;
+  padding: 15px;
   font-size: 2rem;
   color: ${props => props.theme.lightGrey};
   display: inline-block;

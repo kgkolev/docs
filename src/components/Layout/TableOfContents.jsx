@@ -17,40 +17,47 @@ class TableOfContents extends React.Component {
           title: post.node.frontmatter.title,
           path: post.node.fields.slug,
           lessonNumber: post.node.frontmatter.lesson,
-          chapter: post.node.frontmatter.chapter
+          chapter: post.node.frontmatter.chapter,
+          section: post.node.frontmatter.section
         }
         postNodes.push(postNode)
       }
     })
 
-    const postNodeChapters = [];
+    const postNodeChapters = {};
     postNodes.forEach(post => {
-      if (postNodeChapters[post.chapter]) {
+      if (postNodeChapters[post.chapter] && post.chapter) {
         postNodeChapters[post.chapter].push(post)
-      } else {
+      } else if (post.chapter) {
         postNodeChapters[post.chapter] = [post]
+      } else if (postNodeChapters[post.section] && post.section) {
+        postNodeChapters[post.section].push(post)
+      } else if (post.section) {
+        postNodeChapters[post.section] = [post]
       }
     })
 
-    postNodeChapters.forEach(chapter => {
-      chapter.sort((a, b) => a.lessonNumber > b.lessonNumber)
-    })
+    // postNodeChapters.forEach(chapter => {
+    //   chapter.sort((a, b) => a.lessonNumber > b.lessonNumber)
+    // })
     return postNodeChapters
   }
 
   nodeListItems() {
-    const postNodeChapters = this.buildNodes()
+    const postNodes = this.buildNodes()
+    const postNodeChapters = Object.keys(postNodes)
     const listItems = []
     const chapterTitles = this.props.chapterTitles
+
     postNodeChapters.forEach((chapter, idx) => {
       const chapterLessons = []
-      chapter.forEach(node => {
+      postNodes[chapter].forEach(node => {
         chapterLessons.push(
-          <LessonContainer>
+          <LessonContainer key={node.title}>
             <Link to={node.path}>
               <li>
                 <span>
-                  <p>{node.chapter}.{node.lessonNumber} &nbsp;</p>
+                  {node.chapter ? <p>{node.chapter}.{node.lessonNumber} &nbsp;</p> : null}
                   <h6>{node.title}</h6>
                 </span>
               </li>
@@ -59,11 +66,11 @@ class TableOfContents extends React.Component {
         )
       })
       listItems.push(
-        <li className='chapter'>
+        <li key={chapterTitles[idx]} className='chapter'>
           <h5 className='tocHeading'>
             {chapterTitles[idx].toUpperCase()}
           </h5>
-          <ul className='chapterItems'>
+          <ul key={chapterTitles[idx]} className='chapterItems'>
             {chapterLessons}
           </ul>
         </li>
@@ -91,13 +98,13 @@ const TableOfContentsContainer = styled.div`
     padding: 0;
     margin: 0;
   }
-  
+
   p, h6 {
     display: inline-block;
     font-weight: 200;
     margin: 0;
   }
-  
+
   .tocHeading {
      font-weight: 200;
      color: ${props => props.theme.brand};

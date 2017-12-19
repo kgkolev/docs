@@ -8,7 +8,7 @@ const NavContainer = styled.div`
   justify-content: space-between;
   width: 100%;
   background: ${props => props.theme.brand};
-  
+
   .nav-link {
     font-size: 1.6rem;
     margin-right: 10px;
@@ -24,7 +24,8 @@ class Navigation extends React.Component {
       <NavContainer>
         <section>
           <Link className='nav-link' to='/' > HOME </Link>
-          <Link className='nav-link' to='/lesson-one' > DOCS </Link>
+          <Link className='nav-link' to='/lesson-one' > GET STARTED </Link>
+					<Link className='nav-link' to='/getting-started' > DOCS </Link>
           <Link className='nav-link' to='/about' > ABOUT </Link>
         </section>
         <UserLinks />

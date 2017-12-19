@@ -11,9 +11,9 @@ class Index extends React.Component {
 
 	render() {
 		const data = this.props.data;
-		const postEdges = data.allContent.edges;
-		const indexContent = data.indexContent.edges[0].node;
-		console.log('indexContent', indexContent, 'postEdges', postEdges);
+		const postEdges = data.allContent ? data.allContent.edges : null;
+		const indexContent = data.indexContent ? data.indexContent.edges[0].node : null;
+		console.log('data', data);
 		return (
 			<div className="index-container">
 				<Helmet title={config.siteTitle} />
@@ -26,7 +26,7 @@ class Index extends React.Component {
 						logo={config.siteLogo}
 					/>
 					<BodyContainer>
-						<div dangerouslySetInnerHTML={{ __html: indexContent.html }} />
+						<div dangerouslySetInnerHTML={{ __html: indexContent ? indexContent.html : null }} />
 					</BodyContainer>
 				</main>
 			</div>

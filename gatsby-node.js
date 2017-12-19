@@ -35,7 +35,8 @@ exports.createPages = ({graphql, boundActionCreators}) => {
 
   return new Promise((resolve, reject) => {
     const postPage = path.resolve("src/templates/post.jsx");
-    const lessonPage = path.resolve("src/templates/lesson.jsx")
+    const lessonPage = path.resolve("src/templates/lesson.jsx");
+    const docPage = path.resolve("src/templates/doc.jsx");
     const tagPage = path.resolve("src/templates/tag.jsx");
     const categoryPage = path.resolve("src/templates/category.jsx");
     resolve(
@@ -49,6 +50,7 @@ exports.createPages = ({graphql, boundActionCreators}) => {
                   tags
                   category
                   type
+                  section
                 }
                 fields {
                   slug
@@ -82,6 +84,14 @@ exports.createPages = ({graphql, boundActionCreators}) => {
             createPage({
               path: edge.node.fields.slug,
               component: postPage,
+              context: {
+                slug: edge.node.fields.slug
+              }
+            })
+          } else if (edge.node.frontmatter.type === 'doc') {
+            createPage({
+              path: edge.node.fields.slug,
+              component: docPage,
               context: {
                 slug: edge.node.fields.slug
               }

@@ -124,9 +124,13 @@ function copyStaticDocs (source, outputBase) {
 		// Normalize path because './' in outputPath blows up mkdir
 		shelljs.mkdir('-p', pathModule.normalize(outputPath));
 		if (ext === '.md') {
+			const docChapter = outputBase.split('/')[1]; // set section name for each markdown doc
 			let contents = fs.readFileSync(file, 'utf8')
 				.replace(/(\((?!http)[^)]+)(\/index.md)/g, '$1/')		// index files become 'root' for new directory
-				.replace(/(\((?!http)[^)]+)(.md)/g, '$1/');			// other .md files become new directory under root
+				.replace(/(\((?!http)[^)]+)(.md)/g, '$1/')			// other .md files become new directory under root
+				.replace('title: ', 'title: "')			// wrap titles in quotations
+				.replace('\n---', `"\nsection: "${docChapter}"\ntype: "doc" \n---`);			// add post type for 'post' templating
+
 			if (file.indexOf('index.md') === -1) {
 				contents = contents.replace(/\]\(\.\//g, '](../');	// same level .md files are now relative to root
 			}
