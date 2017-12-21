@@ -13,7 +13,6 @@ class Index extends React.Component {
 		const data = this.props.data;
 		const postEdges = data.allContent ? data.allContent.edges : null;
 		const indexContent = data.indexContent ? data.indexContent.edges[0].node : null;
-		console.log('data', data);
 		return (
 			<div className="index-container">
 				<Helmet title={config.siteTitle} />
