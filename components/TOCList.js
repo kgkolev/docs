@@ -1,5 +1,10 @@
-// Modules List
+// Table of Contents List
 //
+// TODO: We can use the metadata fields in the `.js` and `.md` files and pull them out of the
+// `data` member of the page list.  We'll need to separate out the sections into an array of
+// objects, sorted by the sort order.  Then, we can loop through and output them.  Given how
+// different this is from the module list, we probably don't want to unify them at this time.
+// However, we might could if we were to pass in the data instead of inferring from the route.
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -10,9 +15,10 @@ import {linkIsLocation} from '../utils/paths.js';
 
 import css from '../css/main.less';
 
-export default class ModulesList extends React.Component {
+export default class TOCList extends React.Component {
 
 	static propTypes = {
+		path: PropTypes.string,
 		useFullModulePath: PropTypes.bool
 	};
 
@@ -27,41 +33,39 @@ export default class ModulesList extends React.Component {
 	}
 
 	render () {
-		const {useFullModulePath, route, location, ...rest} = this.props;
+		const {path: sourcePath, useFullModulePath, route, location, ...rest} = this.props;
 
 		const componentDocs = route.pages.filter((page) =>
-			page.path.includes('/docs/modules/'));
+			page.path.includes(sourcePath));
 		let lastLibrary;
 
-		const path = route.page.path.replace('/docs/modules/', '').replace(/\/$/, '');
+		const path = location.pathname.replace(sourcePath, '').replace(/\/$/, '');
 		const pathParts = path.split('/');  // This should really be appended with this: `.join('/' + <wbr />)`, but the string confuses JSX.
 
 		return (
 			<div className={css.modulesList + ' covertLinks'}>
 				<section>
-					<h2>
-						<a href="/docs/modules/">Overview</a>
-					</h2>
+					<h2>Overview</h2>
 				</section>
 				{componentDocs.map((section, index) => {
-					const linkText = section.path.replace('/docs/modules/', '').replace(/\/$/, '');
+					const linkText = section.path.replace(sourcePath, '').replace(/\/$/, '');
 					const library = linkText.split('/')[0];
 					const isActive = (pathParts[0] === library);
 					if (library && library !== lastLibrary) {
 						lastLibrary = library;
 						return (
 							<section key={index}>
-								<h2 className={isActive ? css.active : null}><Link to={prefixLink(section.path)}>{library + ' Library'}</Link></h2>
+								<h2 className={isActive ? css.active : null}><Link to={prefixLink(section.path)}>{section.data.title}</Link></h2>
 								{(isActive) ? (
 									<ul>{componentDocs.map((page, linkIndex) => {
 										// Compartmentalize <li>s inside the parent UL
-										const subLinkText = page.path.replace('/docs/modules/', '').replace(/\/$/, '');
+										const subLinkText = page.path.replace(sourcePath, '').replace(/\/$/, '');
 										const [subLibrary, subDoc = subLibrary] = subLinkText.split('/');
 										const isActivePage = linkIsLocation(page.path, location.pathname);
 										if (subLibrary === library) {
 											return (
 												<li key={linkIndex} className={isActivePage ? css.active : null}>
-													<Link to={prefixLink(page.path)}>{useFullModulePath ? subLinkText : subDoc}</Link>
+													<Link to={prefixLink(page.path)}>{page.data.title}</Link>
 												</li>
 											);
 										}
